@@ -1,4 +1,0 @@
-#!/bin/bash
-dvips dissertation.dvi
-ps2pdf dissertation.ps
-open dissertation.pdf

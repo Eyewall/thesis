@@ -1,9 +1,0 @@
-#!/bin/bash
-latex dissertation.tex
-makeglossaries dissertation
-bibtex dissertation
-latex dissertation.tex
-latex dissertation.tex
-dvips dissertation.dvi
-ps2pdf dissertation.ps
-open dissertation.pdf

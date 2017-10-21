@@ -26,3 +26,11 @@ REVERT EARLIER CHANGES: git revert ID
                               version that you pass to it. It does not revert
                               the project to that version. To put the whole
                               project back to a previous version, use git checkout.
+
+PUSH CHANGES TO SERVER: git push origin master
+
+PULL CHANGES FROM SERVER: git pull origin master
+
+##################################################################################################
+MORE INFO AT https://www.sharelatex.com/blog/2012/10/16/collaborating-with-latex-and-git.html
+##################################################################################################

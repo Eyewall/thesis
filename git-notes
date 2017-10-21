@@ -1,0 +1,28 @@
+ADD A FILE TO REPOSITORY: git add myfile.txt
+
+COMMIT CHANGES: git commit -a -m "My first commit"
+
+VIEW HISTORY: git log
+
+SHOW CHANGES: git show ID --word-diff=color
+              git show 11b7dd6bbb05f5bee771eb8d889df37989c1c240 --word-diff=color
+
+RESTORE TO EARLIER VERS: git checkout ID .
+                         git checkout 11b7dd6bbb05f5bee771eb8d889df37989c1c240 .
+			 The files in your project now have their contents restored
+                         to the older version, but you still need to create a new
+                         version to mark this change in git:
+                         git commit -a -m "Restore files to previous version"
+
+Perhaps you've edited the document in three steps: 1) Adding an abstract,
+2) Updating your acknowledgements, 3) Adding in a figure. At each step you've
+created a new version in git, but now you decide that you din't really want to
+update your acknowledgements. Unfortunatey this is sandwiched between other changes
+so a simply rollback like "checkout" won't do. Fear not, because git is clever
+enough to do what you want, with the revert command:
+REVERT EARLIER CHANGES: git revert ID
+                        git revert 11b7dd6bbb05f5bee771eb8d889df37989c1c240
+                        NOTE: git revert undoes the changes introduced by the
+                              version that you pass to it. It does not revert
+                              the project to that version. To put the whole
+                              project back to a previous version, use git checkout.

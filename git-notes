@@ -1,3 +1,9 @@
+
+################################################################################
+THIS INFO PULLED FROM
+https://www.sharelatex.com/blog/2012/10/16/collaborating-with-latex-and-git.html
+################################################################################
+
 ADD A FILE TO REPOSITORY: git add myfile.txt
 
 COMMIT CHANGES: git commit -a -m "My first commit"
@@ -31,6 +37,11 @@ PUSH CHANGES TO SERVER: git push origin master
 
 PULL CHANGES FROM SERVER: git pull origin master
 
-##################################################################################################
-MORE INFO AT https://www.sharelatex.com/blog/2012/10/16/collaborating-with-latex-and-git.html
-##################################################################################################
+##############################################################
+		     A FEW PERSONAL NOTES
+###############################################################
+- BEFORE YOU START WORKING, BE SURE TO PULL CHANGES FROM SERVER
+- AFTER WORKING, PUSH CHANGES TO SERVER AND THEN LOG INTO
+  CHARLEY AND PULL CHANGES ONTO CHARLEY. (CHARLEY WILL BACK UP
+  FILES TO THE LOCAL EXTERNAL DRIVE AT 1 AM AND WILL BACK UP
+  FILES TO DROPBOX EVERY HOUR.

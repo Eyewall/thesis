@@ -1,0 +1,19 @@
+#!/bin/bash
+rm *~
+rm *.aux
+rm *.dvi
+rm *.lof
+rm *.lot
+rm *.toc
+rm *.blg
+rm *.log
+rm *.ps
+rm *.pdf
+rm *.bbl
+rm *.acr
+rm *.acn
+rm *.alg
+rm *.glg
+rm *.glo
+rm *.gls
+rm *.ist

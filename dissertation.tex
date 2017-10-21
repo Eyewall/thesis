@@ -1,0 +1,51 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                 %
+%                            ROOT FILE                            %
+%                                                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  Run LaTeX or pdfLaTeX on this file to produce your dissertation.
+%  To produce the abstract title page followed by the abstract,
+%  see the file abstitle-phd.tex or abstitle-mas.tex.
+%  Downloaded originally from: http://www.cs.albany.edu/Albany_LaTeX_Dissertation_Template/
+%  Thanks to Ben Carle, Ph.D. 2010
+% Hannah E. Attard edited in 2014 for use as a masters template for U. Albany Dept. of Atmospheric and Environmental Sciences
+% Edited, trimmed and modified to work for PhD (& Masters) 2015 format 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{thesis}
+%%%%%%%%
+\include{user_commands}
+
+\include{title_info}
+
+%\graphicspath{figures/}  %directory that has the figures so you don't need path in add figures
+%\include{glossary}
+
+\begin{document}
+%\layout     %% this is helpful to check formatting
+
+\titlepage
+%\copyrightpage
+
+
+\include{abstract}  %this is your abstract.tex file
+\include{ack}  %this is ack.tex file (acknowledgements)
+\tableofcontents        %these will be created automatically
+\begin{doublespace}
+\include{introduction}
+%\include{chapter}
+%\include{chapter2}
+%\include{chapter3}
+\include{chapter4}
+%\include{conclusions}
+% ...
+% Add new \include{chapterX} statements for each chapter you add
+%\include{appendix}
+\end{doublespace}
+%\printglossaries
+
+\bibliographystyle{ametsoc}  %need ametsoc.bst in the directory you run this
+\bibliography{references}  %path to references.bib file
+
+\end{document}

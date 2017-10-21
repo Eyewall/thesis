@@ -1,0 +1,148 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                 %
+%                            ROOT FILE                            %
+%                                                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%
+%  Run LaTeX or pdfLaTeX on this file to produce your dissertation.
+%  To produce the abstract title page followed by the abstract,
+%  see the file abstitle-phd.tex or abstitle-mas.tex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[chap]{thesis}
+%%%%%%%%
+\usepackage{epsfig, amssymb, amsmath, latexsym, graphics, graphicx, url}
+\usepackage{yfonts}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage[square, comma]{natbib}
+\usepackage[toc, acronym]{glossaries}
+\usepackage{indentfirst}
+%%\usepackage[noeepic]{qtree}
+%%%%%%%%
+\setlength{\textheight}{9.0in}
+\setlength{\textwidth}{6in}
+\setlength{\topmargin}{-0.5in}
+\setlength{\headheight}{0.5in}
+\setlength{\headsep}{0.0in}
+\setlength{\parskip}{0.5em}
+\setlength{\oddsidemargin}{0.5in}
+\setlength{\evensidemargin}{0.5in}
+\setlength{\footskip}{0.5in}
+
+\newcommand{\ignore}[1]{}
+\newcommand{\undr}{\underline}
+\newcommand{\ovr}{\overline}
+\newcommand{\flr}{\rightarrow}
+\newcommand{\fll}{\leftarrow}
+\newcommand{\fflr}{\longrightarrow}
+\newcommand{\fl}{-\!\!\!-\!\!\!-\!\!\!-\!\!\!-\!\!\!}
+\newcommand{\ffflr}{\fl\fflr}
+\newcommand{\lft}{\noindent}
+\newcommand{\Flr}{\Longrightarrow}
+\newcommand{\mFlr}{\,{|}\!\!\!\Flr}
+\newcommand{\app}{\approx}
+\newcommand{\nat}{\mathbb{N}}
+
+\newcommand{\proof}{{\em Proof\/}: }
+\newcommand{\qed}{\hfill $\fbox{}$}
+
+\newcommand{\disp}[1]{\vspace{-0.5em}\begin{center} {#1}
+                                   \end{center}\vspace{-0.5em}}
+\newcommand{\dispn}[2]{ {\noindent{#1}} \centerline{#2} }
+
+\newcommand{\msup}[2]{\stackrel{#2}{#1}}
+
+\newcommand{\h}{\bf h}
+
+\newcommand{\A}{\bf A}
+\newcommand{\B}{\cal B}
+\newcommand{\C}{{\cal C}}
+\newcommand{\D}{{\cal D}}
+\newcommand{\E}{{\cal E}}
+\newcommand{\F}{{\cal F}}
+\newcommand{\m}{{\cal L}}
+\newcommand{\M}{{\cal M}}
+\newcommand{\s}{{\cal S}}
+\newcommand{\U}{{\cal U}}
+\newcommand{\W}{{\cal I}}
+
+\newcommand{\G}{\mathcal{G}}
+\newcommand{\I}{\mathcal{I}}
+\renewcommand{\L}{\mathcal{L}}
+\renewcommand{\P}{\mathcal{P}}
+\newcommand{\Q}{\mathcal{Q}}
+\newcommand{\R}{\mathcal{R}}
+\renewcommand{\S}{\mathcal{S}}
+\newcommand{\T}{\mathcal{T}}
+\newcommand{\X}{\mathcal{X}}
+\newcommand{\cc}{{\succ\!\!\!\succ}}
+
+\newtheorem{theorem}{Theorem}[chapter]
+
+\newtheorem{propn}{Proposition}[chapter]
+\newtheorem{defn}{Definition}[chapter]
+\newtheorem{corol}{Corollary}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+
+\newcommand{\hsp}{\hspace*{0.7cm}}
+\newcommand{\hsps}{\hspace*{1em}}
+\newcommand{\hspa}{\hspace*{1cm}}
+\newcommand{\hspb}{\hspace*{1.5cm}}
+\newcommand{\donno}{\,?\,}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Title Info %%%%%%%%%%%%%%%%%%%%%%%%%
+% You should replace the appropriate fields in 
+% the following section with your own information.
+
+\thesistitle{\bf The Tropopause Structure of Tropical Cyclones}
+%\thesissubtitle{\bf My Subtitle}        
+\author{Patrick Timothy Duran}        
+\degree{Doctor of Philosophy}        
+\college{College of Arts and Sciences}
+\department{Atmospheric and Environmental Sciences} 
+\submitdate{Spring 2018}        
+\copyrightyear{2018}   % if omitted, current year is used.
+%\dedicatedto{To my}
+
+% Committee info is not use at this time
+%\signaturelines{3}     %max number of signature lines is 7        
+%\thadviser{My Advisor}
+%\cothadviser{Second Adviser} % If you have 2 thesis advisers
+%\memberone{My Committee Member}        
+%\membertwo{My Other Committee Member}
+%\memberthree{Aristotle}
+%\memberfour,\memberfive, \membersix        
+% can also be used. Remember to change \signaturelines.%
+%%%%%%%%%%%%%%%%%%%%%%%% End Title Info %%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\include{glossary}
+
+%\includeonly{chapter1}  % use \includeonly to process only
+                         % the file(s) listed inside the braces                       
+\begin{document}
+ 
+\titlepage     
+\copyrightpage         
+\dedication
+\include{abstract}
+\include{ack}
+\tableofcontents        
+\listoffigures         
+\include{introduction}
+\include{chapter}
+%\include{chapter2}
+% ...
+% Add new \include{chapterX} statements for each chapter you add
+\include{conclusion}
+\include{appendix}
+ 
+\printglossaries
+
+\bibliographystyle{splncs}
+
+\bibliography{ereg}
+
+\end{document}

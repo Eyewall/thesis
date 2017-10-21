@@ -1,0 +1,105 @@
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{gensymb}
+%\usepackage{dcolumn}
+%\usepackage{subfig}
+%\usepackage{epsfig, latexsym, graphics, graphicx, url}
+\usepackage{yfonts}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{natbib} %HEA 1/23/14 deleted [square,comma] 
+\bibpunct[; ]{(}{)}{;}{a}{}{;} %HEA 6/3/14 added this so that references are (Jones 2001) instead of (Jones, 2001) & ; between lists of authors referenced
+\usepackage[utf8]{inputenc} %HEA 1/28/14 added for special characters in .bib
+\usepackage[toc, acronym]{glossaries}
+\usepackage{rotating} %HEA 1/21/14 added package (for table)
+\usepackage{booktabs} %HEA 1/23/14 added package (for tables)
+\usepackage[hyperfootnotes=true]{hyperref} %HEA 1/27/14 added pacakge need to tablefootnote
+\usepackage{threeparttable} %HEA 1/28/14 Now table footnotes work.  Keeping the other packages for future
+\usepackage{footnotebackref}
+\usepackage{tablefootnote} %HEA 1/27/14 added package (for tables!)
+%\usepackage[noeepic]{qtree}
+%%%%%%%%
+
+\bibpunct{(}{)}{;}{a}{}{,}
+
+%\documentclass{ametsoc}
+%\usepackage[T1]{fontenc}
+%\usepackage{gensymb}
+%\usepackage{dcolumn}
+%\usepackage{subfig}
+
+
+\usepackage{layout}
+\newcommand{\mytilde}{\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}
+
+\def\topline{\hline\hline\vrule height 10pt depth4pt width0pt\relax}
+\def\midline{\hline\vrule height 10pt width0pt\relax}
+\def\botline{\hline}
+
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%  Superscipt .tex line number insert
+\newcommand{\ts}{\textsuperscript}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \newcommand{\ignore}[1]{}
+% \newcommand{\undr}{\underline}
+% \newcommand{\ovr}{\overline}
+% \newcommand{\flr}{\rightarrow}
+% \newcommand{\fll}{\leftarrow}
+% \newcommand{\fflr}{\longrightarrow}
+% \newcommand{\fl}{-\!\!\!-\!\!\!-\!\!\!-\!\!\!-\!\!\!}
+% \newcommand{\ffflr}{\fl\fflr}
+% \newcommand{\lft}{\noindent}
+% \newcommand{\Flr}{\Longrightarrow}
+% \newcommand{\mFlr}{\,{|}\!\!\!\Flr}
+% \newcommand{\app}{\approx}
+% \newcommand{\nat}{\mathbb{N}}
+
+% \newcommand{\proof}{{\em Proof\/}: }
+% \newcommand{\qed}{\hfill $\fbox{}$}
+
+% \newcommand{\disp}[1]{\vspace{-0.5em}\begin{center} {#1}
+%                                    \end{center}\vspace{-0.5em}}
+% \newcommand{\dispn}[2]{ {\noindent{#1}} \centerline{#2} }
+
+% \newcommand{\msup}[2]{\stackrel{#2}{#1}}
+
+% \newcommand{\h}{\bf h}
+
+% \newcommand{\A}{\bf A}
+% \newcommand{\B}{\cal B}
+% \newcommand{\C}{{\cal C}}
+% \newcommand{\D}{{\cal D}}
+% \newcommand{\E}{{\cal E}}
+% \newcommand{\F}{{\cal F}}
+% \newcommand{\m}{{\cal L}}
+% \newcommand{\M}{{\cal M}}
+% \newcommand{\s}{{\cal S}}
+% \newcommand{\U}{{\cal U}}
+% \newcommand{\W}{{\cal I}}
+
+% \newcommand{\G}{\mathcal{G}}
+% \newcommand{\I}{\mathcal{I}}
+% \renewcommand{\L}{\mathcal{L}}
+% \renewcommand{\P}{\mathcal{P}}
+% \newcommand{\Q}{\mathcal{Q}}
+% \newcommand{\R}{\mathcal{R}}
+% \renewcommand{\S}{\mathcal{S}}
+% \newcommand{\T}{\mathcal{T}}
+% \newcommand{\X}{\mathcal{X}}
+% \newcommand{\cc}{{\succ\!\!\!\succ}}
+
+% \newtheorem{theorem}{Theorem}[chapter]
+
+% \newtheorem{propn}{Proposition}[chapter]
+% \newtheorem{defn}{Definition}[chapter]
+% \newtheorem{corol}{Corollary}[chapter]
+% \newtheorem{lemma}{Lemma}[chapter]
+
+% \newcommand{\hsp}{\hspace*{0.7cm}}
+% \newcommand{\hsps}{\hspace*{1em}}
+% \newcommand{\hspa}{\hspace*{1cm}}
+% \newcommand{\hspb}{\hspace*{1.5cm}}
+% \newcommand{\donno}{\,?\,}

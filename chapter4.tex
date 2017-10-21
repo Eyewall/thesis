@@ -1,0 +1,35 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%                                                                 %
+%                            CHAPTER                              %
+%                                                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+ 
+\chapter{The tropopause-layer static stability structure of tropical cyclones: Idealized modeling}
+\resetfootnote %this command starts footnote numbering with 1 again.
+
+%---------------------------------------------------------------------------------------%
+\section{Introduction}
+%---------------------------------------------------------------------------------------%
+
+This is a test of git.
+
+The preceding two chapters highlighted the effect of tropical cyclones on the tropopause and upper-level static stability structure in dropsonde observations.
+These observations alone, however, cannot explain the mechanisms that force the observed variability.
+Numerical simulations of an axisymmetric hurricane conducted in an idealized framework reproduced the observed variability.
+Using these simulations, some physical insight into these mechanisms is obtained and described in the present chapter.
+
+%---------------------------------------------------------------------------------------%
+\section{Model Setup}
+%---------------------------------------------------------------------------------------%
+
+The numerical simulations were performed using version 19 of Cloud Model 1 (CM1) described in \cite{BryanRotunno} and available online at [WEBSITE].
+The fully-compressible, axisymmertic equations of motion were integrated on an Arakawa C-Grid with 1-km horizontal and 250-m vertical grid spacing using a 3rd-order Runge-Kutta split-time integration scheme and 5th-order spatial differencing.
+Sub-grid turbulence was parameterized using a Smagorinsky scheme with prescribed horizontal and vertical mixing lengths of 1 km and 100 m, respectively.
+The model domain was 6000-km wide and 35-km deep with a Rayleigh damping layer applied to horizontal and vertical momentum outside of the 5000-km radius and above the 25-km level to prevent spurious gravity wave reflection at the model boundaries.
+Microphysical processes were parameterized every advective time step using the Thompson microphysics scheme \cite{Thompson} and radiative heating tendencies were computed every two minutes using the RRTMG [CITATION] longwave and shortwave schemes. 
+ 
+As in the preceding chapters, static stability is analyzed using N^2, which is output directly by the model. Potential temperature tendencies 
+
+%You can add glossary terms like \gls{eregex} and acronyms like \glsname{SRE}.
+You can use footnotes.\footnote{Here is a footnote.}
+%Don't forget to cite books~\cite{Sipser} and papers~\cite{CarleNarendran}.

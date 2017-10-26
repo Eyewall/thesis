@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.10)  11 OCT 2017 00:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.10)  26 OCT 2017 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,12 +1098,11 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 25.
 LaTeX Info: Redefining \pageref on input line 25.
 LaTeX Info: Redefining \nameref on input line 25.
-
-(aux_files/dissertation.out) (aux_files/dissertation.out)
 \@outlinefile=\write3
 \openout3 = `dissertation.out'.
 
- [1
+
+[1
 
 
 
@@ -1150,19 +1149,56 @@ LaTeX Info: Redefining \nameref on input line 25.
  (./chapter4.tex
  2.
 
-Package natbib Warning: Citation `BryanRotunno' on page 2 undefined on input li
-ne 23.
+Package natbib Warning: Citation `BryanRotunno2009' on page 2 undefined on inpu
+t line 23.
+
+
+Package natbib Warning: Citation `BryanRotunno2009' on page 2 undefined on inpu
+t line 25.
 
 
 Package natbib Warning: Citation `Thompson' on page 2 undefined on input line 2
 7.
 
-) [2
+
+Package natbib Warning: Citation `DoyleTCI' on page 2 undefined on input line 2
+8.
+
+
+Package natbib Warning: Citation `BellTCI' on page 2 undefined on input line 29
+.
+
+[2
 
 
 
 
-] (aux_files/dissertation.bbl
+]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...ers, static stability is analyzed using N^
+                                                  2, which is output directl...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33 
+     
+? 
+
+Overfull \hbox (235.22083pt too wide) in paragraph at lines 32--33
+[]\T1/cmr/m/n/12 As in the pre-ced-ing chap-ters, static sta-bil-ity is an-a-ly
+zed us-ing N$[]\OML/cmm/m/it/12 ; whichisoutputdirectlybythemodel:Potentialtemp
+eraturetendencies$ 
+ []
+
+
+Package natbib Warning: Citation `DuranMolinari2018' on page 3 undefined on inp
+ut line 47.
+
+) [3] (aux_files/dissertation.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 12.
 
@@ -1171,7 +1207,7 @@ Package natbib Warning: Empty `thebibliography' environment on input line 12.
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
-[3
+[4
 
 
 ]
@@ -1182,26 +1218,24 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 11642 strings out of 493029
- 166713 string characters out of 6136234
- 317817 words of memory out of 5000000
- 14871 multiletter control sequences out of 15000+600000
+ 11634 strings out of 493029
+ 166553 string characters out of 6136234
+ 317814 words of memory out of 5000000
+ 14865 multiletter control sequences out of 15000+600000
  17145 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,11n,45p,2005b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
-fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
 
-Output written on aux_files/dissertation.pdf (8 pages, 91425 bytes).
+pdfTeX warning: \pdfdraftmode enabled, not changing output pdf
+
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

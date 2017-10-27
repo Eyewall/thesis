@@ -1,4 +1,4 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -8,5 +8,31 @@
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Bell et~al.(2016)}]{BellTCI}
+Bell, M.~M., and Coauthors, 2016: Office of {N}aval {R}esearch {T}ropical
+  {C}yclone {I}ntensity ({TCI}) 2015 {NASA WB}-57 {H}igh {D}ensity {D}ropsonde
+  {S}ounding {S}ystem ({HDSS}) data, version 1.0. \doi{10.5065/D6KW5D8M}.
+
+\bibitem[{Bryan and Rotunno(2009)Bryan, and Rotunno}]{BryanRotunno2009}
+Bryan, G.~H., and R.~Rotunno, 2009: {The maximum intensity of tropical cyclones
+  in axisymmetric numerical model simulations}. \textit{Mon. Wea. Rev.},
+  \textbf{137~(6)}, 1770--1789.
+
+\bibitem[{Doyle et~al.(2017)}]{DoyleTCI}
+Doyle, J.~D., and Coauthors, 2017: {A view of tropical cyclones from above: The
+  Tropical Cyclone Intensity (TCI) Experiment}. \textit{Bull. Amer. Meteor.
+  Soc.}, \textbf{XXX~(X)}, XXX--XXX.
+
+\bibitem[{Duran and Molinari(2018)Duran, and Molinari}]{DuranMolinari2018}
+Duran, P., and J.~Molinari, 2018: {Dramatic inner-core tropopause variability
+  during the rapid intensification of Hurricane Patricia (2015)}. \textit{Mon.
+  Wea. Rev.}, \textbf{XXX~(X)}, XXX--XXX.
+
+\bibitem[{Thompson et~al.(2004)Thompson, Rasmussen,, and Manning}]{Thompson}
+Thompson, G., R.~M. Rasmussen, and K.~Manning, 2004: {Explicit Forecasts of
+  Winter Precipitation Using an Improved Bulk Microphysics Scheme. Part I:
+  Description and Sensitivity Analysis}. \textit{Mon. Wea. Rev.},
+  \textbf{132~(2)}, 519--542.
 
 \end{thebibliography}

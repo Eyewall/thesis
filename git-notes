@@ -37,10 +37,12 @@ PUSH CHANGES TO SERVER: git push origin master
 
 PULL CHANGES FROM SERVER: git pull origin master
 
+LIST FILES BEING TRACKED: git ls-tree -r master --name-only
+
 ##############################################################
 		     A FEW PERSONAL NOTES
 ###############################################################
-- BEFORE YOU START WORKING, BE SURE TO PULL CHANGES FROM SERVER
+- BEFORE YOU START WORKING, BE SURE TO PULL CHANGES FROM SERVER.
 - AFTER WORKING, PUSH CHANGES TO SERVER AND THEN LOG INTO
   CHARLEY AND PULL CHANGES ONTO CHARLEY. (CHARLEY WILL BACK UP
   FILES TO THE LOCAL EXTERNAL DRIVE AT 1 AM AND WILL BACK UP

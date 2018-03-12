@@ -11,37 +11,37 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in BellTCI
 You've used 5 entries,
             3493 wiz_defined-function locations,
-            726 strings with 6814 characters,
-and the built_in function-call counts, 4913 in all, are:
-= -- 582
+            728 strings with 6826 characters,
+and the built_in function-call counts, 5063 in all, are:
+= -- 606
 > -- 130
 < -- 2
-+ -- 70
++ -- 84
 - -- 33
-* -- 249
-:= -- 518
+* -- 253
+:= -- 524
 add.period$ -- 10
 call.type$ -- 5
 change.case$ -- 34
 chr.to.int$ -- 5
 cite$ -- 6
-duplicate$ -- 515
-empty$ -- 281
+duplicate$ -- 533
+empty$ -- 285
 format.name$ -- 47
-if$ -- 1000
+if$ -- 1028
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 49
 newline$ -- 26
 num.names$ -- 20
-pop$ -- 172
+pop$ -- 208
 preamble$ -- 1
 purify$ -- 29
 quote$ -- 0
-skip$ -- 338
+skip$ -- 322
 stack$ -- 0
-substring$ -- 235
-swap$ -- 421
+substring$ -- 247
+swap$ -- 441
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0

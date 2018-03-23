@@ -4,50 +4,51 @@ The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: ack.aux
 A level-1 auxiliary file: introduction.aux
-A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: modeling.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
+Warning--I didn't find a database entry for "RotunnoEmanuel"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--missing publisher in BellTCI
-You've used 5 entries,
+Warning--missing publisher in Kimberlainetal2016
+You've used 6 entries,
             3493 wiz_defined-function locations,
-            728 strings with 6826 characters,
-and the built_in function-call counts, 5063 in all, are:
-= -- 606
-> -- 130
-< -- 2
-+ -- 84
-- -- 33
-* -- 253
-:= -- 524
-add.period$ -- 10
-call.type$ -- 5
-change.case$ -- 34
-chr.to.int$ -- 5
-cite$ -- 6
-duplicate$ -- 533
-empty$ -- 285
-format.name$ -- 47
-if$ -- 1028
+            900 strings with 8018 characters,
+and the built_in function-call counts, 5992 in all, are:
+= -- 676
+> -- 216
+< -- 3
++ -- 124
+- -- 54
+* -- 323
+:= -- 635
+add.period$ -- 12
+call.type$ -- 6
+change.case$ -- 49
+chr.to.int$ -- 6
+cite$ -- 7
+duplicate$ -- 595
+empty$ -- 329
+format.name$ -- 72
+if$ -- 1220
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 49
-newline$ -- 26
-num.names$ -- 20
-pop$ -- 208
+missing$ -- 64
+newline$ -- 29
+num.names$ -- 24
+pop$ -- 273
 preamble$ -- 1
-purify$ -- 29
+purify$ -- 42
 quote$ -- 0
-skip$ -- 322
+skip$ -- 345
 stack$ -- 0
-substring$ -- 247
-swap$ -- 441
+substring$ -- 260
+swap$ -- 469
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 45
+type$ -- 54
 warning$ -- 1
-while$ -- 23
+while$ -- 26
 width$ -- 0
-write$ -- 64
-(There was 1 warning)
+write$ -- 75
+(There were 2 warnings)

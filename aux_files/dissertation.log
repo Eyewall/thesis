@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  23 MAR 2018 18:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  23 MAR 2018 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1016,7 +1016,7 @@ Package: layout 2014/10/28 v1.2c Show layout parameters
 \openout2 = `title_info.aux'.
 
 (./title_info.tex) (aux_files/dissertation.aux (aux_files/abstract.aux)
-(aux_files/ack.aux) (aux_files/introduction.aux) (aux_files/chapter4.aux))
+(aux_files/ack.aux) (aux_files/introduction.aux) (aux_files/modeling.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -1141,49 +1141,68 @@ LaTeX Info: Redefining \nameref on input line 25.
 
 
 ])
-\openout2 = `chapter4.aux'.
+\openout2 = `modeling.aux'.
 
- (./chapter4.tex
+ (./modeling.tex
  2.
+
+Package natbib Warning: Citation `RotunnoEmanuel' on page 2 undefined on input 
+line 34.
+
+
+Package natbib Warning: Citation `RotunnoEmanuel' on page 2 undefined on input 
+line 34.
+
 [2
 
 
 
 
-]) [3] (aux_files/dissertation.bbl)
+]
+
+LaTeX Warning: Reference `fig:vmax+pmin' on page 3 undefined on input line 37.
+
+[3]) [4] (aux_files/dissertation.bbl)
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
- [4
+[5
 
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
- (aux_files/dissertation.aux
-(aux_files/abstract.aux) (aux_files/ack.aux) (aux_files/introduction.aux)
-(aux_files/chapter4.aux))
+ (aux_files/dissertation.aux (aux_files/abstract.aux) (aux_files/ack.aux)
+(aux_files/introduction.aux) (aux_files/modeling.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 11567 strings out of 494953
- 165832 string characters out of 6180977
- 312593 words of memory out of 5000000
- 14542 multiletter control sequences out of 15000+600000
+ 11575 strings out of 494953
+ 166019 string characters out of 6180977
+ 313748 words of memory out of 5000000
+ 14548 multiletter control sequences out of 15000+600000
  17145 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 50i,11n,45p,2005b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,11n,45p,2005b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home
 /patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/patrick/
 .texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/patrick/.texmf-va
-r/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/patrick/.texmf-var/fonts/p
-k/ljfour/jknappen/ec/ecbx1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/
-jknappen/ec/ecrm1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecbx1440.600pk>
-Output written on aux_files/dissertation.pdf (10 pages, 71691 bytes).
+r/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/patrick/.texmf-var/fonts/p
+k/ljfour/jknappen/ec/ecti1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/
+jknappen/ec/ecbx1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecrm1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx14
+40.600pk>
+Output written on aux_files/dissertation.pdf (11 pages, 73495 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

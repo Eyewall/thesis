@@ -7,42 +7,41 @@ A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: modeling.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "RotunnoEmanuel"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in Kimberlainetal2016
 You've used 6 entries,
             3493 wiz_defined-function locations,
-            900 strings with 8018 characters,
-and the built_in function-call counts, 5992 in all, are:
+            898 strings with 8012 characters,
+and the built_in function-call counts, 5985 in all, are:
 = -- 676
 > -- 216
 < -- 3
-+ -- 124
++ -- 126
 - -- 54
-* -- 323
+* -- 321
 := -- 635
 add.period$ -- 12
 call.type$ -- 6
 change.case$ -- 49
 chr.to.int$ -- 6
 cite$ -- 7
-duplicate$ -- 595
-empty$ -- 329
+duplicate$ -- 593
+empty$ -- 327
 format.name$ -- 72
-if$ -- 1220
+if$ -- 1218
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 64
 newline$ -- 29
 num.names$ -- 24
-pop$ -- 273
+pop$ -- 278
 preamble$ -- 1
 purify$ -- 42
 quote$ -- 0
-skip$ -- 345
+skip$ -- 341
 stack$ -- 0
-substring$ -- 260
-swap$ -- 469
+substring$ -- 262
+swap$ -- 465
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
@@ -51,4 +50,4 @@ warning$ -- 1
 while$ -- 26
 width$ -- 0
 write$ -- 75
-(There were 2 warnings)
+(There was 1 warning)

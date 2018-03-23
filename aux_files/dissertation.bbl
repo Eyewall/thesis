@@ -14,11 +14,6 @@ Bryan, G.~H., and R.~Rotunno, 2009: {The maximum intensity of tropical cyclones
   in axisymmetric numerical model simulations}. \textit{Mon. Wea. Rev.},
   \textbf{137~(6)}, 1770--1789.
 
-\bibitem[{Duran and Molinari(2018)Duran, and Molinari}]{DuranMolinari2018}
-Duran, P., and J.~Molinari, 2018: {Dramatic inner-core tropopause variability
-  during the rapid intensification of Hurricane Patricia (2015)}. \textit{Mon.
-  Wea. Rev.}, \textbf{146~(1)}, 119--134.
-
 \bibitem[{Iacono et~al.(2008)Iacono, Delamere, Mlawer, Shephard, Clough,, and
   Collins}]{Iacono}
 Iacono, M.~J., J.~S. Delamere, E.~J. Mlawer, M.~W. Shephard, S.~A. Clough, and
@@ -36,6 +31,12 @@ Kimberlain, T.~B., E.~S. Blake, and J.~P. Cangialosi, 2016: {Tropical cyclone
 Markowski, P.~M., and G.~H. Bryan, 2016: {LES} of laminar flow in the {PBL}: A
   potential problem for convective storm simulations. \textit{Mon.\ Wea.\
   Rev.}, \textbf{144}, 1841--1850.
+
+\bibitem[{Rotunno and Emanuel(1987)Rotunno, and Emanuel}]{RotunnoEmanuel}
+Rotunno, R., and K.~A. Emanuel, 1987: An air-sea interaction theory for
+  tropical cyclones. {P}art {II}: Evolutionary study using a nonhydrostatic
+  axisymmetric numerical model. \textit{J.\ Atmos.\ Sci.}, \textbf{44},
+  542--561.
 
 \bibitem[{Thompson et~al.(2004)Thompson, Rasmussen,, and Manning}]{Thompson}
 Thompson, G., R.~M. Rasmussen, and K.~Manning, 2004: {Explicit Forecasts of

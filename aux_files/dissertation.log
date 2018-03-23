@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  12 MAR 2018 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  23 MAR 2018 18:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -127,9 +127,13 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/yfonts/yfonts.sty
-Package: yfonts 2003/01/08 v1.3 (WaS)
-)
+
+! LaTeX Error: File `yfonts.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 
@@ -541,10 +545,6 @@ File: ts1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
 )
-Now handling font encoding LY ...
-... no UTF-8 mapping file for font encoding LY
-Now handling font encoding LYG ...
-... no UTF-8 mapping file for font encoding LYG
    defining Unicode char U+00A9 (decimal 169)
    defining Unicode char U+00AA (decimal 170)
    defining Unicode char U+00AE (decimal 174)
@@ -1038,10 +1038,6 @@ LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 \symgns@font=\mathgroup4
@@ -1116,24 +1112,24 @@ LaTeX Info: Redefining \nameref on input line 25.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 \openout2 = `abstract.aux'.
 
- (./abstract.tex) [2
+ (./abstract.tex [2
 
 
 
-]
+])
+[3]
 \openout2 = `ack.aux'.
 
-
-(./ack.tex [3
-
+ (./ack.tex [4
 
 
 
-]) [4] (aux_files/dissertation.toc)
+
+]) [5] (aux_files/dissertation.toc)
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
- [5
+ [6
 
 
 ]
@@ -1170,13 +1166,13 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 11663 strings out of 494953
- 167088 string characters out of 6180976
- 313210 words of memory out of 5000000
- 14634 multiletter control sequences out of 15000+600000
+ 11567 strings out of 494953
+ 165832 string characters out of 6180977
+ 312593 words of memory out of 5000000
+ 14542 multiletter control sequences out of 15000+600000
  17145 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 50i,11n,45p,2005b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,11n,45p,2005b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home
 /patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/patrick/
 .texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/patrick/.texmf-va
@@ -1184,10 +1180,10 @@ r/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/patrick/.texmf-var/fonts/p
 k/ljfour/jknappen/ec/ecbx1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/
 jknappen/ec/ecrm1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/
 ec/ecbx1440.600pk>
-Output written on aux_files/dissertation.pdf (9 pages, 68708 bytes).
+Output written on aux_files/dissertation.pdf (10 pages, 71691 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
+ 339 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

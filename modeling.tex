@@ -38,8 +38,88 @@ After an initial spin-up period of about 20 hours, the modeled storm (Fig.~\ref{
 After this RI, the storm continued to intensify more slowly until the maximum 10-m wind speed reached 89 m s\textsuperscript{-1} and the sea-level pressure reached its minimum of 846 hPa 81 hours into the simulation.
 Hurricane Patricia (red stars) exhibited a similar intensity evolution prior to its landfall, with an RI period leading to a maximum 10-m wind speed of 95 m s\textsuperscript{-1} and a minimum sea-level pressure of 872 hPa.
 
-% 
-%As in the preceding chapters, static stability is analyzed using N2, which is output directly by the model. Potential temperature tendencies 
+%---------------------------------------------------------------------------------------%
+\section{Budget Computation}
+%---------------------------------------------------------------------------------------%
+The static stability can be expressed as the squared Brunt-V{\"a}is{\"a}l{\"a} frequency:
+   \begin{equation} \label{eq:n2moist}
+   N_m^2 = \frac{g}{T}\left(\frac{\partial T}{\partial z}+\Gamma_m\right)\left(1+\frac{T}{R_d/R_v+q_s}\frac{\partial q_s}{\partial T}\right)-\frac{g}{1+q_t}\frac{\partial q_t}{\partial z},
+   \end{equation}
+where $g$ is gravitational acceleration, $T$ is temperature, $R_d$ and $R_v$ are the gas constants of dry air and water vapor, respectively, $q_s$ is the saturation mixing ratio, $q_t$ is the total condensate mixing ratio, and $\Gamma_m$ is the moist-adiabatic lapse rate:
+   \begin{equation} \label{eq:gamma_m}
+   \Gamma_m = g(1+q_t)\left(\frac{1+L_vq_s/R_dT}{c_{pm}+L_v\partial q_s/\partial T}\right),
+   \end {equation}
+where $L_v$ is the latent heat of vaporization and $c_{pm}$ is the specific heat of moist air at constant pressure.
+In the tropopause layer, $q_s$, ${\partial q_s}/{\partial T}$, and ${\partial q_t}/{\partial z}$ approach zero. In this limiting case, Eq. \ref{eq:n2moist} reduces to:
+   \begin{equation} \label{eq:n2dry}
+   N^2 = \frac{g}{\theta}\frac{\partial \theta}{\partial z},
+   \end{equation}
+where $\theta$ is the potential temperature.
+
+To compute $N^2$, CM1 uses Eq. \ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments. For simplicity, however, only Eq. \ref{eq:n2dry} will be employed for the budget computations throughout the entire domain\footnote{The validity of this approximation will be substantiated later in this section.}.
+
+Taking the time derivative of Eq. \ref{eq:n2dry} yields the static stability tendency:
+   \begin{equation} \label{eq:dn2dt}
+   \frac{\partial N^2}{\partial t} = \frac{g}{\theta}\frac{\partial}{\partial z}\frac{\partial \theta}{\partial t}-\frac{g}{\theta^2}\frac{\partial \theta}{\partial z}\frac{\partial \theta}{\partial t},
+   \end{equation}
+where the potential temperature tendency, $\partial \theta/\partial t$, can be written, following \cite{Bryan2017}:
+   \begin{equation} \label{eq:dthetadt}
+%   \frac{\partial \theta}{\partial t} = HADV+VADV+HTURB+VTURB+MP+RAD+DISS 
+   \frac{\partial \theta}{\partial t} = -u\frac{\partial\theta}{\partial r}-w\frac{\partial \theta}{\partial z}+HTURB+VTURB+MP+RAD+DISS
+   \end{equation}
+Each term on the right-hand side of Eq.~\ref{eq:dthetadt} represents a $\theta$ budget variable, each of which is output directly by the model every minute.
+
+The first term on the right-hand side of Eq. ~\ref{eq:dn2dt} is larger than the second term throughout most of the tropopause layer (not shown).
+Consequently, the contribution of each of the terms in Eq.~\ref{eq:dthetadt} to the $N^2$ tendency can be interpreted in light of a vertical gradient of each term.
+%Since the first term on the right-hand side of Eq.~\ref{eq:dn2dt} is larger than the second term throughout most of the tropopause layer (not shown), the contribution of each of the terms in Eq.~\ref{eq:dthetadt} to the $N^2$ tendency can be interpreted in light of a vertical gradient of each term.
+
+Taking the vertical gradient of the first two terms on the right-hand side of Eq.~\ref{eq:dthetadt} yields the time tendency of the vertical $\theta$ gradient due to horizontal and vertical advection\footnote{These terms include the tendencies due to implicit diffusion in the fifth-order finite differencing scheme, which are separated from the advection terms in the CM1 version 19.4 budget output.}:
+
+   \begin{equation} \label{eq:advtend}
+   \left(\frac{\partial}{\partial t}\frac{\partial \theta}{\partial z}\right)_{adv} = -u\frac{\partial}{\partial r}\frac{\partial \theta}{\partial z}-w\frac{\partial}{\partial z}\frac{\partial \theta}{\partial z}-\frac{\partial u}{\partial z}\frac{\partial \theta}{\partial r}-\frac{\partial w}{\partial z}\frac{\partial \theta}{\partial z}.
+   \end{equation}
+The first two terms on the right-hand side of Eq.~\ref{eq:advtend} represent advection of static stability by the radial and vertical wind, respectively.
+These terms act to rearrange the static stability field, but cannot strengthen or weaken static stability maxima or minima.
+The third and fourth terms on the right-hand side of Eq.~\ref{eq:advtend} represent, respectively, the tilting of isentropes in the presence of vertical wind shear, and the stretching or squashing of isentropes by vertical gradients of vertical velocity.
+Since these terms involve velocity gradients, they can act to strengthen or weaken static stability maxima or minima through differential advection.
+Unless otherwise stated, any reference to "advection" in this paper indicates the sum of all of the terms in Eq.~\ref{eq:advtend}.
+
+Returning to Eq.~\ref{eq:dthetadt}, HTURB and VTURB are the $\theta$ tendencies from the horizontal and vertical turbulence parameterizations, MP is the tendency from the microphysics scheme, RAD is the tendency from the radiation scheme, and DISS is the tendency due to turbulent dissipation.
+This equation neglects Rayleigh damping, since the entire analysis domain lies outside of the regions where damping is applied.
+Each term in Eq. \ref{eq:dthetadt} is substituted for ${\partial \theta}/{\partial t}$ in Eq. \ref{eq:dn2dt}, yielding the contribution of each budget term to the static stability tendency.
+These terms are summed, yielding an instantaneous "budget change" in $N^2$ every minute.
+The budget changes are then averaged over 24-hour periods and compared to the total model change in $N^2$ over that same time period, i.e.:
+   \begin{equation} \label{eq:budgetchange}
+   \Delta N^2_{budget} = \frac{1}{\delta t}\sum_{t=t_0}^{t_0+\delta t} \left.\frac{\partial N^2}{\partial t}\right\vert_t
+   \end{equation}
+   \begin{equation} \label{eq:modelchange}
+   \Delta N^2_{model} = N^2_{t_0+\delta t}-N^2_{t_0}
+   \end{equation}
+   \begin{equation} \label{eq:residual}
+   Residual = \Delta N^2_{model}-\Delta N^2_{budget}
+   \end{equation}
+where $t_0$ is an initial time and $\delta t$ is 24 hours.
+
+Eqs. \ref{eq:budgetchange}-\ref{eq:residual} are plotted for three consecutive 24-hour periods in Fig.~\ref{fig:mod+bud+res}.
+For this and all subsequent radial-vertical cross sections, a 1-2-1 smoother is applied once in the radial direction to eliminate $2\Delta r$ noise that appears in some of the raw model output and calculated fields.
+      The left column of Fig.~\ref{fig:mod+bud+res} depicts the model changes computed using Eq.~\ref{eq:modelchange}, together with Eq.~\ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in subsaturated environments.
+The center column depicts the budget changes computed using Eq. \ref{eq:budgetchange} together with Eq.~\ref{eq:n2dry} throughout the entire domain.
+Thus, the left column includes the effect of moisture in the $N^2$ computations, whereas the center column neglects moisture.
+The right column depicts the residuals, computed using Eq. \ref{eq:residual} (i.e. the left column minus the center column.)
+In every 24-hour period, the budget changes are nearly identical to the model changes, which is reflected in the near-zero residuals in the right column.
+This indicates that the budget accurately represents the model variability, which implies that the neglect of moisture in the budget computation introduces negligible error within the analysis domain\footnote{This is not the case in the lower- and mid-troposphere, where the residual actually exceeds the budget tendencies in many places, likely due to the neglect of moisture; thus we limit this analysis to the upper troposphere and lower stratosphere.}.
+
+In the tropopause layer, some of the budget terms are small enough to be ignored.
+To determine which of the budget terms are most important, a time series of the contribution of each of the budget terms in Eq. \ref{eq:dthetadt} to the tropopause-layer static stability tendency is plotted in Fig.~\ref{fig:avgbudterms}.
+For this figure, each of the budget terms is computed using the method described in Section 3, except with 1-hour averaging intervals instead of 24-hour intervals.
+The absolute values of these tendencies are then averaged over the radius-height domain of the plots shown in Fig.~\ref{fig:mod+bud+res} and plotted as a time series\footnote{It will be seeen in subsequent figures that each of the terms contributes both positively and negatively to the $N^2$ tendency within the analysis domain.
+Thus, taking an average over the domain tends to wash out the positive and negative contributions.
+To circumvent this problem, the absolute value of each of the terms is averaged.}.
+Advection (Fig.~\ref{fig:avgbudterms}, red line) plays an important role in the mean tropopause-layer static stability tendency at all times, and vertical turbulence (Fig.~\ref{fig:avgbudterms}, blue line) and radiation (Fig.~\ref{fig:avgbudterms}, dark green line) also contribute significantly.
+The remaining three processes - horizontal turbulence, microphysics, and dissipative heating -  are negligible everywhere outside of the eyewall, and do not play important roles in the mesoscale tropopause variability.
+
+The preceding analysis indicates that, at all times, three budget terms dominate the tropopause-layer static stability tendency: advection, vertical turbulence, and radiation.
+Variations in the magnitude and spatial structure of these terms drive the static stability changes depicted in Fig.~\ref{fig:mod+bud+res}; subsequent sections will focus on these variations and what causes them.
 
 %---------------------------------------------------------------------------------------%
 \section{Results}
@@ -52,3 +132,20 @@ Hurricane Patricia (red stars) exhibited a similar intensity evolution prior to 
 \label{fig:vmax+pmin}
 \end{figure}
 
+%FIGURE 2%
+\begin{figure}[ht]
+\centerline{\includegraphics[width=39pc]{figures/mod+bud+res.png}}
+\caption{Left panels: Twenty-four-hour changes in squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$; 10\textsuperscript{-4} s\textsuperscript{-2}) computed using Eq.~\ref{eq:modelchange} over (top row) 0-24 hours, (middle row) 24-48 hours, (bottom row) 48-72 hours.
+Middle Panels: The $N^2$ change over the same time periods computed using Eqs. \ref{eq:dn2dt}-\ref{eq:budgetchange}, %together with Eqs. \ref{eq:dn2dt}, \ref{eq:dthetadt}.
+Right Panels: The budget residual over the same time periods, computed by subtracting the budget change (middle column) from the model change (left column).
+Orange lines represent the cold-point tropopause height averaged over the same time periods.}
+\label{fig:mod+bud+res}
+\end{figure}
+
+%FIGURE 3%
+\begin{figure}[ht]
+\centerline{\includegraphics[width=19pc]{figures/AVG_budterms.png}}
+\caption{Time series of the contribution of each of the budget terms to the time tendency of the squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$; 10\textsuperscript{-4} s\textsuperscript{-2}).
+For each budget term, the absolute value of the $N^2$ tendency is averaged temporally over 1-hour periods (using output every minute), and spatially in a region extending from 0 to 200 km radius and 14 to 21 km altitude.}
+\label{fig:avgbudterms}
+\end{figure}

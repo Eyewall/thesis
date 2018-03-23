@@ -8,46 +8,47 @@ A level-1 auxiliary file: modeling.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--missing publisher in Bryan2017
 Warning--missing publisher in Kimberlainetal2016
-You've used 6 entries,
+You've used 7 entries,
             3493 wiz_defined-function locations,
-            898 strings with 8012 characters,
-and the built_in function-call counts, 5985 in all, are:
-= -- 676
-> -- 216
-< -- 3
-+ -- 126
-- -- 54
-* -- 321
-:= -- 635
-add.period$ -- 12
-call.type$ -- 6
-change.case$ -- 49
-chr.to.int$ -- 6
-cite$ -- 7
-duplicate$ -- 593
-empty$ -- 327
-format.name$ -- 72
-if$ -- 1218
+            904 strings with 8174 characters,
+and the built_in function-call counts, 6422 in all, are:
+= -- 712
+> -- 227
+< -- 4
++ -- 130
+- -- 57
+* -- 343
+:= -- 701
+add.period$ -- 14
+call.type$ -- 7
+change.case$ -- 55
+chr.to.int$ -- 7
+cite$ -- 9
+duplicate$ -- 633
+empty$ -- 365
+format.name$ -- 76
+if$ -- 1306
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 64
-newline$ -- 29
-num.names$ -- 24
-pop$ -- 278
+missing$ -- 72
+newline$ -- 32
+num.names$ -- 28
+pop$ -- 299
 preamble$ -- 1
-purify$ -- 42
+purify$ -- 47
 quote$ -- 0
-skip$ -- 341
+skip$ -- 361
 stack$ -- 0
-substring$ -- 262
-swap$ -- 465
+substring$ -- 275
+swap$ -- 480
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 54
-warning$ -- 1
-while$ -- 26
+type$ -- 63
+warning$ -- 2
+while$ -- 29
 width$ -- 0
-write$ -- 75
-(There was 1 warning)
+write$ -- 85
+(There were 2 warnings)

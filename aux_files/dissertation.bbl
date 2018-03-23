@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -17,6 +17,11 @@ Bryan, G.~H., cited 2018: {The governing equations for CM1}. {[Available online
 Bryan, G.~H., and R.~Rotunno, 2009: {The maximum intensity of tropical cyclones
   in axisymmetric numerical model simulations}. \textit{Mon. Wea. Rev.},
   \textbf{137~(6)}, 1770--1789.
+
+\bibitem[{Duran and Molinari(2018)Duran, and Molinari}]{DuranMolinari2018}
+Duran, P., and J.~Molinari, 2018: {Dramatic inner-core tropopause variability
+  during the rapid intensification of Hurricane Patricia (2015)}. \textit{Mon.
+  Wea. Rev.}, \textbf{146~(1)}, 119--134.
 
 \bibitem[{Iacono et~al.(2008)Iacono, Delamere, Mlawer, Shephard, Clough,, and
   Collins}]{Iacono}

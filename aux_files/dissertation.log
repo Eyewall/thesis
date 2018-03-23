@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  23 MAR 2018 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  23 MAR 2018 19:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1150,51 +1150,91 @@ LaTeX Info: Redefining \nameref on input line 25.
 
 
 
-] [3] [4] [5] [6] <figures/vmax+pmin.png, id=211, 780.9175pt x 1492.57625pt>
+] [3] [4] [5] [6] [7] [8] [9]
+<figures/vmax+pmin.png, id=276, 780.9175pt x 1492.57625pt>
 File: figures/vmax+pmin.png Graphic file (type png)
 
 <use figures/vmax+pmin.png>
-Package pdftex.def Info: figures/vmax+pmin.png used on input line 130.
+Package pdftex.def Info: figures/vmax+pmin.png used on input line 191.
 (pdftex.def)             Requested size: 228.0pt x 435.77399pt.
 
-<figures/mod+bud+res.png, id=212, 2294.5725pt x 2089.8075pt>
+<figures/mod+bud+res.png, id=277, 2294.5725pt x 2089.8075pt>
 File: figures/mod+bud+res.png Graphic file (type png)
 
 <use figures/mod+bud+res.png>
-Package pdftex.def Info: figures/mod+bud+res.png used on input line 137.
+Package pdftex.def Info: figures/mod+bud+res.png used on input line 198.
 (pdftex.def)             Requested size: 468.0pt x 426.21306pt.
 
-<figures/AVG_budterms.png, id=219, 803.0pt x 803.0pt>
+<figures/AVG_budterms.png, id=284, 803.0pt x 803.0pt>
 File: figures/AVG_budterms.png Graphic file (type png)
 
 <use figures/AVG_budterms.png>
-Package pdftex.def Info: figures/AVG_budterms.png used on input line 147.
+Package pdftex.def Info: figures/AVG_budterms.png used on input line 208.
 (pdftex.def)             Requested size: 228.0pt x 227.99968pt.
-) [7] [8 <./figures/vmax+pmin.png>] [9 <./figures/mod+bud+res.png>] [10 <./figu
-res/AVG_budterms.png>]
-(aux_files/dissertation.bbl)
+
+<figures/n2-24hr-avgs.png, id=285, 1515.6625pt x 1369.115pt>
+File: figures/n2-24hr-avgs.png Graphic file (type png)
+
+<use figures/n2-24hr-avgs.png>
+Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 216.
+(pdftex.def)             Requested size: 468.0pt x 422.74998pt.
+
+<figures/h000-h024-budgetterms.png, id=286, 1529.715pt x 2077.7625pt>
+File: figures/h000-h024-budgetterms.png Graphic file (type png)
+
+<use figures/h000-h024-budgetterms.png>
+Package pdftex.def Info: figures/h000-h024-budgetterms.png used on input line 2
+24.
+(pdftex.def)             Requested size: 468.0pt x 635.66644pt.
+
+<figures/h024-h048-budgetterms.png, id=287, 1529.715pt x 2077.7625pt>
+File: figures/h024-h048-budgetterms.png Graphic file (type png)
+
+<use figures/h024-h048-budgetterms.png>
+Package pdftex.def Info: figures/h024-h048-budgetterms.png used on input line 2
+35.
+(pdftex.def)             Requested size: 468.0pt x 635.66644pt.
+
+
+LaTeX Warning: Float too large for page by 12.06921pt on input line 238.
+
+<figures/h048-h072-budgetterms.png, id=289, 1529.715pt x 2077.7625pt>
+File: figures/h048-h072-budgetterms.png Graphic file (type png)
+
+<use figures/h048-h072-budgetterms.png>
+Package pdftex.def Info: figures/h048-h072-budgetterms.png used on input line 2
+42.
+(pdftex.def)             Requested size: 468.0pt x 635.66644pt.
+
+
+LaTeX Warning: Float too large for page by 12.06921pt on input line 245.
+
+) [10] [11 <./figures/vmax+pmin.png>] [12 <./figures/mod+bud+res.png>] [13 <./f
+igures/AVG_budterms.png>] [14 <./figures/n2-24hr-avgs.png>] [15 <./figures/h000
+-h024-budgetterms.png>] [16] [17 <./figures/h024-h048-budgetterms.png>]
+[18 <./figures/h048-h072-budgetterms.png>] (aux_files/dissertation.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
- [11
+
+[19
 
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
- (aux_files/dissertation.aux
-(aux_files/abstract.aux) (aux_files/ack.aux) (aux_files/introduction.aux)
-(aux_files/modeling.aux))
+ (aux_files/dissertation.aux (aux_files/abstract.aux) (aux_files/ack.aux)
+(aux_files/introduction.aux) (aux_files/modeling.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 11637 strings out of 494953
- 166969 string characters out of 6180977
- 317833 words of memory out of 5000000
- 14579 multiletter control sequences out of 15000+600000
+ 11684 strings out of 494953
+ 167985 string characters out of 6180977
+ 319991 words of memory out of 5000000
+ 14604 multiletter control sequences out of 15000+600000
  17145 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 50i,12n,45p,2005b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,12n,45p,2005b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home
 /patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/patrick/
 .texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/patrick/.texmf-va
@@ -1211,10 +1251,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb>
-Output written on aux_files/dissertation.pdf (17 pages, 704478 bytes).
+Output written on aux_files/dissertation.pdf (25 pages, 1840465 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
- 277 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 634 PDF objects out of 1000 (max. 8388607)
+ 360 compressed objects within 4 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 

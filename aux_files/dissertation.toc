@@ -8,3 +8,8 @@
 \contentsline {section}{\numberline {2.2}Model Setup}{2}{section.2.2}
 \contentsline {section}{\numberline {2.3}Budget Computation}{3}{section.2.3}
 \contentsline {section}{\numberline {2.4}Results}{7}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Static stability evolution}{7}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Static stability budget analysis}{7}{subsection.2.4.2}
+\contentsline {paragraph}{0-24 hours}{7}{section*.6}
+\contentsline {paragraph}{24-48 hours}{8}{section*.7}
+\contentsline {paragraph}{48-72 hours}{9}{section*.8}

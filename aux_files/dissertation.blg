@@ -7,48 +7,50 @@ A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: modeling.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
+Warning--I didn't find a database entry for "Molinarietal"
+Warning--I didn't find a database entry for "DuranMolinari2016"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in Bryan2017
 Warning--missing publisher in Kimberlainetal2016
-You've used 8 entries,
+You've used 13 entries,
             3493 wiz_defined-function locations,
-            911 strings with 8358 characters,
-and the built_in function-call counts, 7467 in all, are:
-= -- 840
-> -- 251
-< -- 5
-+ -- 146
-- -- 63
-* -- 396
-:= -- 803
-add.period$ -- 16
-call.type$ -- 8
-change.case$ -- 62
-chr.to.int$ -- 8
-cite$ -- 10
-duplicate$ -- 746
-empty$ -- 424
-format.name$ -- 86
-if$ -- 1520
+            947 strings with 9227 characters,
+and the built_in function-call counts, 13128 in all, are:
+= -- 1541
+> -- 407
+< -- 8
++ -- 248
+- -- 102
+* -- 675
+:= -- 1352
+add.period$ -- 26
+call.type$ -- 13
+change.case$ -- 100
+chr.to.int$ -- 13
+cite$ -- 15
+duplicate$ -- 1346
+empty$ -- 720
+format.name$ -- 141
+if$ -- 2680
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 82
-newline$ -- 35
-num.names$ -- 32
-pop$ -- 338
+missing$ -- 135
+newline$ -- 50
+num.names$ -- 52
+pop$ -- 613
 preamble$ -- 1
-purify$ -- 53
+purify$ -- 86
 quote$ -- 0
-skip$ -- 432
+skip$ -- 776
 stack$ -- 0
-substring$ -- 328
-swap$ -- 576
+substring$ -- 617
+swap$ -- 1080
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 72
+type$ -- 117
 warning$ -- 2
-while$ -- 34
+while$ -- 59
 width$ -- 0
-write$ -- 96
-(There were 2 warnings)
+write$ -- 151
+(There were 4 warnings)

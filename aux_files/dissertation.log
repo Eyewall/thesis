@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  23 MAR 2018 19:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  23 MAR 2018 19:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1151,74 +1151,127 @@ LaTeX Info: Redefining \nameref on input line 25.
 
 
 ] [3] [4] [5] [6] [7] [8] [9]
-<figures/vmax+pmin.png, id=276, 780.9175pt x 1492.57625pt>
+Overfull \hbox (14.1484pt too wide) in paragraph at lines 243--255
+[]\T1/cmr/m/n/12 During the RI pe-riod, strong ra-dial and ver-ti-cal cir-cu-la
+-tions de-vel-oped near the tropopause
+ []
+
+[10] [11] [12] [13] [14]
+
+Package natbib Warning: Citation `Molinarietal' on page 15 undefined on input l
+ine 352.
+
+
+Package natbib Warning: Citation `DuranMolinari2016' on page 15 undefined on in
+put line 352.
+
+[15] <figures/vmax+pmin.png, id=386, 780.9175pt x 1492.57625pt>
 File: figures/vmax+pmin.png Graphic file (type png)
 
 <use figures/vmax+pmin.png>
-Package pdftex.def Info: figures/vmax+pmin.png used on input line 191.
+Package pdftex.def Info: figures/vmax+pmin.png used on input line 371.
 (pdftex.def)             Requested size: 228.0pt x 435.77399pt.
 
-<figures/mod+bud+res.png, id=277, 2294.5725pt x 2089.8075pt>
+<figures/mod+bud+res.png, id=387, 2294.5725pt x 2089.8075pt>
 File: figures/mod+bud+res.png Graphic file (type png)
 
 <use figures/mod+bud+res.png>
-Package pdftex.def Info: figures/mod+bud+res.png used on input line 198.
+Package pdftex.def Info: figures/mod+bud+res.png used on input line 378.
 (pdftex.def)             Requested size: 468.0pt x 426.21306pt.
 
-<figures/AVG_budterms.png, id=284, 803.0pt x 803.0pt>
+<figures/AVG_budterms.png, id=394, 803.0pt x 803.0pt>
 File: figures/AVG_budterms.png Graphic file (type png)
 
 <use figures/AVG_budterms.png>
-Package pdftex.def Info: figures/AVG_budterms.png used on input line 208.
+Package pdftex.def Info: figures/AVG_budterms.png used on input line 388.
 (pdftex.def)             Requested size: 228.0pt x 227.99968pt.
 
-<figures/n2-24hr-avgs.png, id=285, 1515.6625pt x 1369.115pt>
+<figures/n2-24hr-avgs.png, id=395, 1515.6625pt x 1369.115pt>
 File: figures/n2-24hr-avgs.png Graphic file (type png)
 
 <use figures/n2-24hr-avgs.png>
-Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 216.
+Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 396.
 (pdftex.def)             Requested size: 468.0pt x 422.74998pt.
 
-<figures/h000-h024-budgetterms.png, id=286, 1529.715pt x 2077.7625pt>
+<figures/h000-h024-budgetterms.png, id=396, 1529.715pt x 2077.7625pt>
 File: figures/h000-h024-budgetterms.png Graphic file (type png)
 
 <use figures/h000-h024-budgetterms.png>
-Package pdftex.def Info: figures/h000-h024-budgetterms.png used on input line 2
-24.
+Package pdftex.def Info: figures/h000-h024-budgetterms.png used on input line 4
+04.
 (pdftex.def)             Requested size: 468.0pt x 635.66644pt.
 
-<figures/h024-h048-budgetterms.png, id=287, 1529.715pt x 2077.7625pt>
+<figures/h024-h048-budgetterms.png, id=397, 1529.715pt x 2077.7625pt>
 File: figures/h024-h048-budgetterms.png Graphic file (type png)
 
 <use figures/h024-h048-budgetterms.png>
-Package pdftex.def Info: figures/h024-h048-budgetterms.png used on input line 2
-35.
+Package pdftex.def Info: figures/h024-h048-budgetterms.png used on input line 4
+15.
 (pdftex.def)             Requested size: 468.0pt x 635.66644pt.
 
 
-LaTeX Warning: Float too large for page by 12.06921pt on input line 238.
+LaTeX Warning: Float too large for page by 12.06921pt on input line 418.
 
-<figures/h048-h072-budgetterms.png, id=289, 1529.715pt x 2077.7625pt>
+<figures/h048-h072-budgetterms.png, id=399, 1529.715pt x 2077.7625pt>
 File: figures/h048-h072-budgetterms.png Graphic file (type png)
 
 <use figures/h048-h072-budgetterms.png>
-Package pdftex.def Info: figures/h048-h072-budgetterms.png used on input line 2
-42.
+Package pdftex.def Info: figures/h048-h072-budgetterms.png used on input line 4
+22.
 (pdftex.def)             Requested size: 468.0pt x 635.66644pt.
 
 
-LaTeX Warning: Float too large for page by 12.06921pt on input line 245.
+LaTeX Warning: Float too large for page by 12.06921pt on input line 425.
 
-) [10] [11 <./figures/vmax+pmin.png>] [12 <./figures/mod+bud+res.png>] [13 <./f
-igures/AVG_budterms.png>] [14 <./figures/n2-24hr-avgs.png>] [15 <./figures/h000
--h024-budgetterms.png>] [16] [17 <./figures/h024-h048-budgetterms.png>]
-[18 <./figures/h048-h072-budgetterms.png>] (aux_files/dissertation.bbl)
+<figures/h024-h048-adv.png, id=401, 1530.71875pt x 1381.16pt>
+File: figures/h024-h048-adv.png Graphic file (type png)
+
+<use figures/h024-h048-adv.png>
+Package pdftex.def Info: figures/h024-h048-adv.png used on input line 429.
+(pdftex.def)             Requested size: 468.0pt x 422.27531pt.
+
+<figures/qi+radten.png, id=402, 1535.7375pt x 2053.6725pt>
+File: figures/qi+radten.png Graphic file (type png)
+
+<use figures/qi+radten.png>
+Package pdftex.def Info: figures/qi+radten.png used on input line 451.
+(pdftex.def)             Requested size: 468.0pt x 625.82082pt.
+
+<figures/Schematic2.png, id=403, 722.7pt x 542.025pt>
+File: figures/Schematic2.png Graphic file (type png)
+
+<use figures/Schematic2.png>
+Package pdftex.def Info: figures/Schematic2.png used on input line 460.
+(pdftex.def)             Requested size: 468.0pt x 350.99704pt.
+
+<figures/khvten.png, id=404, 1543.7675pt x 1369.115pt>
+File: figures/khvten.png Graphic file (type png)
+
+<use figures/khvten.png>
+Package pdftex.def Info: figures/khvten.png used on input line 467.
+(pdftex.def)             Requested size: 468.0pt x 415.04121pt.
+
+<figures/fulltrop.png, id=405, 764.8575pt x 2065.7175pt>
+File: figures/fulltrop.png Graphic file (type png)
+
+<use figures/fulltrop.png>
+Package pdftex.def Info: figures/fulltrop.png used on input line 474.
+(pdftex.def)             Requested size: 228.0pt x 615.78pt.
+) [16] [17 <./figures/vmax+pmin.png>] [18 <./figures/mod+bud+res.png>] [19 <./f
+igures/AVG_budterms.png>] [20 <./figures/n2-24hr-avgs.png>] [21 <./figures/h000
+-h024-budgetterms.png>] [22] [23 <./figures/h024-h048-budgetterms.png>] [24 <./
+figures/h048-h072-budgetterms.png>] [25 <./figures/h024-h048-adv.png>] [26 <./f
+igures/qi+radten.png>] [27 <./figures/Schematic2.png>] [28 <./figures/khvten.pn
+g>] [29 <./figures/fulltrop.png>] [30]
+(aux_files/dissertation.bbl [31
+
+
+])
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
-
-[19
-
-
-]
+[32]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
  (aux_files/dissertation.aux (aux_files/abstract.aux) (aux_files/ack.aux)
 (aux_files/introduction.aux) (aux_files/modeling.aux))
@@ -1228,10 +1281,10 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 11684 strings out of 494953
- 167985 string characters out of 6180977
- 319991 words of memory out of 5000000
- 14604 multiletter control sequences out of 15000+600000
+ 11764 strings out of 494953
+ 169323 string characters out of 6180977
+ 324393 words of memory out of 5000000
+ 14651 multiletter control sequences out of 15000+600000
  17145 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  50i,12n,45p,2005b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1251,10 +1304,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb>
-Output written on aux_files/dissertation.pdf (25 pages, 1840465 bytes).
+Output written on aux_files/dissertation.pdf (38 pages, 3185717 bytes).
 PDF statistics:
- 634 PDF objects out of 1000 (max. 8388607)
- 360 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 796 PDF objects out of 1000 (max. 8388607)
+ 493 compressed objects within 5 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -18,6 +18,11 @@ Bryan, G.~H., and R.~Rotunno, 2009: {The maximum intensity of tropical cyclones
   in axisymmetric numerical model simulations}. \textit{Mon. Wea. Rev.},
   \textbf{137~(6)}, 1770--1789.
 
+\bibitem[{Bu et~al.(2014)Bu, Fovell,, and Corbosiero}]{Buetal}
+Bu, Y.~P., R.~G. Fovell, and K.~L. Corbosiero, 2014: Influence of
+  cloud-radiative forcing on tropical cyclone structure. \textit{J.\ Atmos.\
+  Sci.}, \textbf{71}, 1644--1622.
+
 \bibitem[{Duran and Molinari(2018)Duran, and Molinari}]{DuranMolinari2018}
 Duran, P., and J.~Molinari, 2018: {Dramatic inner-core tropopause variability
   during the rapid intensification of Hurricane Patricia (2015)}. \textit{Mon.
@@ -30,6 +35,11 @@ Iacono, M.~J., J.~S. Delamere, E.~J. Mlawer, M.~W. Shephard, S.~A. Clough, and
   Calculations with the {AER} radiative transfer models. \textit{J.\ Geophys.\
   Res.}, \textbf{113~(D13103)}.
 
+\bibitem[{Kieu et~al.(2016)Kieu, Tallapragada, Zhang,, and Moon}]{Kieuetal}
+Kieu, C., V.~Tallapragada, D.-L. Zhang, and Z.~Moon, 2016: {On the development
+  of double warm-core structures in intense tropical cyclones}. \textit{J.\
+  Atmos.\ Sci.}, \textbf{73}, 4487--4506.
+
 \bibitem[{Kimberlain et~al.(2016)Kimberlain, Blake,, and
   Cangialosi}]{Kimberlainetal2016}
 Kimberlain, T.~B., E.~S. Blake, and J.~P. Cangialosi, 2016: {Tropical cyclone
@@ -41,16 +51,31 @@ Markowski, P.~M., and G.~H. Bryan, 2016: {LES} of laminar flow in the {PBL}: A
   potential problem for convective storm simulations. \textit{Mon.\ Wea.\
   Rev.}, \textbf{144}, 1841--1850.
 
+\bibitem[{Ohno and Satoh(2015)Ohno, and Satoh}]{OhnoSatoh2015}
+Ohno, T., and M.~Satoh, 2015: On the warm core of a tropical cyclone formed
+  near the tropopause. \textit{J.\ Atmos.\ Sci.}, \textbf{72}, 551--571.
+
 \bibitem[{Rotunno and Emanuel(1987)Rotunno, and Emanuel}]{RotunnoEmanuel}
 Rotunno, R., and K.~A. Emanuel, 1987: An air-sea interaction theory for
   tropical cyclones. {P}art {II}: Evolutionary study using a nonhydrostatic
   axisymmetric numerical model. \textit{J.\ Atmos.\ Sci.}, \textbf{44},
   542--561.
 
+\bibitem[{Stern and Zhang(2013)Stern, and Zhang}]{SternZhang2013}
+Stern, D.~P., and F.~Zhang, 2013: {How does the eye warm? Part I: A potential
+  temperature budget analysis of an idealized tropical cyclone}. \textit{J.\
+  Atmos.\ Sci.}, \textbf{70}, 73--89.
+
 \bibitem[{Thompson et~al.(2004)Thompson, Rasmussen,, and Manning}]{Thompson}
 Thompson, G., R.~M. Rasmussen, and K.~Manning, 2004: {Explicit Forecasts of
   Winter Precipitation Using an Improved Bulk Microphysics Scheme. Part I:
   Description and Sensitivity Analysis}. \textit{Mon. Wea. Rev.},
   \textbf{132~(2)}, 519--542.
+
+\bibitem[{Trier and Sharman(2009)Trier, and Sharman}]{TrierSharman}
+Trier, S.~B., and R.~D. Sharman, 2009: {Convection-permitting simulations of
+  the environment supporting widespread turbulence within the upper-level
+  outflow of a mesoscale convective system}. \textit{Mon.\ Wea.\ Rev.},
+  \textbf{137}, 1972--1990.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  23 MAR 2018 19:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  23 MAR 2018 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1016,7 +1016,12 @@ Package: layout 2014/10/28 v1.2c Show layout parameters
 \openout2 = `title_info.aux'.
 
 (./title_info.tex) (aux_files/dissertation.aux (aux_files/abstract.aux)
-(aux_files/ack.aux) (aux_files/introduction.aux) (aux_files/modeling.aux))
+(aux_files/ack.aux) (aux_files/introduction.aux) (aux_files/patricia.aux)
+(aux_files/modeling.aux
+
+LaTeX Warning: Label `eq:n2dry' multiply defined.
+
+))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -1033,8 +1038,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 25.
@@ -1141,59 +1145,81 @@ LaTeX Info: Redefining \nameref on input line 25.
 
 
 ])
-\openout2 = `modeling.aux'.
+\openout2 = `patricia.aux'.
 
- (./modeling.tex
+ (./patricia.tex
  2.
 [2
 
 
 
 
-] [3] [4] [5] [6] [7] [8] [9]
+] [3]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 57.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Overfull \hbox (2.35564pt too wide) in paragraph at lines 57--61
+\T1/cmtt/m/n/12 aoml . noaa . gov / hrd / Storm _ pages / patricia2015 / patric
+ia . trak$[]\T1/cmr/m/n/12 ). The WB-57 drop-sonde
+ []
+
+
+Overfull \hbox (26.42305pt too wide) in paragraph at lines 71--81
+ [] 
+ []
+
+<figures/fig01_patricia_ir.png, id=204, 1171.37625pt x 1151.80313pt>
+File: figures/fig01_patricia_ir.png Graphic file (type png)
+
+<use figures/fig01_patricia_ir.png>
+Package pdftex.def Info: figures/fig01_patricia_ir.png used on input line 88.
+(pdftex.def)             Requested size: 468.0pt x 460.18584pt.
+) [4] [5] [6 <./figures/fig01_patricia_ir.png>]
+\openout2 = `modeling.aux'.
+
+ (./modeling.tex
+ 3.
+[7
+
+
+
+] [8] [9] [10] [11] [12] [13] [14]
 Overfull \hbox (14.1484pt too wide) in paragraph at lines 243--255
 []\T1/cmr/m/n/12 During the RI pe-riod, strong ra-dial and ver-ti-cal cir-cu-la
 -tions de-vel-oped near the tropopause
  []
 
-[10] [11] [12] [13] [14]
-
-Package natbib Warning: Citation `Molinarietal' on page 15 undefined on input l
-ine 352.
-
-
-Package natbib Warning: Citation `DuranMolinari2016' on page 15 undefined on in
-put line 352.
-
-[15] <figures/vmax+pmin.png, id=386, 780.9175pt x 1492.57625pt>
+[15] [16] [17] [18] [19] [20]
+<figures/vmax+pmin.png, id=487, 780.9175pt x 1492.57625pt>
 File: figures/vmax+pmin.png Graphic file (type png)
 
 <use figures/vmax+pmin.png>
 Package pdftex.def Info: figures/vmax+pmin.png used on input line 371.
 (pdftex.def)             Requested size: 228.0pt x 435.77399pt.
 
-<figures/mod+bud+res.png, id=387, 2294.5725pt x 2089.8075pt>
+<figures/mod+bud+res.png, id=488, 2294.5725pt x 2089.8075pt>
 File: figures/mod+bud+res.png Graphic file (type png)
 
 <use figures/mod+bud+res.png>
 Package pdftex.def Info: figures/mod+bud+res.png used on input line 378.
 (pdftex.def)             Requested size: 468.0pt x 426.21306pt.
 
-<figures/AVG_budterms.png, id=394, 803.0pt x 803.0pt>
+<figures/AVG_budterms.png, id=495, 803.0pt x 803.0pt>
 File: figures/AVG_budterms.png Graphic file (type png)
 
 <use figures/AVG_budterms.png>
 Package pdftex.def Info: figures/AVG_budterms.png used on input line 388.
 (pdftex.def)             Requested size: 228.0pt x 227.99968pt.
 
-<figures/n2-24hr-avgs.png, id=395, 1515.6625pt x 1369.115pt>
+<figures/n2-24hr-avgs.png, id=496, 1515.6625pt x 1369.115pt>
 File: figures/n2-24hr-avgs.png Graphic file (type png)
 
 <use figures/n2-24hr-avgs.png>
 Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 396.
 (pdftex.def)             Requested size: 468.0pt x 422.74998pt.
 
-<figures/h000-h024-budgetterms.png, id=396, 1529.715pt x 2077.7625pt>
+<figures/h000-h024-budgetterms.png, id=497, 1529.715pt x 2077.7625pt>
 File: figures/h000-h024-budgetterms.png Graphic file (type png)
 
 <use figures/h000-h024-budgetterms.png>
@@ -1201,7 +1227,7 @@ Package pdftex.def Info: figures/h000-h024-budgetterms.png used on input line 4
 04.
 (pdftex.def)             Requested size: 468.0pt x 635.66644pt.
 
-<figures/h024-h048-budgetterms.png, id=397, 1529.715pt x 2077.7625pt>
+<figures/h024-h048-budgetterms.png, id=498, 1529.715pt x 2077.7625pt>
 File: figures/h024-h048-budgetterms.png Graphic file (type png)
 
 <use figures/h024-h048-budgetterms.png>
@@ -1212,7 +1238,7 @@ Package pdftex.def Info: figures/h024-h048-budgetterms.png used on input line 4
 
 LaTeX Warning: Float too large for page by 12.06921pt on input line 418.
 
-<figures/h048-h072-budgetterms.png, id=399, 1529.715pt x 2077.7625pt>
+<figures/h048-h072-budgetterms.png, id=500, 1529.715pt x 2077.7625pt>
 File: figures/h048-h072-budgetterms.png Graphic file (type png)
 
 <use figures/h048-h072-budgetterms.png>
@@ -1223,91 +1249,95 @@ Package pdftex.def Info: figures/h048-h072-budgetterms.png used on input line 4
 
 LaTeX Warning: Float too large for page by 12.06921pt on input line 425.
 
-<figures/h024-h048-adv.png, id=401, 1530.71875pt x 1381.16pt>
+<figures/h024-h048-adv.png, id=502, 1530.71875pt x 1381.16pt>
 File: figures/h024-h048-adv.png Graphic file (type png)
 
 <use figures/h024-h048-adv.png>
 Package pdftex.def Info: figures/h024-h048-adv.png used on input line 429.
 (pdftex.def)             Requested size: 468.0pt x 422.27531pt.
 
-<figures/qi+radten.png, id=402, 1535.7375pt x 2053.6725pt>
+<figures/qi+radten.png, id=503, 1535.7375pt x 2053.6725pt>
 File: figures/qi+radten.png Graphic file (type png)
 
 <use figures/qi+radten.png>
 Package pdftex.def Info: figures/qi+radten.png used on input line 451.
 (pdftex.def)             Requested size: 468.0pt x 625.82082pt.
 
-<figures/Schematic2.png, id=403, 722.7pt x 542.025pt>
+<figures/Schematic2.png, id=504, 722.7pt x 542.025pt>
 File: figures/Schematic2.png Graphic file (type png)
 
 <use figures/Schematic2.png>
 Package pdftex.def Info: figures/Schematic2.png used on input line 460.
 (pdftex.def)             Requested size: 468.0pt x 350.99704pt.
 
-<figures/khvten.png, id=404, 1543.7675pt x 1369.115pt>
+<figures/khvten.png, id=505, 1543.7675pt x 1369.115pt>
 File: figures/khvten.png Graphic file (type png)
 
 <use figures/khvten.png>
 Package pdftex.def Info: figures/khvten.png used on input line 467.
 (pdftex.def)             Requested size: 468.0pt x 415.04121pt.
 
-<figures/fulltrop.png, id=405, 764.8575pt x 2065.7175pt>
+<figures/fulltrop.png, id=506, 764.8575pt x 2065.7175pt>
 File: figures/fulltrop.png Graphic file (type png)
 
 <use figures/fulltrop.png>
 Package pdftex.def Info: figures/fulltrop.png used on input line 474.
 (pdftex.def)             Requested size: 228.0pt x 615.78pt.
-) [16] [17 <./figures/vmax+pmin.png>] [18 <./figures/mod+bud+res.png>] [19 <./f
-igures/AVG_budterms.png>] [20 <./figures/n2-24hr-avgs.png>] [21 <./figures/h000
--h024-budgetterms.png>] [22] [23 <./figures/h024-h048-budgetterms.png>] [24 <./
-figures/h048-h072-budgetterms.png>] [25 <./figures/h024-h048-adv.png>] [26 <./f
-igures/qi+radten.png>] [27 <./figures/Schematic2.png>] [28 <./figures/khvten.pn
-g>] [29 <./figures/fulltrop.png>] [30]
-(aux_files/dissertation.bbl [31
+) [21] [22 <./figures/vmax+pmin.png>] [23 <./figures/mod+bud+res.png>] [24 <./f
+igures/AVG_budterms.png>] [25 <./figures/n2-24hr-avgs.png>] [26 <./figures/h000
+-h024-budgetterms.png>] [27] [28 <./figures/h024-h048-budgetterms.png>] [29 <./
+figures/h048-h072-budgetterms.png>] [30 <./figures/h024-h048-adv.png>] [31 <./f
+igures/qi+radten.png>] [32 <./figures/Schematic2.png>] [33 <./figures/khvten.pn
+g>] [34 <./figures/fulltrop.png>] [35]
+(aux_files/dissertation.bbl [36
 
 
-])
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
-[32]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
- (aux_files/dissertation.aux (aux_files/abstract.aux) (aux_files/ack.aux)
-(aux_files/introduction.aux) (aux_files/modeling.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
+] [37] [38])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+ [39]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
+ (aux_files/dissertation.aux
+(aux_files/abstract.aux) (aux_files/ack.aux) (aux_files/introduction.aux)
+(aux_files/patricia.aux) (aux_files/modeling.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 11764 strings out of 494953
- 169323 string characters out of 6180977
- 324393 words of memory out of 5000000
- 14651 multiletter control sequences out of 15000+600000
- 17145 words of font info for 44 fonts, out of 8000000 for 9000
+ 11867 strings out of 494953
+ 171428 string characters out of 6180977
+ 327488 words of memory out of 5000000
+ 14716 multiletter control sequences out of 15000+600000
+ 17458 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 50i,12n,45p,2005b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,12n,45p,2005b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home
 /patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/patrick/
-.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/patrick/.texmf-va
-r/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/patrick/.texmf-var/fonts/p
-k/ljfour/jknappen/ec/ecti1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/
-jknappen/ec/ecbx1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecrm1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx14
-40.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb>
-Output written on aux_files/dissertation.pdf (38 pages, 3185717 bytes).
+.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk> </home/patrick/.texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/patrick/.texmf-var/fonts/p
+k/ljfour/jknappen/ec/ectt1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/
+jknappen/ec/tcrm1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecti1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx12
+00.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk>
+ </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb>
+Output written on aux_files/dissertation.pdf (45 pages, 3926681 bytes).
 PDF statistics:
- 796 PDF objects out of 1000 (max. 8388607)
- 493 compressed objects within 5 object streams
- 105 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 991 PDF objects out of 1000 (max. 8388607)
+ 604 compressed objects within 7 object streams
+ 131 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

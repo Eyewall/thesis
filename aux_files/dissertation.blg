@@ -4,53 +4,54 @@ The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: ack.aux
 A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: patricia.aux
 A level-1 auxiliary file: modeling.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "Molinarietal"
-Warning--I didn't find a database entry for "DuranMolinari2016"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--missing publisher in BellTCI
 Warning--missing publisher in Bryan2017
 Warning--missing publisher in Kimberlainetal2016
-You've used 13 entries,
+Warning--missing publisher in Wyoming2016
+You've used 26 entries,
             3493 wiz_defined-function locations,
-            947 strings with 9227 characters,
-and the built_in function-call counts, 13128 in all, are:
-= -- 1541
-> -- 407
-< -- 8
-+ -- 248
-- -- 102
-* -- 675
-:= -- 1352
-add.period$ -- 26
-call.type$ -- 13
-change.case$ -- 100
-chr.to.int$ -- 13
-cite$ -- 15
-duplicate$ -- 1346
-empty$ -- 720
-format.name$ -- 141
-if$ -- 2680
+            1023 strings with 12169 characters,
+and the built_in function-call counts, 27171 in all, are:
+= -- 3176
+> -- 918
+< -- 14
++ -- 552
+- -- 231
+* -- 1391
+:= -- 2807
+add.period$ -- 52
+call.type$ -- 26
+change.case$ -- 206
+chr.to.int$ -- 26
+cite$ -- 30
+duplicate$ -- 2757
+empty$ -- 1456
+format.name$ -- 299
+if$ -- 5555
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 135
-newline$ -- 50
-num.names$ -- 52
-pop$ -- 613
+missing$ -- 279
+newline$ -- 89
+num.names$ -- 104
+pop$ -- 1273
 preamble$ -- 1
-purify$ -- 86
+purify$ -- 179
 quote$ -- 0
-skip$ -- 776
+skip$ -- 1622
 stack$ -- 0
-substring$ -- 617
-swap$ -- 1080
+substring$ -- 1260
+swap$ -- 2216
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 117
-warning$ -- 2
-while$ -- 59
+type$ -- 234
+warning$ -- 4
+while$ -- 120
 width$ -- 0
-write$ -- 151
+write$ -- 292
 (There were 4 warnings)

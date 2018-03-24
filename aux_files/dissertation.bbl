@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{26}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -9,13 +9,30 @@
   \urlstyle{rm}\Url}\fi
 \providecommand{\eprint}[2][]{\url{#2}}
 
+\bibitem[{Bell et~al.(2016)}]{BellTCI}
+Bell, M.~M., and Coauthors, 2016: Office of {N}aval {R}esearch {T}ropical
+  {C}yclone {I}ntensity ({TCI}) 2015 {NASA WB}-57 {H}igh {D}ensity {D}ropsonde
+  {S}ounding {S}ystem ({HDSS}) data, version 1.0. \doi{10.5065/D6KW5D8M}.
+
+\bibitem[{Black et~al.(2017)Black, Harrison, Beaubien, Bluth, Woods, Penny,
+  Smith,, and Doyle}]{Blacketal2017}
+Black, P., L.~Harrison, M.~Beaubien, R.~Bluth, R.~Woods, A.~Penny, R.~W. Smith,
+  and J.~D. Doyle, 2017: {High definition sounding system (HDSS) for
+  atmospheric profiling}. \textit{J.\ Atmos.\ Oceanic Technol.}, \textbf{34},
+  777--796.
+
+\bibitem[{Braun et~al.(2016)Braun, Newman,, and Heymsfield}]{Braunetal2016}
+Braun, S.~A., P.~A. Newman, and G.~M. Heymsfield, 2016: {NASA's Hurricane and
+  Severe Storm Sentinel (HS3) Investigation}. \textit{Bull.\ Amer.\ Meteor.\
+  Soc.}, \textbf{97}, 2085--2102.
+
 \bibitem[{Bryan(cited 2018)}]{Bryan2017}
 Bryan, G.~H., cited 2018: {The governing equations for CM1}. {[Available online
   at \url{http://www2.mmm.ucar.edu/people/bryan/cm1/cm1_equations.pdf}]}.
 
 \bibitem[{Bryan and Rotunno(2009)Bryan, and Rotunno}]{BryanRotunno2009}
 Bryan, G.~H., and R.~Rotunno, 2009: {The maximum intensity of tropical cyclones
-  in axisymmetric numerical model simulations}. \textit{Mon. Wea. Rev.},
+  in axisymmetric numerical model simulations}. \textit{Mon.\ Wea.\ Rev.},
   \textbf{137~(6)}, 1770--1789.
 
 \bibitem[{Bu et~al.(2014)Bu, Fovell,, and Corbosiero}]{Buetal}
@@ -23,10 +40,28 @@ Bu, Y.~P., R.~G. Fovell, and K.~L. Corbosiero, 2014: Influence of
   cloud-radiative forcing on tropical cyclone structure. \textit{J.\ Atmos.\
   Sci.}, \textbf{71}, 1644--1622.
 
+\bibitem[{Doyle et~al.(2017)}]{DoyleTCI}
+Doyle, J.~D., and Coauthors, 2017: {A view of tropical cyclones from above: The
+  Tropical Cyclone Intensity (TCI) Experiment}. \textit{Bull. Amer. Meteor.
+  Soc.}, \textbf{98~(10)}, 2113--2134.
+
+\bibitem[{Dunion(2011)}]{Dunion2011}
+Dunion, J.~P., 2011: Rewriting the climatology of the tropical north atlantic
+  and caribbean sea atmosphere. \textit{J.\ Climate}, \textbf{24}, 893--908.
+
+\bibitem[{Duran and Molinari(2016)Duran, and Molinari}]{DuranMolinari2016}
+Duran, P., and J.~Molinari, 2016: {Upper-tropospheric low Richardson number in
+  tropical cyclones: Sensitivity to cyclone intensity and the diurnal cycle}.
+  \textit{J.\ Atmos.\ Sci.}, \textbf{73}, 545--554.
+
 \bibitem[{Duran and Molinari(2018)Duran, and Molinari}]{DuranMolinari2018}
 Duran, P., and J.~Molinari, 2018: {Dramatic inner-core tropopause variability
   during the rapid intensification of Hurricane Patricia (2015)}. \textit{Mon.
   Wea. Rev.}, \textbf{146~(1)}, 119--134.
+
+\bibitem[{Hock and Franklin(1999)Hock, and Franklin}]{HockFranklin1999}
+Hock, T.~F., and J.~L. Franklin, 1999: {The NCAR GPS dropwindsonde}.
+  \textit{Bull.\ Amer.\ Meteor.\ Soc.}, \textbf{80}, 407--420.
 
 \bibitem[{Iacono et~al.(2008)Iacono, Delamere, Mlawer, Shephard, Clough,, and
   Collins}]{Iacono}
@@ -34,6 +69,10 @@ Iacono, M.~J., J.~S. Delamere, E.~J. Mlawer, M.~W. Shephard, S.~A. Clough, and
   W.~D. Collins, 2008: Radiative forcing by long-lived greenhouse gases:
   Calculations with the {AER} radiative transfer models. \textit{J.\ Geophys.\
   Res.}, \textbf{113~(D13103)}.
+
+\bibitem[{Jordan(1958)}]{Jordan1958}
+Jordan, C.~L., 1958: {Mean soundings for the West Indes area}. \textit{J.\
+  Meteor.}, \textbf{15}, 91--97.
 
 \bibitem[{Kieu et~al.(2016)Kieu, Tallapragada, Zhang,, and Moon}]{Kieuetal}
 Kieu, C., V.~Tallapragada, D.-L. Zhang, and Z.~Moon, 2016: {On the development
@@ -46,14 +85,38 @@ Kimberlain, T.~B., E.~S. Blake, and J.~P. Cangialosi, 2016: {Tropical cyclone
   report: Hurricane Patricia. National Hurricane Center}. [Available online at
   www.nhc.noaa.gov].
 
+\bibitem[{Lazzara et~al.(1999)Lazzara, Benson, Fox, Laitsch, Rueden, Santek,
+  Whittaker,, and Young}]{Lazzaraetal1999}
+Lazzara, M.~A., J.~M. Benson, R.~J. Fox, D.~J. Laitsch, J.~P. Rueden, D.~A.
+  Santek, T.~M. Whittaker, and J.~T. Young, 1999: {The Man Computer Interactive
+  Data Access System: 25 years of interactive processing}. \textit{Bull.\
+  Amer.\ Meteor.\ Soc.}, \textbf{80}, 271--287.
+
 \bibitem[{Markowski and Bryan(2016)Markowski, and Bryan}]{MarkowskiBryan2016}
 Markowski, P.~M., and G.~H. Bryan, 2016: {LES} of laminar flow in the {PBL}: A
   potential problem for convective storm simulations. \textit{Mon.\ Wea.\
   Rev.}, \textbf{144}, 1841--1850.
 
+\bibitem[{Molinari et~al.(2014)Molinari, Duran,, and Vollaro}]{Molinarietal}
+Molinari, J., P.~Duran, and D.~Vollaro, 2014: {Low Richardson number in the
+  tropical cyclone outflow layer}. \textit{J.\ Atmos.\ Sci.}, \textbf{71},
+  3164--3179.
+
+\bibitem[{Molinari and Vollaro(2010)Molinari, and
+  Vollaro}]{MolinariVollaro2010}
+Molinari, J., and D.~Vollaro, 2010: {Distribution of helicity, CAPE, and shear
+  in tropical cyclones}. \textit{J.\ Atmos.\ Sci.}, \textbf{67}, 274--284.
+
 \bibitem[{Ohno and Satoh(2015)Ohno, and Satoh}]{OhnoSatoh2015}
 Ohno, T., and M.~Satoh, 2015: On the warm core of a tropical cyclone formed
   near the tropopause. \textit{J.\ Atmos.\ Sci.}, \textbf{72}, 551--571.
+
+\bibitem[{Rogers et~al.(2017)Rogers, Aberson, Bell, Cecil, Doyle, Morgerman,
+  Shay,, and Velden}]{Rogersetal2017}
+Rogers, R.~F., S.~Aberson, M.~M. Bell, D.~J. Cecil, J.~D. Doyle, J.~Morgerman,
+  L.~K. Shay, and C.~Velden, 2017: Re-writing the tropical record books: The
+  extraordinary intensification of {Hurricane Patricia} (2015). \textit{Bull.\
+  Amer.\ Meteor.\ Soc.}, \textbf{98}, 2091--2112.
 
 \bibitem[{Rotunno and Emanuel(1987)Rotunno, and Emanuel}]{RotunnoEmanuel}
 Rotunno, R., and K.~A. Emanuel, 1987: An air-sea interaction theory for
@@ -77,5 +140,10 @@ Trier, S.~B., and R.~D. Sharman, 2009: {Convection-permitting simulations of
   the environment supporting widespread turbulence within the upper-level
   outflow of a mesoscale convective system}. \textit{Mon.\ Wea.\ Rev.},
   \textbf{137}, 1972--1990.
+
+\bibitem[{{University of Wyoming}(2016)}]{Wyoming2016}
+{University of Wyoming}, 2016: {Atmospheric Soundings. University of Wyoming,
+  accessed 6 April 2016}.
+  {\url{http://www2.mmm.ucar.edu/people/bryan/cm1/cm1_equations.pdf}}.
 
 \end{thebibliography}

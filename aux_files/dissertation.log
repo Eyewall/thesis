@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  30 MAR 2018 12:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  31 MAR 2018 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1170,140 +1170,140 @@ ia . trak$[]\T1/cmr/m/n/12 ). The WB-57 drop-sonde
 
 LaTeX Warning: Reference `patricia_ir' on page 4 undefined on input line 70.
 
-[4]
-Overfull \hbox (26.42305pt too wide) in paragraph at lines 86--96
+[4] [5] [6]
+Overfull \hbox (26.42305pt too wide) in paragraph at lines 119--129
  [] 
  []
 
-<figures/fig01_patricia_ir.png, id=226, 1171.37625pt x 1151.80313pt>
+<figures/fig01_patricia_ir.png, id=265, 1171.37625pt x 1151.80313pt>
 File: figures/fig01_patricia_ir.png Graphic file (type png)
 
 <use figures/fig01_patricia_ir.png>
-Package pdftex.def Info: figures/fig01_patricia_ir.png used on input line 103.
+Package pdftex.def Info: figures/fig01_patricia_ir.png used on input line 136.
 (pdftex.def)             Requested size: 468.0pt x 460.18584pt.
 
-<figures/fig02_patricia-intensity.png, id=228, 803.0pt x 803.0pt>
+<figures/fig02_patricia-intensity.png, id=267, 803.0pt x 803.0pt>
 File: figures/fig02_patricia-intensity.png Graphic file (type png)
 
 <use figures/fig02_patricia-intensity.png>
 Package pdftex.def Info: figures/fig02_patricia-intensity.png used on input lin
-e 110.
+e 143.
 (pdftex.def)             Requested size: 468.0pt x 468.0071pt.
 
-<figures/fig03_cp_temp+theta+pres.png, id=235, 786.94pt x 2372.865pt>
+<figures/fig03_cp_temp+theta+pres.png, id=274, 786.94pt x 2372.865pt>
 File: figures/fig03_cp_temp+theta+pres.png Graphic file (type png)
 
 <use figures/fig03_cp_temp+theta+pres.png>
 Package pdftex.def Info: figures/fig03_cp_temp+theta+pres.png used on input lin
-e 117.
+e 150.
 (pdftex.def)             Requested size: 192.0pt x 578.91306pt.
 
 
-LaTeX Warning: Float too large for page by 25.48306pt on input line 120.
+LaTeX Warning: Float too large for page by 25.48306pt on input line 153.
 
-<figures/fig04_dtdz+stab.png, id=236, 1332.47812pt x 2372.865pt>
+<figures/fig04_dtdz+stab.png, id=275, 1332.47812pt x 2372.865pt>
 File: figures/fig04_dtdz+stab.png Graphic file (type png)
 
 <use figures/fig04_dtdz+stab.png>
-Package pdftex.def Info: figures/fig04_dtdz+stab.png used on input line 124.
+Package pdftex.def Info: figures/fig04_dtdz+stab.png used on input line 157.
 (pdftex.def)             Requested size: 288.0pt x 512.83536pt.
 
 
-LaTeX Warning: Float too large for page by 17.40536pt on input line 127.
+LaTeX Warning: Float too large for page by 17.40536pt on input line 160.
 
-<figures/fig05_theta+anomalies.png, id=237, 1336.995pt x 2372.865pt>
+<figures/fig05_theta+anomalies.png, id=276, 1336.995pt x 2372.865pt>
 File: figures/fig05_theta+anomalies.png Graphic file (type png)
 
 <use figures/fig05_theta+anomalies.png>
 Package pdftex.def Info: figures/fig05_theta+anomalies.png used on input line 1
-31.
+64.
 (pdftex.def)             Requested size: 288.0pt x 511.13364pt.
 
-<figures/fig06_deltatheta.png, id=238, 1603.9925pt x 780.9175pt>
+<figures/fig06_deltatheta.png, id=279, 1603.9925pt x 780.9175pt>
 File: figures/fig06_deltatheta.png Graphic file (type png)
 
 <use figures/fig06_deltatheta.png>
-Package pdftex.def Info: figures/fig06_deltatheta.png used on input line 138.
+Package pdftex.def Info: figures/fig06_deltatheta.png used on input line 171.
 (pdftex.def)             Requested size: 468.0pt x 227.8425pt.
 
-<figures/fig07_schematic.png, id=239, 569.12625pt x 542.025pt>
+<figures/fig07_schematic.png, id=280, 569.12625pt x 542.025pt>
 File: figures/fig07_schematic.png Graphic file (type png)
 
 <use figures/fig07_schematic.png>
-Package pdftex.def Info: figures/fig07_schematic.png used on input line 145.
+Package pdftex.def Info: figures/fig07_schematic.png used on input line 178.
 (pdftex.def)             Requested size: 396.0pt x 377.15703pt.
 
-<figures/fig08_hovmoller_tbpercent.png, id=240, 661.47125pt x 560.0925pt>
+<figures/fig08_hovmoller_tbpercent.png, id=281, 661.47125pt x 560.0925pt>
 File: figures/fig08_hovmoller_tbpercent.png Graphic file (type png)
 
 <use figures/fig08_hovmoller_tbpercent.png>
 Package pdftex.def Info: figures/fig08_hovmoller_tbpercent.png used on input li
-ne 152.
+ne 185.
 (pdftex.def)             Requested size: 468.0pt x 396.26686pt.
 
-<figures/fig09_CFTD.png, id=241, 655.44875pt x 560.0925pt>
+<figures/fig09_CFTD.png, id=282, 655.44875pt x 560.0925pt>
 File: figures/fig09_CFTD.png Graphic file (type png)
 
 <use figures/fig09_CFTD.png>
-Package pdftex.def Info: figures/fig09_CFTD.png used on input line 159.
+Package pdftex.def Info: figures/fig09_CFTD.png used on input line 192.
 (pdftex.def)             Requested size: 468.0pt x 399.91614pt.
 
-<figures/fig10_velocities.png, id=242, 1213.53375pt x 1186.4325pt>
+<figures/fig10_velocities.png, id=283, 1213.53375pt x 1186.4325pt>
 File: figures/fig10_velocities.png Graphic file (type png)
 
 <use figures/fig10_velocities.png>
-Package pdftex.def Info: figures/fig10_velocities.png used on input line 166.
+Package pdftex.def Info: figures/fig10_velocities.png used on input line 200.
 (pdftex.def)             Requested size: 468.0pt x 457.54732pt.
-) [5] [6 <./figures/fig01_patricia_ir.png>]
-[7 <./figures/fig02_patricia-intensity.png>] [8 <./figures/fig03_cp_temp+theta+
-pres.png>] [9 <./figures/fig04_dtdz+stab.png>] [10 <./figures/fig05_theta+anoma
-lies.png>] [11 <./figures/fig06_deltatheta.png>] [12 <./figures/fig07_schematic
-.png>] [13 <./figures/fig08_hovmoller_tbpercent.png>] [14 <./figures/fig09_CFTD
-.png>] [15 <./figures/fig10_velocities.png>]
+) [7] [8 <./figures/fig01_patricia_ir.png>]
+[9 <./figures/fig02_patricia-intensity.png>] [10 <./figures/fig03_cp_temp+theta
++pres.png>] [11 <./figures/fig04_dtdz+stab.png>] [12 <./figures/fig05_theta+ano
+malies.png>] [13 <./figures/fig06_deltatheta.png>] [14 <./figures/fig07_schemat
+ic.png>] [15 <./figures/fig08_hovmoller_tbpercent.png>] [16 <./figures/fig09_CF
+TD.png>] [17 <./figures/fig10_velocities.png>]
 \openout2 = `modeling.aux'.
 
  (./modeling.tex
  3.
-[16
+[18
 
 
 
-] [17] [18] [19] [20] [21] [22] [23]
+] [19] [20] [21] [22] [23] [24] [25]
 Overfull \hbox (14.1484pt too wide) in paragraph at lines 243--255
 []\T1/cmr/m/n/12 During the RI pe-riod, strong ra-dial and ver-ti-cal cir-cu-la
 -tions de-vel-oped near the tropopause
  []
 
-[24] [25] [26] [27] [28] [29]
-<figures/vmax+pmin.png, id=565, 780.9175pt x 1492.57625pt>
+[26] [27] [28] [29] [30] [31]
+<figures/vmax+pmin.png, id=605, 780.9175pt x 1492.57625pt>
 File: figures/vmax+pmin.png Graphic file (type png)
 
 <use figures/vmax+pmin.png>
 Package pdftex.def Info: figures/vmax+pmin.png used on input line 371.
 (pdftex.def)             Requested size: 228.0pt x 435.77399pt.
 
-<figures/mod+bud+res.png, id=566, 2294.5725pt x 2089.8075pt>
+<figures/mod+bud+res.png, id=606, 2294.5725pt x 2089.8075pt>
 File: figures/mod+bud+res.png Graphic file (type png)
 
 <use figures/mod+bud+res.png>
 Package pdftex.def Info: figures/mod+bud+res.png used on input line 378.
 (pdftex.def)             Requested size: 468.0pt x 426.21306pt.
 
-<figures/AVG_budterms.png, id=573, 803.0pt x 803.0pt>
+<figures/AVG_budterms.png, id=613, 803.0pt x 803.0pt>
 File: figures/AVG_budterms.png Graphic file (type png)
 
 <use figures/AVG_budterms.png>
 Package pdftex.def Info: figures/AVG_budterms.png used on input line 388.
 (pdftex.def)             Requested size: 228.0pt x 227.99968pt.
 
-<figures/n2-24hr-avgs.png, id=574, 1515.6625pt x 1369.115pt>
+<figures/n2-24hr-avgs.png, id=614, 1515.6625pt x 1369.115pt>
 File: figures/n2-24hr-avgs.png Graphic file (type png)
 
 <use figures/n2-24hr-avgs.png>
 Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 396.
 (pdftex.def)             Requested size: 468.0pt x 422.74998pt.
 
-<figures/h000-h024-budgetterms.png, id=575, 1529.715pt x 2077.7625pt>
+<figures/h000-h024-budgetterms.png, id=615, 1529.715pt x 2077.7625pt>
 File: figures/h000-h024-budgetterms.png Graphic file (type png)
 
 <use figures/h000-h024-budgetterms.png>
@@ -1311,7 +1311,7 @@ Package pdftex.def Info: figures/h000-h024-budgetterms.png used on input line 4
 04.
 (pdftex.def)             Requested size: 468.0pt x 635.66644pt.
 
-<figures/h024-h048-budgetterms.png, id=576, 1529.715pt x 2077.7625pt>
+<figures/h024-h048-budgetterms.png, id=616, 1529.715pt x 2077.7625pt>
 File: figures/h024-h048-budgetterms.png Graphic file (type png)
 
 <use figures/h024-h048-budgetterms.png>
@@ -1322,7 +1322,7 @@ Package pdftex.def Info: figures/h024-h048-budgetterms.png used on input line 4
 
 LaTeX Warning: Float too large for page by 12.06921pt on input line 418.
 
-<figures/h048-h072-budgetterms.png, id=578, 1529.715pt x 2077.7625pt>
+<figures/h048-h072-budgetterms.png, id=618, 1529.715pt x 2077.7625pt>
 File: figures/h048-h072-budgetterms.png Graphic file (type png)
 
 <use figures/h048-h072-budgetterms.png>
@@ -1333,52 +1333,52 @@ Package pdftex.def Info: figures/h048-h072-budgetterms.png used on input line 4
 
 LaTeX Warning: Float too large for page by 12.06921pt on input line 425.
 
-<figures/h024-h048-adv.png, id=580, 1530.71875pt x 1381.16pt>
+<figures/h024-h048-adv.png, id=620, 1530.71875pt x 1381.16pt>
 File: figures/h024-h048-adv.png Graphic file (type png)
 
 <use figures/h024-h048-adv.png>
 Package pdftex.def Info: figures/h024-h048-adv.png used on input line 429.
 (pdftex.def)             Requested size: 468.0pt x 422.27531pt.
 
-<figures/qi+radten.png, id=581, 1535.7375pt x 2053.6725pt>
+<figures/qi+radten.png, id=621, 1535.7375pt x 2053.6725pt>
 File: figures/qi+radten.png Graphic file (type png)
 
 <use figures/qi+radten.png>
 Package pdftex.def Info: figures/qi+radten.png used on input line 451.
 (pdftex.def)             Requested size: 468.0pt x 625.82082pt.
 
-<figures/Schematic2.png, id=582, 722.7pt x 542.025pt>
+<figures/Schematic2.png, id=622, 722.7pt x 542.025pt>
 File: figures/Schematic2.png Graphic file (type png)
 
 <use figures/Schematic2.png>
 Package pdftex.def Info: figures/Schematic2.png used on input line 460.
 (pdftex.def)             Requested size: 468.0pt x 350.99704pt.
 
-<figures/khvten.png, id=583, 1543.7675pt x 1369.115pt>
+<figures/khvten.png, id=623, 1543.7675pt x 1369.115pt>
 File: figures/khvten.png Graphic file (type png)
 
 <use figures/khvten.png>
 Package pdftex.def Info: figures/khvten.png used on input line 467.
 (pdftex.def)             Requested size: 468.0pt x 415.04121pt.
 
-<figures/fulltrop.png, id=584, 764.8575pt x 2065.7175pt>
+<figures/fulltrop.png, id=624, 764.8575pt x 2065.7175pt>
 File: figures/fulltrop.png Graphic file (type png)
 
 <use figures/fulltrop.png>
 Package pdftex.def Info: figures/fulltrop.png used on input line 474.
 (pdftex.def)             Requested size: 228.0pt x 615.78pt.
-) [30] [31 <./figures/vmax+pmin.png>] [32 <./figures/mod+bud+res.png>] [33 <./f
-igures/AVG_budterms.png>] [34 <./figures/n2-24hr-avgs.png>] [35 <./figures/h000
--h024-budgetterms.png>] [36] [37 <./figures/h024-h048-budgetterms.png>] [38 <./
-figures/h048-h072-budgetterms.png>] [39 <./figures/h024-h048-adv.png>] [40 <./f
-igures/qi+radten.png>] [41 <./figures/Schematic2.png>] [42 <./figures/khvten.pn
-g>] [43 <./figures/fulltrop.png>] [44]
-(aux_files/dissertation.bbl [45
+) [32] [33 <./figures/vmax+pmin.png>] [34 <./figures/mod+bud+res.png>] [35 <./f
+igures/AVG_budterms.png>] [36 <./figures/n2-24hr-avgs.png>] [37 <./figures/h000
+-h024-budgetterms.png>] [38] [39 <./figures/h024-h048-budgetterms.png>] [40 <./
+figures/h048-h072-budgetterms.png>] [41 <./figures/h024-h048-adv.png>] [42 <./f
+igures/qi+radten.png>] [43 <./figures/Schematic2.png>] [44 <./figures/khvten.pn
+g>] [45 <./figures/fulltrop.png>] [46]
+(aux_files/dissertation.bbl [47
 
 
-] [46] [47])
+] [48] [49])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
- [48]
+ [50]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
  (aux_files/dissertation.aux
 (aux_files/abstract.aux) (aux_files/ack.aux) (aux_files/introduction.aux)
@@ -1396,10 +1396,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11941 strings out of 494953
- 173186 string characters out of 6180977
- 330509 words of memory out of 5000000
- 14762 multiletter control sequences out of 15000+600000
+ 11958 strings out of 494953
+ 173455 string characters out of 6180977
+ 331718 words of memory out of 5000000
+ 14773 multiletter control sequences out of 15000+600000
  17458 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  50i,12n,45p,2005b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1421,10 +1421,10 @@ ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
 /amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb>
-Output written on aux_files/dissertation.pdf (54 pages, 9202514 bytes).
+Output written on aux_files/dissertation.pdf (56 pages, 9210232 bytes).
 PDF statistics:
- 1075 PDF objects out of 1200 (max. 8388607)
- 660 compressed objects within 7 object streams
- 150 named destinations out of 1000 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1118 PDF objects out of 1200 (max. 8388607)
+ 697 compressed objects within 7 object streams
+ 156 named destinations out of 1000 (max. 500000)
+ 287 words of extra memory for PDF output out of 10000 (max. 10000000)
 

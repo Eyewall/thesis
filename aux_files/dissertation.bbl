@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{29}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -58,6 +58,11 @@ Duran, P., and J.~Molinari, 2016: {Upper-tropospheric low Richardson number in
 Duran, P., and J.~Molinari, 2018: {Dramatic inner-core tropopause variability
   during the rapid intensification of Hurricane Patricia (2015)}. \textit{Mon.
   Wea. Rev.}, \textbf{146~(1)}, 119--134.
+
+\bibitem[{Gentry(1967)}]{Gentry1967}
+Gentry, R., 1967: {Structure of the upper troposphere and lower stratosphere in
+  the vicinity of Hurricane Isbell, 1964.} \textit{Pap. Meteor. Geophys.},
+  \textbf{18}, 293--310.
 
 \bibitem[{Hock and Franklin(1999)Hock, and Franklin}]{HockFranklin1999}
 Hock, T.~F., and J.~L. Franklin, 1999: {The NCAR GPS dropwindsonde}.
@@ -124,6 +129,11 @@ Rotunno, R., and K.~A. Emanuel, 1987: An air-sea interaction theory for
   axisymmetric numerical model. \textit{J.\ Atmos.\ Sci.}, \textbf{44},
   542--561.
 
+\bibitem[{Seidel et~al.(2001)Seidel, Ross, Angell,, and Reid}]{Seideletal2001}
+Seidel, D.~J., R.~J. Ross, J.~K. Angell, and G.~C. Reid, 2001: {Climatological
+  characterisitcs of the tropical tropopause as revealed by radiosondes.}
+  \textit{J.\ Geophys.\ Res.}, \textbf{106}, 7857--7878.
+
 \bibitem[{Stern and Zhang(2013)Stern, and Zhang}]{SternZhang2013}
 Stern, D.~P., and F.~Zhang, 2013: {How does the eye warm? Part I: A potential
   temperature budget analysis of an idealized tropical cyclone}. \textit{J.\
@@ -145,5 +155,9 @@ Trier, S.~B., and R.~D. Sharman, 2009: {Convection-permitting simulations of
 {University of Wyoming}, 2016: {Atmospheric Soundings. University of Wyoming,
   accessed 6 April 2016}.
   {\url{http://www2.mmm.ucar.edu/people/bryan/cm1/cm1_equations.pdf}}.
+
+\bibitem[{Waco(1970)}]{Waco1970}
+Waco, D.~E., 1970: {Temperatures and turbulence at tropopause levels over
+  Hurricane Beulah (1967)}. \textit{Mon.\ Wea.\ Rev.}, \textbf{98}, 749--755.
 
 \end{thebibliography}

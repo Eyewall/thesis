@@ -8,18 +8,21 @@
 \contentsline {section}{\numberline {2.2}Data and methods}{2}{section.2.2}
 \contentsline {section}{\numberline {2.3}Results}{4}{section.2.3}
 \contentsline {section}{\numberline {2.4}Discussion}{13}{section.2.4}
-\contentsline {chapter}{\numberline {3.}Tropopause evolution in a rapidly intensifying tropical cyclone: A static stability budget analysis in an idealized, axisymmetric framework}{24}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{24}{section.3.1}
-\contentsline {section}{\numberline {3.2}Model setup}{24}{section.3.2}
-\contentsline {section}{\numberline {3.3}Budget computation}{25}{section.3.3}
-\contentsline {section}{\numberline {3.4}Results}{29}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Static stability evolution}{29}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Static stability budget analysis}{29}{subsection.3.4.2}
-\contentsline {paragraph}{0-24 hours}{29}{section*.6}
-\contentsline {paragraph}{24-48 hours}{30}{section*.7}
-\contentsline {paragraph}{48-72 hours}{31}{section*.8}
-\contentsline {section}{\numberline {3.5}Discussion}{32}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}The role of advection}{32}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}The role of radiation}{34}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}The role of turbulent mixing}{36}{subsection.3.5.3}
-\contentsline {section}{\numberline {3.6}Conclusions}{37}{section.3.6}
+\contentsline {subsection}{\numberline {2.4.1}Early RI}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Late RI}{14}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Characteristics common to early and late RI}{15}{subsection.2.4.3}
+\contentsline {chapter}{\numberline {3.}Tropopause evolution in a rapidly intensifying tropical cyclone: A static stability budget analysis in an idealized, axisymmetric framework}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{27}{section.3.1}
+\contentsline {section}{\numberline {3.2}Model setup}{27}{section.3.2}
+\contentsline {section}{\numberline {3.3}Budget computation}{28}{section.3.3}
+\contentsline {section}{\numberline {3.4}Results}{32}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Static stability evolution}{32}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Static stability budget analysis}{32}{subsection.3.4.2}
+\contentsline {paragraph}{0-24 hours}{32}{section*.6}
+\contentsline {paragraph}{24-48 hours}{33}{section*.7}
+\contentsline {paragraph}{48-72 hours}{34}{section*.8}
+\contentsline {section}{\numberline {3.5}Discussion}{35}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}The role of advection}{35}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}The role of radiation}{37}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}The role of turbulent mixing}{39}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}Conclusions}{40}{section.3.6}

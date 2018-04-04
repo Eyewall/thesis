@@ -1,4 +1,4 @@
-\begin{thebibliography}{38}
+\begin{thebibliography}{39}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -95,7 +95,7 @@ Iacono, M.~J., J.~S. Delamere, E.~J. Mlawer, M.~W. Shephard, S.~A. Clough, and
 Jordan, C.~L., 1958: {Mean soundings for the West Indes area}. \textit{J.\
   Meteor.}, \textbf{15}, 91--97.
 
-\bibitem[{Kieu et~al.(2016)Kieu, Tallapragada, Zhang,, and Moon}]{Kieuetal}
+\bibitem[{Kieu et~al.(2016)Kieu, Tallapragada, Zhang,, and Moon}]{Kieuetal2016}
 Kieu, C., V.~Tallapragada, D.-L. Zhang, and Z.~Moon, 2016: {On the development
   of double warm-core structures in intense tropical cyclones}. \textit{J.\
   Atmos.\ Sci.}, \textbf{73}, 4487--4506.
@@ -105,6 +105,11 @@ Kieu, C., V.~Tallapragada, D.-L. Zhang, and Z.~Moon, 2016: {On the development
 Kimberlain, T.~B., E.~S. Blake, and J.~P. Cangialosi, 2016: {Tropical cyclone
   report: Hurricane Patricia. National Hurricane Center}. [Available online at
   www.nhc.noaa.gov].
+
+\bibitem[{Komaromi and Doyle(2017)Komaromi, and Doyle}]{KomaromiDoyle2017}
+Komaromi, W.~A., and J.~D. Doyle, 2017: Tropical cyclone outflow and warm core
+  structure as revealed by {HS3} dropsonde data. \textit{Mon.\ Wea.\ Rev.},
+  \textbf{145}, 1339--1359.
 
 \bibitem[{Kuang and Bretherton(2004)Kuang, and
   Bretherton}]{KuangBretherton2004}

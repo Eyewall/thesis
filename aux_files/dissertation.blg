@@ -8,50 +8,56 @@ A level-1 auxiliary file: patricia.aux
 A level-1 auxiliary file: modeling.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
+Warning--I didn't find a database entry for "RobinsonSherwood2006"
+Warning--I didn't find a database entry for "Guimondetal2010"
+Warning--I didn't find a database entry for "ChenZhang2013"
+Warning--I didn't find a database entry for "ZhangChen2012"
+Warning--I didn't find a database entry for "Penn1965"
+Warning--I didn't find a database entry for "Dasetal2016"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in BellTCI
 Warning--missing publisher in Bryan2017
 Warning--missing publisher in Kimberlainetal2016
 Warning--missing publisher in Wyoming2016
-You've used 38 entries,
+You've used 39 entries,
             3493 wiz_defined-function locations,
-            1101 strings with 14386 characters,
-and the built_in function-call counts, 40486 in all, are:
-= -- 4813
-> -- 1287
-< -- 21
-+ -- 794
-- -- 324
-* -- 2039
-:= -- 4112
-add.period$ -- 76
-call.type$ -- 38
-change.case$ -- 297
-chr.to.int$ -- 38
-cite$ -- 42
-duplicate$ -- 4169
-empty$ -- 2159
-format.name$ -- 421
-if$ -- 8279
+            1119 strings with 14715 characters,
+and the built_in function-call counts, 41658 in all, are:
+= -- 4965
+> -- 1311
+< -- 22
++ -- 812
+- -- 330
+* -- 2094
+:= -- 4220
+add.period$ -- 78
+call.type$ -- 39
+change.case$ -- 304
+chr.to.int$ -- 39
+cite$ -- 43
+duplicate$ -- 4298
+empty$ -- 2220
+format.name$ -- 431
+if$ -- 8519
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 405
-newline$ -- 125
-num.names$ -- 152
-pop$ -- 1965
+missing$ -- 415
+newline$ -- 128
+num.names$ -- 156
+pop$ -- 2020
 preamble$ -- 1
-purify$ -- 258
+purify$ -- 264
 quote$ -- 0
-skip$ -- 2387
+skip$ -- 2463
 stack$ -- 0
-substring$ -- 1938
-swap$ -- 3396
+substring$ -- 2003
+swap$ -- 3508
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 342
+type$ -- 351
 warning$ -- 4
-while$ -- 178
+while$ -- 183
 width$ -- 0
-write$ -- 424
-(There were 4 warnings)
+write$ -- 435
+(There were 10 warnings)

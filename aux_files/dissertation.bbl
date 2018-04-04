@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{38}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -40,6 +40,17 @@ Bu, Y.~P., R.~G. Fovell, and K.~L. Corbosiero, 2014: Influence of
   cloud-radiative forcing on tropical cyclone structure. \textit{J.\ Atmos.\
   Sci.}, \textbf{71}, 1644--1622.
 
+\bibitem[{Danielsen(1993)}]{Danielsen1993}
+Danielsen, E.~F., 1993: {In situ evidence of rapid, vertical, irreversible
+  transport of lower tropospheric air into the lower tropical stratosphere by
+  convective cloud turrets and by larger-scale upwelling in tropical cyclones}.
+  \textit{J.\ Geophys.\ Res.}, \textbf{98}, 8665--8681.
+
+\bibitem[{Das et~al.(2008)Das, Patra,, and Rao}]{Dasetal2008}
+Das, S.~S., A.~K. Patra, and D.~N. Rao, 2008: Vhf radar echoes in the vicinity
+  of tropopause during the passage of tropical cyclone: First observations from
+  the gadanki mst radar. \textit{J.\ Geophys.\ Res.}, \textbf{113~(D09113)}.
+
 \bibitem[{Doyle et~al.(2017)}]{DoyleTCI}
 Doyle, J.~D., and Coauthors, 2017: {A view of tropical cyclones from above: The
   Tropical Cyclone Intensity (TCI) Experiment}. \textit{Bull. Amer. Meteor.
@@ -58,6 +69,11 @@ Duran, P., and J.~Molinari, 2016: {Upper-tropospheric low Richardson number in
 Duran, P., and J.~Molinari, 2018: {Dramatic inner-core tropopause variability
   during the rapid intensification of Hurricane Patricia (2015)}. \textit{Mon.
   Wea. Rev.}, \textbf{146~(1)}, 119--134.
+
+\bibitem[{Ebert and Holland(1992)Ebert, and Holland}]{EbertHolland1992}
+Ebert, E.~E., and G.~J. Holland, 1992: {Observations of record cold cloud-top
+  temperatures in Tropical Cyclone Hilda (1990)}. \textit{Mon.\ Wea.\ Rev.},
+  \textbf{120}, 2240--2251.
 
 \bibitem[{Gentry(1967)}]{Gentry1967}
 Gentry, R., 1967: {Structure of the upper troposphere and lower stratosphere in
@@ -90,6 +106,12 @@ Kimberlain, T.~B., E.~S. Blake, and J.~P. Cangialosi, 2016: {Tropical cyclone
   report: Hurricane Patricia. National Hurricane Center}. [Available online at
   www.nhc.noaa.gov].
 
+\bibitem[{Kuang and Bretherton(2004)Kuang, and
+  Bretherton}]{KuangBretherton2004}
+Kuang, Z., and C.~S. Bretherton, 2004: Convective influence on the heat balance
+  of the tropical tropopause layer: A cloud-resolving model study. \textit{J.\
+  Atmos.\ Sci.}, \textbf{61}, 2919--2927.
+
 \bibitem[{Lazzara et~al.(1999)Lazzara, Benson, Fox, Laitsch, Rueden, Santek,
   Whittaker,, and Young}]{Lazzaraetal1999}
 Lazzara, M.~A., J.~M. Benson, R.~J. Fox, D.~J. Laitsch, J.~P. Rueden, D.~A.
@@ -102,7 +124,8 @@ Markowski, P.~M., and G.~H. Bryan, 2016: {LES} of laminar flow in the {PBL}: A
   potential problem for convective storm simulations. \textit{Mon.\ Wea.\
   Rev.}, \textbf{144}, 1841--1850.
 
-\bibitem[{Molinari et~al.(2014)Molinari, Duran,, and Vollaro}]{Molinarietal}
+\bibitem[{Molinari et~al.(2014)Molinari, Duran,, and
+  Vollaro}]{Molinarietal2014}
 Molinari, J., P.~Duran, and D.~Vollaro, 2014: {Low Richardson number in the
   tropical cyclone outflow layer}. \textit{J.\ Atmos.\ Sci.}, \textbf{71},
   3164--3179.
@@ -129,10 +152,32 @@ Rotunno, R., and K.~A. Emanuel, 1987: An air-sea interaction theory for
   axisymmetric numerical model. \textit{J.\ Atmos.\ Sci.}, \textbf{44},
   542--561.
 
+\bibitem[{Salby and Callaghan(2004)Salby, and Callaghan}]{SalbyCallaghan2004}
+Salby, M., and P.~Callaghan, 2004: Control of the tropical tropopause and
+  vertical transport across it. \textit{J.\ Climate}, \textbf{17}, 965--985.
+
+\bibitem[{Salby et~al.(2003)Salby, Sassi, Callaghan, Read,, and
+  Pumphrey}]{Salbyetal2003}
+Salby, M., F.~Sassi, P.~Callaghan, W.~Read, and H.~Pumphrey, 2003: Fluctuations
+  of cloud, humidity,and thermal structure near the tropical tropopause.
+  \textit{J.\ Climate}, \textbf{16}, 3428--3466.
+
+\bibitem[{Schubert et~al.(2007)Schubert, Rozoff, Vigh, McNoldy,, and
+  Kossin}]{Schubertetal2007}
+Schubert, W.~H., C.~M. Rozoff, J.~L. Vigh, B.~D. McNoldy, and J.~P. Kossin,
+  2007: {On the distribution of subsidence in the hurricane eye}.
+  \textit{Quart.\ J.\ Roy.\ Meteor.\ Soc.}, \textbf{133}, 595--605.
+
 \bibitem[{Seidel et~al.(2001)Seidel, Ross, Angell,, and Reid}]{Seideletal2001}
 Seidel, D.~J., R.~J. Ross, J.~K. Angell, and G.~C. Reid, 2001: {Climatological
   characterisitcs of the tropical tropopause as revealed by radiosondes.}
   \textit{J.\ Geophys.\ Res.}, \textbf{106}, 7857--7878.
+
+\bibitem[{Sherwood et~al.(2003)Sherwood, Horinouchi,, and
+  Zeleznik}]{Sherwoodetal2003}
+Sherwood, S.~C., T.~Horinouchi, and H.~A. Zeleznik, 2003: Convective impact on
+  temperatures observed near the tropical tropopause. \textit{J.\ Atmos.\
+  Sci.}, \textbf{60}, 1847--1856.
 
 \bibitem[{Stern and Zhang(2013)Stern, and Zhang}]{SternZhang2013}
 Stern, D.~P., and F.~Zhang, 2013: {How does the eye warm? Part I: A potential
@@ -159,5 +204,11 @@ Trier, S.~B., and R.~D. Sharman, 2009: {Convection-permitting simulations of
 \bibitem[{Waco(1970)}]{Waco1970}
 Waco, D.~E., 1970: {Temperatures and turbulence at tropopause levels over
   Hurricane Beulah (1967)}. \textit{Mon.\ Wea.\ Rev.}, \textbf{98}, 749--755.
+
+\bibitem[{Yuter and Houze(1995)Yuter, and Houze}]{YuterHouze1995}
+Yuter, S.~E., and R.~A. Houze, 1995: {Three-dimensional kinematic and
+  microphysics evolution of Florida cumulonimbus. Part II: Frequency
+  distributions of vertical velocity, reflectivity, and differential
+  reflectivity}. \textit{Mon.\ Wea.\ Rev.}, \textbf{123}, 1941--1963.
 
 \end{thebibliography}

@@ -13,47 +13,49 @@ Warning--I didn't find a database entry for "ChenZhang2013"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in BellTCI
 Warning--missing publisher in Bryan2017
+Warning--missing publisher in Jarvinenetal1984
 Warning--missing publisher in Kimberlainetal2016
 Warning--missing publisher in Wyoming2016
-You've used 44 entries,
+Warning--missing publisher in WMO1998
+You've used 48 entries,
             3493 wiz_defined-function locations,
-            1142 strings with 15510 characters,
-and the built_in function-call counts, 44299 in all, are:
-= -- 5174
-> -- 1429
-< -- 25
-+ -- 862
-- -- 360
-* -- 2269
-:= -- 4616
-add.period$ -- 88
-call.type$ -- 44
-change.case$ -- 338
-chr.to.int$ -- 44
-cite$ -- 48
-duplicate$ -- 4532
-empty$ -- 2425
-format.name$ -- 474
-if$ -- 9054
+            1167 strings with 16152 characters,
+and the built_in function-call counts, 46316 in all, are:
+= -- 5337
+> -- 1511
+< -- 28
++ -- 896
+- -- 381
+* -- 2392
+:= -- 4913
+add.period$ -- 96
+call.type$ -- 48
+change.case$ -- 366
+chr.to.int$ -- 48
+cite$ -- 54
+duplicate$ -- 4709
+empty$ -- 2584
+format.name$ -- 503
+if$ -- 9463
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 460
-newline$ -- 143
-num.names$ -- 176
-pop$ -- 2119
+missing$ -- 495
+newline$ -- 155
+num.names$ -- 192
+pop$ -- 2207
 preamble$ -- 1
-purify$ -- 293
+purify$ -- 316
 quote$ -- 0
-skip$ -- 2562
+skip$ -- 2643
 stack$ -- 0
-substring$ -- 2058
-swap$ -- 3615
+substring$ -- 2106
+swap$ -- 3690
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 396
-warning$ -- 4
-while$ -- 198
+type$ -- 432
+warning$ -- 6
+while$ -- 210
 width$ -- 0
-write$ -- 490
-(There were 5 warnings)
+write$ -- 532
+(There were 7 warnings)

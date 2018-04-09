@@ -16,10 +16,73 @@ In addition to introduction in the published paper, tie this in to the Patricia 
 %---------------------------------------------------------------------------------------%
 \section{Data and methods}
 %---------------------------------------------------------------------------------------%
+The U.S. High Vertical Resolution Radiosonde Data archive \citep{LoveGeller2012} is used to construct the radial–vertical structure of TC outflow.
+All sondes released within 1000 km of Atlantic basin TCs from 1998 to 2011 are used, including special soundings released at 0600 and 1800 UTC.
+The dataset includes sondes released from the eastern United States, the Bahamas, Puerto Rico, Grand Cayman, and Belize.
+Herein we analyze the vertical layer between 9 and 17 km, which is at the upper limit of---or above---the analyses performed by \cite{Molinarietal2014}.
+
+Storm center positions are determined using the National Hurricane Center Atlantic basin hurricane database (HURDAT; \citeauthor{Jarvinenetal1984} \citeyear{Jarvinenetal1984}).
+For the 1998–2011 time interval, HURDAT contained 1807 hurricane, 2500 tropical storm, and 1192 tropical depression analysis times.
+Sondes are separated into 200-km radial bins about a composite TC center, with each bin overlapping the adjacent bins by 100 km.
+This binning ensures that there are sufficient observations in each bin for azimuthal averaging but does not allow for the TC inner core to be resolved.
+
+Every sounding was visually examined to ensure quality, and 218 questionable soundings---constituting less than 3\% of the total number---were removed.
+Of these 218 soundings, 130 were removed because data gaps larger than 1 km arose in the 9--17-km layer; another 84 were removed because they contained upper-tropospheric  vertical  wind shears larger than 40 m s\textsuperscript{-1} km\textsuperscript{-1}; and 3 were removed because they contained multiple observations on the same pressure level.
+
+As in \cite{Molinarietal2014}, the remaining 8499 soundings were interpolated to 100-m vertical levels and smoothed using a 1–2–1 smoother.
+The bulk Richardson number
+
+   \begin{equation} \label{eq:rb}
+   R_b = \frac{(g/\theta_v)(\Delta\theta_v/\Delta z)}{[(\Delta u)^2+(\Delta v)^2]/(\Delta z)^2},
+   \end {equation}
+where $\theta_v$ is the layer-averaged virtual potential temperature, was then computed for 400-m ($\Delta z$) layers centered on each level.
+The percentage of rawinsondes that observe $R_b < 0.25$ is plotted as a composite radius--height cross section, along with the azimuthally averaged stability and shear contributions to $R_b$ [azimuthal averages of the numerator and denominator of Eq. (1), respectively].
+These components of $R_b$ are plotted as difference fields to show variability with TC intensity and time of day, and the statistical significance of these differences is tested using a 10 000 sample bootstrapping technique.
+Probability distributions also are used to assess the contribution of transient perturbations to the generation of low-$R_b$ layers.
+To avoid double counting, these probability distributions do not use overlapping bins.
+
+To  aid  in  the  diagnosis  of  changes  in  upper-tropospheric structure, average tropopause heights are calculated for each intensity and time stratification.
+The tropopause height is determined for each sounding using the following World Meteorological Organization definition: ‘‘the lowest level at which the lapse rate decreases to 2\textdegree{}C km\textsuperscript{-1} or less, provided that the average lapse rate between this level and all higher levels within 2 km does not exceed 2\textdegree{}C km\textsuperscript{-1} \citep{WMO1957}.
+The tropopause heights are then averaged using the same radial binning as the $R_b$ fields and overlaid on the stability and shear cross sections.
+
+Flight-level vertical accelerations observed by the G-IV aircraft, recorded at a frequency of 1 Hz in Hurricane Ivan (2004), are used to provide an example of upper-tropospheric turbulence.
+All observations used herein were recorded while the aircraft was above the 12-km altitude.
+The G-IV’s true airspeed for these data varies between 220 and 242 m s\textsuperscript{-1}, placing the horizontal spacing of observations at around 230 m.
 
 %---------------------------------------------------------------------------------------%
 \section{Results}
 %---------------------------------------------------------------------------------------%
+
+\subsection{Aircraft turbulence observations}
+
+Given that aircraft often observe turbulence while flying in the outflow of mesoscale convective systems, we first consider turbulence observed on an aircraft in the vicinity of a hurricane.
+Vertical acceleration from a G-IV flight into Hurricane Ivan (2004) is shown in Fig. \ref{fig:ir+accel}, along with the flight track overlaid on an infrared satellite image.
+Plotting begins at the black asterisk, and changes in the color of the flight track corresponding to changes in the color of the vertical acceleration trace.
+
+The area within the cirrus canopy is more turbulent than the clear air surrounding the storm (Fig. \ref{fig:ir+accel}).
+As the aircraft enters the cirrus region, the vertical acceleration exhibits considerably larger variance, and the variance remains elevated until the aircraft exits the cirrus canopy.
+As the G-IV turns eastward and repenetrates the cirrus, the vertical acceleration variance again increases and remains elevated until the aircraft once again exits the storm.
+The observations here are not collected in the inner core of strong convection, but in high-cloud regions at outer radii.
+Thus, the turbulence is not likely to be the direct result of strong mesoscale convection, but instead the consequence of other mechanisms unique to the cirrus canopy and the near-storm environment.
+Although the magnitude of the accelerations corresponds to only light turbulence \citep{WMO1998}, such a striking difference between the within-cirrus and clear-air environments suggests that there exist mechanisms unique to the cirrus canopy that produce turbulence.
+
+\subsection{Low Richardson number, stability, and shear in the upper troposphere}
+
+The occurrence of low $R_b$ in the upper troposphere of TCs is illustrated in Fig. \ref{fig:rb-all}, using all soundings in the dataset.
+The frequency of $R_b < 0.25$ decreases outward from a maximum of over 9\% at inner radii to 2\%–3\% at 1000 km.
+At inner radii, low-$R_b$ frequency is maximized near the 13.5-km level, whereas at outer radii the maximum is near 11.5 km.
+A downward radial slope is present throughout the composite along with a gradual thinning of the low-$R_b$ layer with increasing radius.
+
+The static stability and vertical wind shear terms of $R_b$ [the  numerator  and  denominator  of  Eq. \ref{eq:rb},  respectively] for all data points between the 11- and 15-km levels are shown in Fig. 3.
+The distributions of static stability (red lines) and vertical wind shear (blue lines) both are maximized near zero and fall off rapidly with increasing values.
+The lack of a left tail in the distributions is a consequence of the physical nature of the static stability and vertical wind shear terms: in the absence of strong forcing, a static stability less than zero should be rapidly mixed out, so negative static stabilities are rare, and the vertical wind shear term is defined to be greater than zero.
+
+The static stability distribution for points with $R_b < 0.25$ (solid red line) is shifted toward smaller values relative to the same distribution for data points that observe larger $R_b$ (dotted red line).
+This indicates that local decreases in static stability contribute to the generation of low-$R_b$ layers.
+Similarly, the vertical wind shear distribution for all data points with $R_b < 0.25$ (solid blue line) is shifted toward larger values relative to the same distribution for data points that observe larger $R_b$ (dotted blue line).
+The upper tail of this distribution extends to very large values, indicating that high-magnitude vertical wind shear perturbations also contribute to the generation of low-$R_b$ layers.
+
+These results are consistent with \cite{Molinarietal2014}, who found that the frequency of low $R_b$ is maximized in the upper troposphere, and that both static stability and vertical wind shear perturbations contribute to its production.
 
 %---------------------------------------------------------------------------------------%
 \section{Discussion}

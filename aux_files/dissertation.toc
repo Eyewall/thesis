@@ -29,5 +29,7 @@
 \contentsline {chapter}{\numberline {4.}Upper-tropospheric low Richardson number in tropical cyclones: Sensitivity to cyclone intensity and the diurnal cycle}{56}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{56}{section.4.1}
 \contentsline {section}{\numberline {4.2}Data and methods}{56}{section.4.2}
-\contentsline {section}{\numberline {4.3}Results}{56}{section.4.3}
-\contentsline {section}{\numberline {4.4}Discussion}{56}{section.4.4}
+\contentsline {section}{\numberline {4.3}Results}{58}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Aircraft turbulence observations}{58}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Low Richardson number, stability, and shear in the upper troposphere}{58}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Discussion}{59}{section.4.4}

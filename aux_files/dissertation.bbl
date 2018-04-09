@@ -1,4 +1,4 @@
-\begin{thebibliography}{44}
+\begin{thebibliography}{48}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -101,6 +101,13 @@ Iacono, M.~J., J.~S. Delamere, E.~J. Mlawer, M.~W. Shephard, S.~A. Clough, and
   Calculations with the {AER} radiative transfer models. \textit{J.\ Geophys.\
   Res.}, \textbf{113~(D13103)}.
 
+\bibitem[{Jarvinen et~al.(1984)Jarvinen, Neumann,, and
+  Davis}]{Jarvinenetal1984}
+Jarvinen, B.~R., C.~J. Neumann, and M.~A.~S. Davis, 1984: {A tropical cyclone
+  data tape for the North Atlantic Basin, 1886–1983: Contents, limitations,
+  and use}. { NOAA Tech. Memo. NWS NHC 22, 21 pp. [Available online at
+  http://www.nhc.noaa.gov/pdf/NWS-NHC-1988-22.pdf.]}.
+
 \bibitem[{Jordan(1958)}]{Jordan1958}
 Jordan, C.~L., 1958: {Mean soundings for the West Indes area}. \textit{J.\
   Meteor.}, \textbf{15}, 91--97.
@@ -133,6 +140,11 @@ Lazzara, M.~A., J.~M. Benson, R.~J. Fox, D.~J. Laitsch, J.~P. Rueden, D.~A.
   Santek, T.~M. Whittaker, and J.~T. Young, 1999: {The Man Computer Interactive
   Data Access System: 25 years of interactive processing}. \textit{Bull.\
   Amer.\ Meteor.\ Soc.}, \textbf{80}, 271--287.
+
+\bibitem[{Love and Geller(2012)Love, and Geller}]{LoveGeller2012}
+Love, P.~T., and M.~A. Geller, 2012: Research using high (and higher)
+  resolution radiosonde data. \textit{{Eos, Trans. Amer. Geophys. Union}},
+  \textbf{93~(337-344)}.
 
 \bibitem[{Markowski and Bryan(2016)Markowski, and Bryan}]{MarkowskiBryan2016}
 Markowski, P.~M., and G.~H. Bryan, 2016: {LES} of laminar flow in the {PBL}: A
@@ -229,6 +241,14 @@ Trier, S.~B., and R.~D. Sharman, 2009: {Convection-permitting simulations of
 \bibitem[{Waco(1970)}]{Waco1970}
 Waco, D.~E., 1970: {Temperatures and turbulence at tropopause levels over
   Hurricane Beulah (1967)}. \textit{Mon.\ Wea.\ Rev.}, \textbf{98}, 749--755.
+
+\bibitem[{WMO(1957)}]{WMO1957}
+WMO, 1957: {Meteorology---A three-dimensional science.} \textit{{WMO Bull.}},
+  \textbf{6~(134-138)}.
+
+\bibitem[{WMO(1998)}]{WMO1998}
+WMO, 1998: {Manual on codes. Vol. I.1 (Part A: Alphanumeric codes)}. WMO Publ.
+  WMO-306, 466 pp.
 
 \bibitem[{Yuter and Houze(1995)Yuter, and Houze}]{YuterHouze1995}
 Yuter, S.~E., and R.~A. Houze, 1995: {Three-dimensional kinematic and

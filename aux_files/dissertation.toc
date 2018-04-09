@@ -26,3 +26,8 @@
 \contentsline {subsection}{\numberline {3.5.2}The role of radiation}{37}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}The role of turbulent mixing}{39}{subsection.3.5.3}
 \contentsline {section}{\numberline {3.6}Conclusions}{40}{section.3.6}
+\contentsline {chapter}{\numberline {4.}Upper-tropospheric low Richardson number in tropical cyclones: Sensitivity to cyclone intensity and the diurnal cycle}{56}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{56}{section.4.1}
+\contentsline {section}{\numberline {4.2}Data and methods}{56}{section.4.2}
+\contentsline {section}{\numberline {4.3}Results}{56}{section.4.3}
+\contentsline {section}{\numberline {4.4}Discussion}{56}{section.4.4}

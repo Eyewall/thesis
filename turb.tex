@@ -1,0 +1,102 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%                                                                 %
+%                           CHAPTER 4                             %
+%                                                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+ 
+\chapter{Upper-tropospheric low Richardson number in tropical cyclones: Sensitivity to cyclone intensity and the diurnal cycle}
+\resetfootnote %this command starts footnote numbering with 1 again.
+
+%---------------------------------------------------------------------------------------%
+\section{Introduction}
+%---------------------------------------------------------------------------------------%
+
+In addition to introduction in the published paper, tie this in to the Patricia and CM1 results...
+
+%---------------------------------------------------------------------------------------%
+\section{Data and methods}
+%---------------------------------------------------------------------------------------%
+
+%---------------------------------------------------------------------------------------%
+\section{Results}
+%---------------------------------------------------------------------------------------%
+
+%---------------------------------------------------------------------------------------%
+\section{Discussion}
+\label{sec:discussion}
+%---------------------------------------------------------------------------------------%
+
+%---------------------------------------------------------------------------------------%
+%FIGURES AND TABLES
+%---------------------------------------------------------------------------------------%
+
+%FIGURE 1%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig1_flightlevelcdo.png}}
+\caption{(a) The G-IV flight track into Hurricane Ivan between 0530 and 1310 UTC 15 Sep 2004 overlaid on an infrared satellite image valid at 0915 UTC. (b) Time series of aircraft vertical acceleration observed by the G-IV inertial navigation system. The initial time for both plots is indicated by the black asterisk in (a), and the color changes in the flight track correspond to the color changes in (b). All data plotted here were collected while the G-IV was at an altitude of 12 km or greater.}
+\label{fig:ir+accel}
+\end{figure*}
+
+%FIGURE 2%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig2_brch_allsondes.png}}
+\caption{Radius–height cross section of the percentage of rawinsondes that observed a bulk Richardson number less than 0.25 for all available sondes released within 1000 km of an Atlantic basin tropical cyclone. Because vertical resolution is much larger than radial resolution, a 1–2–1 smoother is applied in the vertical 10 times for plotting purposes.}
+\label{fig:rb-all}
+\end{figure*}
+
+%FIGURE 3%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig3_dist_allsondes.png}}
+\caption{ Probability distributions of the static stability and vertical
+wind shear terms (10\textsuperscript{-4} s\textsuperscript{-2}) of the bulk Richardson number for all data points between the 11- and 15-km levels. Red curves represent static stability and blue curves represent vertical wind shear. Solid curves are for all points where the bulk Richardson number is smaller than 0.25, and dotted curves are for points where the bulk Richardson number is greater than or equal to 0.25. The small number of apparently negative shear-squared values is an artifact of the use of finite bins in the plotting routine.}
+\label{fig:dist-all}
+\end{figure*}
+
+%FIGURE 4%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig4_brch_intensity.png}}
+\caption{As in Fig. \ref{fig:rb-all}, but for all sondes released within 1000 km of (a) hurricanes and (b) tropical depressions and tropical storms.}
+\label{fig:rb-strat}
+\end{figure*}
+
+%FIGURE 5%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig5_stabshear_intensity.png}}
+\caption{Radius–height cross sections of the differences in azimuthally averaged (a) numerator (stability) and (b) denominator (shear) of Eq. \ref{eq:rb} in hurricanes vs weak TCs. The difference (10\textsuperscript{-4} s\textsuperscript{-2}) is plotted such that blue colors represent values that are smaller in hurricanes than in weak TCs. Because vertical resolution is much larger than radial resolution, a 1–2–1 smoother is applied in the vertical 10 times for plotting purposes. The solid orange line is the average tropopause height for hurricanes, and the dashed orange line is the average for weak TCs. Green stippling indicates regions where the differences are statistically significant at the 99\% confidence interval.}
+\label{fig:stabsheardiffs}
+\end{figure*}
+
+%FIGURE 6%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig6_temp_diff.png}}
+\caption{Radius–height cross section of the azimuthally averaged temperature (K) in hurricanes minus that in tropical depressions and tropical storms, such that blue colors represent lower temperatures in hurricanes. Because vertical resolution is much larger than radial resolution, a 1–2–1 smoother is applied in the vertical 10 times for plotting purposes. The solid orange line is the average tropopause height for hurricanes, and the dashed orange line is the average tropopause height for weak TCs.}
+\label{fig:tempdiffs}
+\end{figure*}
+
+%FIGURE 7%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig7_pdf_perturbs_intensity.png}}
+\caption{Probability distributions of the perturbation static stability and vertical wind shear terms (10\textsuperscript{-4} s\textsuperscript{-2}) of the bulk Richardson number for hurricanes and weak TCs. Perturbations are computed by subtracting the azimuthal average from each individual observation within the 400-km radius and between the 11- and 15-km levels, using 100-km-wide, nonoverlapping radial bins. The physical characteristics of static stability and vertical wind shear cause the perturbation distributions to be primarily negative, as discussed in Section \ref{section:resultssection??}.}
+\label{fig:dist-pert}
+\end{figure*}
+
+%FIGURE 8%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig8_brch_intensity.png}}
+\caption{As in Fig. \ref{fig:rb-strat}, but for all sondes released at (a) 0000 UTC (evening) and (b) 1200 UTC (morning). Sondes released at 0600 and 1800 UTC are not considered here because their numbers are much fewer and the observations are skewed toward more intense TCs. The exclusion of these sondes from more intense TCs yields a smaller overall frequency of $R_b < 0.25$  here than in Fig. \ref{fig:rb-strat}.}
+\label{fig:rb-time}
+\end{figure*}
+
+%FIGURE 9%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig9_stabshear_diurnal.png}}
+\caption{As in Fig. \ref{fig:stabsheardiffs} , but for all sondes released at 1200 UTC (morning) minus all sondes released at 0000 UTC (evening), such that blue colors represent values that are smaller at 1200 UTC than at 0000 UTC. The absence of green stippling indicates that these differences are not statistically significant at the 99\% confidence interval.}
+\label{fig:stabsheartime}
+\end{figure*}
+
+%FIGURE 10%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig10_pdf_perturbs_diurnal_0-400km_11-15km_brch_-3-3.png}}
+\caption{As in Fig. \ref{fig:dist-pert}, but at 0000 UTC (solid lines) and 1200 UTC (dotted lines).}
+\label{fig:dist-pert-time}
+\end{figure*}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{44}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -51,6 +51,11 @@ Das, S.~S., A.~K. Patra, and D.~N. Rao, 2008: Vhf radar echoes in the vicinity
   of tropopause during the passage of tropical cyclone: First observations from
   the gadanki mst radar. \textit{J.\ Geophys.\ Res.}, \textbf{113~(D09113)}.
 
+\bibitem[{Das et~al.(2016)}]{Dasetal2016}
+Das, S.~S., and Coauthors, 2016: Influence of tropical cyclones on tropospheric
+  ozone: possible implications. \textit{{Atmos. Chem. Phys.}},
+  \textbf{16~(4837-4847)}.
+
 \bibitem[{Doyle et~al.(2017)}]{DoyleTCI}
 Doyle, J.~D., and Coauthors, 2017: {A view of tropical cyclones from above: The
   Tropical Cyclone Intensity (TCI) Experiment}. \textit{Bull. Amer. Meteor.
@@ -79,6 +84,11 @@ Ebert, E.~E., and G.~J. Holland, 1992: {Observations of record cold cloud-top
 Gentry, R., 1967: {Structure of the upper troposphere and lower stratosphere in
   the vicinity of Hurricane Isbell, 1964.} \textit{Pap. Meteor. Geophys.},
   \textbf{18}, 293--310.
+
+\bibitem[{Guimond et~al.(2010)Guimond, Heymsfield,, and Turk}]{Guimondetal2010}
+Guimond, S.~R., G.~Heymsfield, and F.~J. Turk, 2010: Multiscale observations of
+  hurricane dennis (2005): The effects of hot towers on rapid intensification.
+  \textit{J.\ Atmos.\ Sci.}, \textbf{67~(633-653)}.
 
 \bibitem[{Hock and Franklin(1999)Hock, and Franklin}]{HockFranklin1999}
 Hock, T.~F., and J.~L. Franklin, 1999: {The NCAR GPS dropwindsonde}.
@@ -143,6 +153,16 @@ Molinari, J., and D.~Vollaro, 2010: {Distribution of helicity, CAPE, and shear
 \bibitem[{Ohno and Satoh(2015)Ohno, and Satoh}]{OhnoSatoh2015}
 Ohno, T., and M.~Satoh, 2015: On the warm core of a tropical cyclone formed
   near the tropopause. \textit{J.\ Atmos.\ Sci.}, \textbf{72}, 551--571.
+
+\bibitem[{Penn(1965)}]{Penn1965}
+Penn, S., 1965: Ozone and temperature structure in a hurricane. \textit{{J.
+  Appl. Meteor.}}, \textbf{4~(212-216)}.
+
+\bibitem[{Robinson and Sherwood(2006)Robinson, and
+  Sherwood}]{RobinsonSherwood2006}
+Robinson, F., and S.~Sherwood, 2006: Modeling the impact of convective
+  entrainment on the tropical tropopause. \textit{J.\ Atmos.\ Sci.},
+  \textbf{63~(1013-1027)}.
 
 \bibitem[{Rogers et~al.(2017)Rogers, Aberson, Bell, Cecil, Doyle, Morgerman,
   Shay,, and Velden}]{Rogersetal2017}
@@ -215,5 +235,10 @@ Yuter, S.~E., and R.~A. Houze, 1995: {Three-dimensional kinematic and
   microphysics evolution of Florida cumulonimbus. Part II: Frequency
   distributions of vertical velocity, reflectivity, and differential
   reflectivity}. \textit{Mon.\ Wea.\ Rev.}, \textbf{123}, 1941--1963.
+
+\bibitem[{Zhang and Chen(2012)Zhang, and Chen}]{ZhangChen2012}
+Zhang, D.-L., and H.~Chen, 2012: Importance of the upper-level warm core in the
+  rapid intensification of a tropical cyclone. \textit{Geophys.\ Res.\ Lett.},
+  \textbf{39~(L02806)}.
 
 \end{thebibliography}

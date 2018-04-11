@@ -1,4 +1,4 @@
-\begin{thebibliography}{48}
+\begin{thebibliography}{58}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -21,6 +21,10 @@ Black, P., L.~Harrison, M.~Beaubien, R.~Bluth, R.~Woods, A.~Penny, R.~W. Smith,
   atmospheric profiling}. \textit{J.\ Atmos.\ Oceanic Technol.}, \textbf{34},
   777--796.
 
+\bibitem[{Bowman and Fowler(2015)Bowman, and Fowler}]{BowmanFowler2015}
+Bowman, K.~P., and M.~D. Fowler, 2015: {The diurnal cycle of precipitation in
+  tropical cyclones}. \textit{J.\ Climate}, \textbf{28}, 5325--5334.
+
 \bibitem[{Braun et~al.(2016)Braun, Newman,, and Heymsfield}]{Braunetal2016}
 Braun, S.~A., P.~A. Newman, and G.~M. Heymsfield, 2016: {NASA's Hurricane and
   Severe Storm Sentinel (HS3) Investigation}. \textit{Bull.\ Amer.\ Meteor.\
@@ -35,10 +39,15 @@ Bryan, G.~H., and R.~Rotunno, 2009: {The maximum intensity of tropical cyclones
   in axisymmetric numerical model simulations}. \textit{Mon.\ Wea.\ Rev.},
   \textbf{137~(6)}, 1770--1789.
 
-\bibitem[{Bu et~al.(2014)Bu, Fovell,, and Corbosiero}]{Buetal}
+\bibitem[{Bu et~al.(2014)Bu, Fovell,, and Corbosiero}]{Buetal2014}
 Bu, Y.~P., R.~G. Fovell, and K.~L. Corbosiero, 2014: Influence of
   cloud-radiative forcing on tropical cyclone structure. \textit{J.\ Atmos.\
   Sci.}, \textbf{71}, 1644--1622.
+
+\bibitem[{Chen and Zhang(2013)Chen, and Zhang}]{ChenZhang2013}
+Chen, H., and D.-L. Zhang, 2013: On the rapid intensification of hurricane
+  wilma (2005). part ii: Convective bursts and the upper-level warm core.
+  \textit{J.\ Atmos.\ Sci.}, \textbf{70~(146-162)}.
 
 \bibitem[{Danielsen(1993)}]{Danielsen1993}
 Danielsen, E.~F., 1993: {In situ evidence of rapid, vertical, irreversible
@@ -65,6 +74,11 @@ Doyle, J.~D., and Coauthors, 2017: {A view of tropical cyclones from above: The
 Dunion, J.~P., 2011: Rewriting the climatology of the tropical north atlantic
   and caribbean sea atmosphere. \textit{J.\ Climate}, \textbf{24}, 893--908.
 
+\bibitem[{Dunion et~al.(2014)Dunion, Thorncroft,, and Velden}]{Dunionetal2014}
+Dunion, J.~P., C.~D. Thorncroft, and C.~S. Velden, 2014: The tropical cyclone
+  diurnal cycle of mature hurricanes. \textit{Mon.\ Wea.\ Rev.}, \textbf{142},
+  3900--3919.
+
 \bibitem[{Duran and Molinari(2016)Duran, and Molinari}]{DuranMolinari2016}
 Duran, P., and J.~Molinari, 2016: {Upper-tropospheric low Richardson number in
   tropical cyclones: Sensitivity to cyclone intensity and the diurnal cycle}.
@@ -79,6 +93,15 @@ Duran, P., and J.~Molinari, 2018: {Dramatic inner-core tropopause variability
 Ebert, E.~E., and G.~J. Holland, 1992: {Observations of record cold cloud-top
   temperatures in Tropical Cyclone Hilda (1990)}. \textit{Mon.\ Wea.\ Rev.},
   \textbf{120}, 2240--2251.
+
+\bibitem[{Emanuel and Rotunno(2011)Emanuel, and Rotunno}]{EmanuelRotunno2011}
+Emanuel, K., and R.~Rotunno, 2011: {Self-stratification of tropical cyclone
+  outflow. Part I: Implications for storm structure}. \textit{J.\ Atmos.\
+  Sci.}, \textbf{68}, 2236--2249.
+
+\bibitem[{Garrett et~al.(2005)}]{Garrettetal2005}
+Garrett, T.~J., and Coauthors, 2005: {Evolution of a Florida cirrus anvil}.
+  \textit{J.\ Atmos.\ Sci.}, \textbf{62}, 2352--2372.
 
 \bibitem[{Gentry(1967)}]{Gentry1967}
 Gentry, R., 1967: {Structure of the upper troposphere and lower stratosphere in
@@ -112,6 +135,10 @@ Jarvinen, B.~R., C.~J. Neumann, and M.~A.~S. Davis, 1984: {A tropical cyclone
 Jordan, C.~L., 1958: {Mean soundings for the West Indes area}. \textit{J.\
   Meteor.}, \textbf{15}, 91--97.
 
+\bibitem[{Jordan and Jordan(1954)Jordan, and Jordan}]{JordanJordan1954}
+Jordan, C.~L., and E.~S. Jordan, 1954: {On the mean thermal structure of
+  tropical cyclones}. \textit{{J. Meteor.}}, \textbf{11}, 440--448.
+
 \bibitem[{Kieu et~al.(2016)Kieu, Tallapragada, Zhang,, and Moon}]{Kieuetal2016}
 Kieu, C., V.~Tallapragada, D.-L. Zhang, and Z.~Moon, 2016: {On the development
   of double warm-core structures in intense tropical cyclones}. \textit{J.\
@@ -128,6 +155,10 @@ Komaromi, W.~A., and J.~D. Doyle, 2017: Tropical cyclone outflow and warm core
   structure as revealed by {HS3} dropsonde data. \textit{Mon.\ Wea.\ Rev.},
   \textbf{145}, 1339--1359.
 
+\bibitem[{Koteswaram(1957)}]{Koteswaram1967}
+Koteswaram, P., 1957: {On the structure of hurricanes in the upper troposphere
+  and lower stratosphere}. \textit{Mon.\ Wea.\ Rev.}, \textbf{95}, 541--564.
+
 \bibitem[{Kuang and Bretherton(2004)Kuang, and
   Bretherton}]{KuangBretherton2004}
 Kuang, Z., and C.~S. Bretherton, 2004: Convective influence on the heat balance
@@ -141,6 +172,11 @@ Lazzara, M.~A., J.~M. Benson, R.~J. Fox, D.~J. Laitsch, J.~P. Rueden, D.~A.
   Data Access System: 25 years of interactive processing}. \textit{Bull.\
   Amer.\ Meteor.\ Soc.}, \textbf{80}, 271--287.
 
+\bibitem[{Lenz et~al.(2009)Lenz, Bedka, Feltz,, and Ackerman}]{Lenzetal2009}
+Lenz, A., K.~M. Bedka, W.~F. Feltz, and S.~A. Ackerman, 2009: {Convectively
+  induced transverse band signatures in satellite imagery}. \textit{Wea.\
+  Forecasting}, \textbf{24}, 1362--1373.
+
 \bibitem[{Love and Geller(2012)Love, and Geller}]{LoveGeller2012}
 Love, P.~T., and M.~A. Geller, 2012: Research using high (and higher)
   resolution radiosonde data. \textit{{Eos, Trans. Amer. Geophys. Union}},
@@ -150,6 +186,11 @@ Love, P.~T., and M.~A. Geller, 2012: Research using high (and higher)
 Markowski, P.~M., and G.~H. Bryan, 2016: {LES} of laminar flow in the {PBL}: A
   potential problem for convective storm simulations. \textit{Mon.\ Wea.\
   Rev.}, \textbf{144}, 1841--1850.
+
+\bibitem[{Melhauser and Zhang(2014)Melhauser, and Zhang}]{MelhauserZhang2014}
+Melhauser, C., and F.~Zhang, 2014: {Diurnal radiation cycle impact on the
+  pregenesis environment of Hurricane Karl (2010)}. \textit{J.\ Atmos.\ Sci.},
+  \textbf{71}, 1241--1259.
 
 \bibitem[{Molinari et~al.(2014)Molinari, Duran,, and
   Vollaro}]{Molinarietal2014}
@@ -232,6 +273,13 @@ Trier, S.~B., and R.~D. Sharman, 2009: {Convection-permitting simulations of
   the environment supporting widespread turbulence within the upper-level
   outflow of a mesoscale convective system}. \textit{Mon.\ Wea.\ Rev.},
   \textbf{137}, 1972--1990.
+
+\bibitem[{Trier et~al.(2010)Trier, Sharman, Fovell,, and
+  Frehlich}]{Trieretal2010}
+Trier, S.~B., R.~D. Sharman, R.~G. Fovell, and R.~G. Frehlich, 2010: {Numerical
+  simulation of radial cloud bands within the upper-level outflow of an
+  observed mesoscale convective system}. \textit{J.\ Atmos.\ Sci.},
+  \textbf{67}, 2990--2999.
 
 \bibitem[{{University of Wyoming}(2016)}]{Wyoming2016}
 {University of Wyoming}, 2016: {Atmospheric Soundings. University of Wyoming,

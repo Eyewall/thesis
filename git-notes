@@ -40,6 +40,23 @@ PULL CHANGES FROM SERVER: git pull origin master
 LIST FILES BEING TRACKED: git ls-tree -r master --name-only
 
 ##############################################################
+                           MERGING
+##############################################################
+-Issue the command 'git mergetool --tool=vimdiff'
+-A three-pane window will pop up:
+   -Left pane: Target branch (the branch that was active when we ran git merge)
+   -Center pane: Working copy (what will be saved when we finish merging)
+   -Right pane: Mere branch (what we're trying to merge into Target branch)
+-Get the buffer numbers for each pane by running :ls
+-Move cursor in middle pane to highlighted confict. Merge using these commands:
+   diffget buffer# - Get lines from buffer and put them into current buffer
+   diffput buffer# - Get lines from current buffer and put them in other buffer
+   diffupdate - Updates the highlighting after merging lines
+-Save, commit, and push, if necessary
+For more detail, see:
+http://vimcasts.org/episodes/fugitive-vim-resolving-merge-conflicts-with-vimdiff 
+
+##############################################################
 		     A FEW PERSONAL NOTES
 ###############################################################
 - BEFORE YOU START WORKING, BE SURE TO PULL CHANGES FROM SERVER.

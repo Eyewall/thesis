@@ -1,4 +1,4 @@
-\begin{thebibliography}{59}
+\begin{thebibliography}{79}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -13,6 +13,10 @@
 Bell, M.~M., and Coauthors, 2016: Office of {N}aval {R}esearch {T}ropical
   {C}yclone {I}ntensity ({TCI}) 2015 {NASA WB}-57 {H}igh {D}ensity {D}ropsonde
   {S}ounding {S}ystem ({HDSS}) data, version 1.0. \doi{10.5065/D6KW5D8M}.
+
+\bibitem[{Bister and Emanuel(1998)Bister, and Emanuel}]{BisterEmanuel1998}
+Bister, M., and K.~A. Emanuel, 1998: {Dissipative heating and hurricane
+  intensity.} \textit{Meteor. Atmos. Phys.}, \textbf{65}, 233--240.
 
 \bibitem[{Black et~al.(2017)Black, Harrison, Beaubien, Bluth, Woods, Penny,
   Smith,, and Doyle}]{Blacketal2017}
@@ -43,6 +47,12 @@ Bryan, G.~H., and R.~Rotunno, 2009: {The maximum intensity of tropical cyclones
 Bu, Y.~P., R.~G. Fovell, and K.~L. Corbosiero, 2014: Influence of
   cloud-radiative forcing on tropical cyclone structure. \textit{J.\ Atmos.\
   Sci.}, \textbf{71}, 1644--1622.
+
+\bibitem[{Chen and Gopalakrishnan(2015)Chen, and
+  Gopalakrishnan}]{ChenGopalakrishnan2015}
+Chen, H., and S.~G. Gopalakrishnan, 2015: {A study of the asymmetric rapid
+  intensification of Hurricane Earl (2010) using the HWRF system}. \textit{J.\
+  Atmos.\ Sci.}, \textbf{72}, 531--549.
 
 \bibitem[{Chen and Zhang(2013)Chen, and Zhang}]{ChenZhang2013}
 Chen, H., and D.-L. Zhang, 2013: On the rapid intensification of hurricane
@@ -104,6 +114,19 @@ Emanuel, K., and R.~Rotunno, 2011: {Self-stratification of tropical cyclone
   outflow. Part I: Implications for storm structure}. \textit{J.\ Atmos.\
   Sci.}, \textbf{68}, 2236--2249.
 
+\bibitem[{Emanuel et~al.(2013)Emanuel, Solomon, Folini, Davis,, and
+  Cagnazzo}]{Emanueletal2013}
+Emanuel, K.~A., S.~Solomon, D.~Folini, S.~Davis, and C.~Cagnazzo, 2013:
+  {Influence of tropical tropopause layer cooling on Atlantic hurricane
+  activity}. \textit{J.\ Climate}, \textbf{26}, 2288--2301.
+
+\bibitem[{Ferreira et~al.(2016)Ferreira, Castanheira,, and
+  Gimeno}]{Ferreiraetal2016}
+Ferreira, A.~P., J.~M. Castanheira, and L.~Gimeno, 2016: {Water vapour
+  stratification and dynamical warming behind the sharpness of the Earth’s
+  midlatitude tropopause}. \textit{Quart.\ J.\ Roy.\ Meteor.\ Soc.},
+  \textbf{142}, 957--970.
+
 \bibitem[{Garrett et~al.(2005)}]{Garrettetal2005}
 Garrett, T.~J., and Coauthors, 2005: {Evolution of a Florida cirrus anvil}.
   \textit{J.\ Atmos.\ Sci.}, \textbf{62}, 2352--2372.
@@ -113,10 +136,35 @@ Gentry, R., 1967: {Structure of the upper troposphere and lower stratosphere in
   the vicinity of Hurricane Isbell, 1964.} \textit{Pap. Meteor. Geophys.},
   \textbf{18}, 293--310.
 
+\bibitem[{Grise et~al.(2010)Grise, Thompson,, and Birner}]{Griseetal2010}
+Grise, K.~M., D.~W.~J. Thompson, and T.~Birner, 2010: {A global survey of
+  static stability in the stratosphere and upper troposphere}. \textit{J.\
+  Climate}, \textbf{23}, 2275--2292.
+
 \bibitem[{Guimond et~al.(2010)Guimond, Heymsfield,, and Turk}]{Guimondetal2010}
 Guimond, S.~R., G.~Heymsfield, and F.~J. Turk, 2010: Multiscale observations of
   hurricane dennis (2005): The effects of hot towers on rapid intensification.
   \textit{J.\ Atmos.\ Sci.}, \textbf{67~(633-653)}.
+
+\bibitem[{Halverson et~al.(2006)Halverson, Simpson, Heymsfield, Pierce, Hock,,
+  and Ritchie}]{Halversonetal2006}
+Halverson, J.~B., J.~Simpson, G.~Heymsfield, H.~Pierce, T.~Hock, and
+  L.~Ritchie, 2006: {Warm core structure of Hurricane Erin diagnosed from high
+  altitude dropsondes during CAMEX-4}. \textit{J.\ Atmos.\ Sci.}, \textbf{63},
+  309--324.
+
+\bibitem[{Haurwitz(1935)}]{Haurwitz1935}
+Haurwitz, B., 1935: {The height of tropical cyclones and of the ‘‘eye’’
+  of the storm}. \textit{Mon.\ Wea.\ Rev.}, \textbf{63}, 45--49.
+
+\bibitem[{Hawkins and Imbembo(1976)Hawkins, and Imbembo}]{HawkinsImbembo1976}
+Hawkins, H.~F., and S.~M. Imbembo, 1976: {The structure of a small, intense
+  hurricane---Inez 1966}. \textit{Mon.\ Wea.\ Rev.}, \textbf{104}, 418--442.
+
+\bibitem[{Hawkins and Rubsam(1968)Hawkins, and Rubsam}]{HawkinsRubsam1968}
+Hawkins, H.~F., and D.~T. Rubsam, 1968: {Hurricane Hilda, 1964. II. Structure
+  and budgets of the hurricane on October 1, 1964}. \textit{Mon.\ Wea.\ Rev.},
+  \textbf{96}, 617--636.
 
 \bibitem[{Hock and Franklin(1999)Hock, and Franklin}]{HockFranklin1999}
 Hock, T.~F., and J.~L. Franklin, 1999: {The NCAR GPS dropwindsonde}.
@@ -170,6 +218,17 @@ Kuang, Z., and C.~S. Bretherton, 2004: Convective influence on the heat balance
   of the tropical tropopause layer: A cloud-resolving model study. \textit{J.\
   Atmos.\ Sci.}, \textbf{61}, 2919--2927.
 
+\bibitem[{La~Seur and Hawkins(1963)La~Seur, and Hawkins}]{LaSeurandHawkins1963}
+La~Seur, N.~E., and H.~F. Hawkins, 1963: {An analysis of Hurricane Cleo (1958)
+  based on data from research reconnaissance aircraft}. \textit{Mon.\ Wea.\
+  Rev.}, \textbf{91}, 694--709.
+
+\bibitem[{Lane et~al.(2012)Lane, Sharman, Trier, Fovell,, and
+  Williams}]{Laneetal2012}
+Lane, T.~P., R.~D. Sharman, S.~B. Trier, R.~G. Fovell, and J.~K. Williams,
+  2012: {Recent advances in the understanding of near-cloud turbulence}.
+  \textit{Bull.\ Amer.\ Meteor.\ Soc.}, \textbf{93}, 499--516.
+
 \bibitem[{Lazzara et~al.(1999)Lazzara, Benson, Fox, Laitsch, Rueden, Santek,
   Whittaker,, and Young}]{Lazzaraetal1999}
 Lazzara, M.~A., J.~M. Benson, R.~J. Fox, D.~J. Laitsch, J.~P. Rueden, D.~A.
@@ -186,6 +245,10 @@ Lenz, A., K.~M. Bedka, W.~F. Feltz, and S.~A. Ackerman, 2009: {Convectively
 Love, P.~T., and M.~A. Geller, 2012: Research using high (and higher)
   resolution radiosonde data. \textit{{Eos, Trans. Amer. Geophys. Union}},
   \textbf{93~(337-344)}.
+
+\bibitem[{Malkus(1958)}]{Malkus1958}
+Malkus, J.~S., 1958: {On the structure and maintenance of the mature hurricane
+  eye}. \textit{{J. Meteor.}}, \textbf{15}, 337--349.
 
 \bibitem[{Markowski and Bryan(2016)Markowski, and Bryan}]{MarkowskiBryan2016}
 Markowski, P.~M., and G.~H. Bryan, 2016: {LES} of laminar flow in the {PBL}: A
@@ -215,6 +278,16 @@ Ohno, T., and M.~Satoh, 2015: On the warm core of a tropical cyclone formed
 \bibitem[{Penn(1965)}]{Penn1965}
 Penn, S., 1965: Ozone and temperature structure in a hurricane. \textit{{J.
   Appl. Meteor.}}, \textbf{4~(212-216)}.
+
+\bibitem[{Penn(1966)}]{Penn1966}
+Penn, S., 1966: {Temperature and ozone variations near tropopause level over
+  Hurricane Isbell October 1964}. \textit{{J. Appl. Meteor.}}, \textbf{5},
+  407--410.
+
+\bibitem[{Randel et~al.(2007)Randel, Wu,, and Forser}]{Randeletal2007}
+Randel, W.~J., F.~Wu, and P.~Forser, 2007: {The extratropical tropopause
+  inversion layer: Global observations with GPS data, and a radiative forcing
+  mechanism}. \textit{J.\ Atmos.\ Sci.}, \textbf{64}, 4489--4496.
 
 \bibitem[{Robinson and Sherwood(2006)Robinson, and
   Sherwood}]{RobinsonSherwood2006}
@@ -262,6 +335,14 @@ Sherwood, S.~C., T.~Horinouchi, and H.~A. Zeleznik, 2003: Convective impact on
   temperatures observed near the tropical tropopause. \textit{J.\ Atmos.\
   Sci.}, \textbf{60}, 1847--1856.
 
+\bibitem[{Smith(1980)}]{Smith1980}
+Smith, R.~K., 1980: {Tropical cyclone eye dynamics}. \textit{J.\ Atmos.\ Sci.},
+  \textbf{37}, 1227--1232.
+
+\bibitem[{Stern and Nolan(2012)Stern, and Nolan}]{SternNolan2012}
+Stern, D.~P., and D.~S. Nolan, 2012: {On the height of the warm core in
+  tropical cyclones}. \textit{J.\ Atmos.\ Sci.}, \textbf{69}, 1657--1679.
+
 \bibitem[{Stern and Zhang(2013)Stern, and Zhang}]{SternZhang2013}
 Stern, D.~P., and F.~Zhang, 2013: {How does the eye warm? Part I: A potential
   temperature budget analysis of an idealized tropical cyclone}. \textit{J.\
@@ -273,7 +354,7 @@ Thompson, G., R.~M. Rasmussen, and K.~Manning, 2004: {Explicit Forecasts of
   Description and Sensitivity Analysis}. \textit{Mon. Wea. Rev.},
   \textbf{132~(2)}, 519--542.
 
-\bibitem[{Trier and Sharman(2009)Trier, and Sharman}]{TrierSharman}
+\bibitem[{Trier and Sharman(2009)Trier, and Sharman}]{TrierSharman2009}
 Trier, S.~B., and R.~D. Sharman, 2009: {Convection-permitting simulations of
   the environment supporting widespread turbulence within the upper-level
   outflow of a mesoscale convective system}. \textit{Mon.\ Wea.\ Rev.},
@@ -295,6 +376,20 @@ Trier, S.~B., R.~D. Sharman, R.~G. Fovell, and R.~G. Frehlich, 2010: {Numerical
 Waco, D.~E., 1970: {Temperatures and turbulence at tropopause levels over
   Hurricane Beulah (1967)}. \textit{Mon.\ Wea.\ Rev.}, \textbf{98}, 749--755.
 
+\bibitem[{Wang et~al.(2014)Wang, Camargo, Sobel,, and Polvani}]{Wangetal2014}
+Wang, S., S.~J. Camargo, A.~H. Sobel, and L.~M. Polvani, 2014: {Impact of the
+  tropopause temperature on the intensity of tropical cyclones: An idealized
+  study using a mesoscale model}. \textit{J.\ Atmos.\ Sci.}, \textbf{71},
+  4333--4348.
+
+\bibitem[{Willoughby(1979)}]{Willoughby1979}
+Willoughby, H.~E., 1979: {Forced secondary circulations in hurricanes}.
+  \textit{J.\ Geophys.\ Res.}, \textbf{84}, 3173--3183.
+
+\bibitem[{Wirth(2003)}]{Wirth2003}
+Wirth, V., 2003: {Static stability in the extratropical tropopause region}.
+  \textit{J.\ Atmos.\ Sci.}, \textbf{60}, 1395--1409.
+
 \bibitem[{WMO(1957)}]{WMO1957}
 WMO, 1957: {Meteorology---A three-dimensional science.} \textit{{WMO Bull.}},
   \textbf{6~(134-138)}.
@@ -313,5 +408,11 @@ Yuter, S.~E., and R.~A. Houze, 1995: {Three-dimensional kinematic and
 Zhang, D.-L., and H.~Chen, 2012: Importance of the upper-level warm core in the
   rapid intensification of a tropical cyclone. \textit{Geophys.\ Res.\ Lett.},
   \textbf{39~(L02806)}.
+
+\bibitem[{Zovko-Rajak and Lane(2014)Zovko-Rajak, and
+  Lane}]{Zovko-RajakLane2014}
+Zovko-Rajak, D., and T.~P. Lane, 2014: {The generation of near-cloud turbulence
+  in idealized simulations}. \textit{J.\ Atmos.\ Sci.}, \textbf{71},
+  2430--2450.
 
 \end{thebibliography}

@@ -10,29 +10,8 @@ A level-1 auxiliary file: modeling.aux
 A level-1 auxiliary file: hs3.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "Emanueletal2013"
-Warning--I didn't find a database entry for "BisterEmanuel1998"
-Warning--I didn't find a database entry for "Wangetal2014"
-Warning--I didn't find a database entry for "Penn1966"
 Warning--I didn't find a database entry for "LaSeurHawkins1963"
-Warning--I didn't find a database entry for "LaSeurandHawkins1963"
-Warning--I didn't find a database entry for "HawkinsRubsam1968"
-Warning--I didn't find a database entry for "HawkinsImbembo1976"
-Warning--I didn't find a database entry for "Haurwitz1935"
-Warning--I didn't find a database entry for "Malkus1958"
-Warning--I didn't find a database entry for "Willoughby1979"
-Warning--I didn't find a database entry for "Smith1980"
-Warning--I didn't find a database entry for "SternNolan2012"
-Warning--I didn't find a database entry for "Halversonetal2006"
 Warning--I didn't find a database entry for "PendergrassWilloughby2009"
-Warning--I didn't find a database entry for "ChenGopalakrishnan2015"
-Warning--I didn't find a database entry for "Wirth2003"
-Warning--I didn't find a database entry for "Griseetal2010"
-Warning--I didn't find a database entry for "Randeletal2007"
-Warning--I didn't find a database entry for "Ferreiraetal2016"
-Warning--I didn't find a database entry for "Laneetal2012"
-Warning--I didn't find a database entry for "TrierSharman2009"
-Warning--I didn't find a database entry for "Zovko-RajakLane2014"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in BellTCI
 Warning--missing publisher in Bryan2017
@@ -40,45 +19,45 @@ Warning--missing publisher in Jarvinenetal1984
 Warning--missing publisher in Kimberlainetal2016
 Warning--missing publisher in Wyoming2016
 Warning--missing publisher in WMO1998
-You've used 59 entries,
+You've used 79 entries,
             3493 wiz_defined-function locations,
-            1277 strings with 18737 characters,
-and the built_in function-call counts, 58318 in all, are:
-= -- 6831
-> -- 1808
-< -- 35
-+ -- 1100
-- -- 456
-* -- 2968
-:= -- 6086
-add.period$ -- 118
-call.type$ -- 59
-change.case$ -- 445
-chr.to.int$ -- 59
-cite$ -- 65
-duplicate$ -- 5999
-empty$ -- 3226
-format.name$ -- 608
-if$ -- 11917
+            1351 strings with 21168 characters,
+and the built_in function-call counts, 80619 in all, are:
+= -- 9597
+> -- 2390
+< -- 48
++ -- 1490
+- -- 603
+* -- 4037
+:= -- 8255
+add.period$ -- 158
+call.type$ -- 79
+change.case$ -- 594
+chr.to.int$ -- 79
+cite$ -- 85
+duplicate$ -- 8384
+empty$ -- 4407
+format.name$ -- 803
+if$ -- 16481
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 607
-newline$ -- 188
-num.names$ -- 236
-pop$ -- 2771
+missing$ -- 816
+newline$ -- 248
+num.names$ -- 316
+pop$ -- 3810
 preamble$ -- 1
-purify$ -- 384
+purify$ -- 513
 quote$ -- 0
-skip$ -- 3391
+skip$ -- 4804
 stack$ -- 0
-substring$ -- 2733
-swap$ -- 4772
+substring$ -- 3889
+swap$ -- 6777
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 531
+type$ -- 711
 warning$ -- 6
-while$ -- 263
+while$ -- 363
 width$ -- 0
-write$ -- 653
-(There were 29 warnings)
+write$ -- 873
+(There were 8 warnings)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  23 APR 2018 20:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  23 APR 2018 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1157,10 +1157,124 @@ LaTeX Info: Redefining \nameref on input line 25.
 
 (./introduction.tex
  1.
+
+Package natbib Warning: Citation `Emanueletal2013' on page 1 undefined on input
+ line 16.
+
+
+Package natbib Warning: Citation `BisterEmanuel1998' on page 1 undefined on inp
+ut line 16.
+
+
+Package natbib Warning: Citation `Wangetal2014' on page 1 undefined on input li
+ne 17.
+
 [1
 
 
-])
+]
+
+Package natbib Warning: Citation `Penn1966' on page 2 undefined on input line 2
+8.
+
+
+Package natbib Warning: Citation `LaSeurHawkins1963' on page 2 undefined on inp
+ut line 35.
+
+
+Package natbib Warning: Citation `LaSeurandHawkins1963' on page 2 undefined on 
+input line 35.
+
+
+Package natbib Warning: Citation `HawkinsRubsam1968' on page 2 undefined on inp
+ut line 35.
+
+
+Package natbib Warning: Citation `HawkinsRubsam1968' on page 2 undefined on inp
+ut line 35.
+
+
+Package natbib Warning: Citation `HawkinsImbembo1976' on page 2 undefined on in
+put line 35.
+
+
+Package natbib Warning: Citation `HawkinsImbembo1976' on page 2 undefined on in
+put line 35.
+
+
+Package natbib Warning: Citation `HawkinsImbembo1976' on page 2 undefined on in
+put line 36.
+
+
+Package natbib Warning: Citation `HawkinsImbembo1976' on page 2 undefined on in
+put line 36.
+
+
+Package natbib Warning: Citation `Haurwitz1935' on page 2 undefined on input li
+ne 38.
+
+
+Package natbib Warning: Citation `Malkus1958' on page 2 undefined on input line
+ 39.
+
+
+Package natbib Warning: Citation `Malkus1958' on page 2 undefined on input line
+ 39.
+
+
+Package natbib Warning: Citation `Willoughby1979' on page 2 undefined on input 
+line 39.
+
+
+Package natbib Warning: Citation `Willoughby1979' on page 2 undefined on input 
+line 39.
+
+
+Package natbib Warning: Citation `Smith1980' on page 2 undefined on input line 
+39.
+
+
+Package natbib Warning: Citation `Smith1980' on page 2 undefined on input line 
+39.
+
+
+Package natbib Warning: Citation `HawkinsImbembo1976' on page 2 undefined on in
+put line 41.
+
+
+Package natbib Warning: Citation `SternNolan2012' on page 2 undefined on input 
+line 42.
+
+
+Package natbib Warning: Citation `Halversonetal2006' on page 2 undefined on inp
+ut line 44.
+
+
+Package natbib Warning: Citation `PendergrassWilloughby2009' on page 2 undefine
+d on input line 50.
+
+
+Package natbib Warning: Citation `ChenGopalakrishnan2015' on page 2 undefined o
+n input line 54.
+
+[2] [3]
+
+Package natbib Warning: Citation `Wirth2003' on page 4 undefined on input line 
+64.
+
+
+Package natbib Warning: Citation `Griseetal2010' on page 4 undefined on input l
+ine 65.
+
+
+Package natbib Warning: Citation `Randeletal2007' on page 4 undefined on input 
+line 65.
+
+
+Package natbib Warning: Citation `Ferreiraetal2016' on page 4 undefined on inpu
+t line 65.
+
+[4])
 \openout2 = `turb.aux'.
 
  (./turb.tex
@@ -1171,23 +1285,23 @@ Overfull \hbox (13.60117pt too wide) in paragraph at lines 29--31
  and 218 ques-tion-able soundings---
  []
 
-[2
+[5
 
 
 
 
-] [3] [4]
+] [6] [7]
 Overfull \hbox (13.50537pt too wide) in paragraph at lines 89--92
 []\T1/cmr/m/n/12 Stratifying the sound-ings by in-ten-sity re-veals strik-ing d
 if-fer-ences in the upper-tropospheric
  []
 
-[5] [6] [7] [8] [9]
+[8] [9] [10] [11] [12]
 
-LaTeX Warning: Reference `stabsheartime' on page 10 undefined on input line 167
+LaTeX Warning: Reference `stabsheartime' on page 13 undefined on input line 167
 .
 
-[10] [11] <figures/fig1_flightlevelcdo.png, id=401, 1084.05pt x 464.4853pt>
+[13] [14] <figures/fig1_flightlevelcdo.png, id=444, 1084.05pt x 464.4853pt>
 File: figures/fig1_flightlevelcdo.png Graphic file (type png)
 
 <use figures/fig1_flightlevelcdo.png>
@@ -1195,7 +1309,7 @@ Package pdftex.def Info: figures/fig1_flightlevelcdo.png used on input line 219
 .
 (pdftex.def)             Requested size: 468.0pt x 200.52567pt.
 
-<figures/fig2_brch_allsondes.png, id=403, 602.25pt x 602.25pt>
+<figures/fig2_brch_allsondes.png, id=446, 602.25pt x 602.25pt>
 File: figures/fig2_brch_allsondes.png Graphic file (type png)
 
 <use figures/fig2_brch_allsondes.png>
@@ -1203,7 +1317,7 @@ Package pdftex.def Info: figures/fig2_brch_allsondes.png used on input line 226
 .
 (pdftex.def)             Requested size: 468.0pt x 468.01627pt.
 
-<figures/fig3_dist_allsondes.png, id=404, 599.99156pt x 569.87906pt>
+<figures/fig3_dist_allsondes.png, id=447, 599.99156pt x 569.87906pt>
 File: figures/fig3_dist_allsondes.png Graphic file (type png)
 
 <use figures/fig3_dist_allsondes.png>
@@ -1211,7 +1325,7 @@ Package pdftex.def Info: figures/fig3_dist_allsondes.png used on input line 233
 .
 (pdftex.def)             Requested size: 468.0pt x 444.52126pt.
 
-<figures/fig4_brch_intensity.png, id=405, 986.18437pt x 464.4853pt>
+<figures/fig4_brch_intensity.png, id=448, 986.18437pt x 464.4853pt>
 File: figures/fig4_brch_intensity.png Graphic file (type png)
 
 <use figures/fig4_brch_intensity.png>
@@ -1219,7 +1333,7 @@ Package pdftex.def Info: figures/fig4_brch_intensity.png used on input line 241
 .
 (pdftex.def)             Requested size: 468.0pt x 220.42728pt.
 
-<figures/fig5_stabshear_intensity.png, id=408, 933.4875pt x 434.37282pt>
+<figures/fig5_stabshear_intensity.png, id=451, 933.4875pt x 434.37282pt>
 File: figures/fig5_stabshear_intensity.png Graphic file (type png)
 
 <use figures/fig5_stabshear_intensity.png>
@@ -1227,14 +1341,14 @@ Package pdftex.def Info: figures/fig5_stabshear_intensity.png used on input lin
 e 248.
 (pdftex.def)             Requested size: 468.0pt x 217.76913pt.
 
-<figures/fig6_temp_diff.png, id=411, 602.25pt x 602.25pt>
+<figures/fig6_temp_diff.png, id=454, 602.25pt x 602.25pt>
 File: figures/fig6_temp_diff.png Graphic file (type png)
 
 <use figures/fig6_temp_diff.png>
 Package pdftex.def Info: figures/fig6_temp_diff.png used on input line 255.
 (pdftex.def)             Requested size: 468.0pt x 468.01627pt.
 
-<figures/fig7_pdf_perturbs_intensity.png, id=412, 595.47469pt x 580.41844pt>
+<figures/fig7_pdf_perturbs_intensity.png, id=455, 595.47469pt x 580.41844pt>
 File: figures/fig7_pdf_perturbs_intensity.png Graphic file (type png)
 
 <use figures/fig7_pdf_perturbs_intensity.png>
@@ -1243,14 +1357,14 @@ line 262.
 (pdftex.def)             Requested size: 468.0pt x 456.16972pt.
 
 
-LaTeX Warning: Reference `section:resultssection??' on page 12 undefined on inp
+LaTeX Warning: Reference `section:resultssection??' on page 15 undefined on inp
 ut line 263.
 
 
-LaTeX Warning: Reference `section:resultssection??' on page 12 undefined on inp
+LaTeX Warning: Reference `section:resultssection??' on page 15 undefined on inp
 ut line 263.
 
-<figures/fig8_brch_intensity.png, id=413, 921.4425pt x 434.37282pt>
+<figures/fig8_brch_intensity.png, id=456, 921.4425pt x 434.37282pt>
 File: figures/fig8_brch_intensity.png Graphic file (type png)
 
 <use figures/fig8_brch_intensity.png>
@@ -1258,7 +1372,7 @@ Package pdftex.def Info: figures/fig8_brch_intensity.png used on input line 269
 .
 (pdftex.def)             Requested size: 468.0pt x 220.61253pt.
 
-<figures/fig9_stabshear_diurnal.png, id=418, 933.4875pt x 434.37282pt>
+<figures/fig9_stabshear_diurnal.png, id=461, 933.4875pt x 434.37282pt>
 File: figures/fig9_stabshear_diurnal.png Graphic file (type png)
 
 <use figures/fig9_stabshear_diurnal.png>
@@ -1266,7 +1380,7 @@ Package pdftex.def Info: figures/fig9_stabshear_diurnal.png used on input line
 276.
 (pdftex.def)             Requested size: 468.0pt x 217.76913pt.
 
-<figures/fig10_pdf_perturbs_diurnal_0-400km_11-15km_brch_-3-3.png, id=421, 593.
+<figures/fig10_pdf_perturbs_diurnal_0-400km_11-15km_brch_-3-3.png, id=464, 593.
 96906pt x 575.90157pt>
 File: figures/fig10_pdf_perturbs_diurnal_0-400km_11-15km_brch_-3-3.png Graphic 
 file (type png)
@@ -1276,21 +1390,21 @@ Package pdftex.def Info: figures/fig10_pdf_perturbs_diurnal_0-400km_11-15km_brc
 h_-3-3.png used on input line 283.
 (pdftex.def)             Requested size: 468.0pt x 453.77972pt.
 )
-[12] [13 <./figures/fig1_flightlevelcdo.png>] [14 <./figures/fig2_brch_allsonde
-s.png>] [15 <./figures/fig3_dist_allsondes.png>] [16 <./figures/fig4_brch_inten
-sity.png> <./figures/fig5_stabshear_intensity.png>] [17 <./figures/fig6_temp_di
-ff.png>] [18 <./figures/fig7_pdf_perturbs_intensity.png>] [19 <./figures/fig8_b
-rch_intensity.png> <./figures/fig9_stabshear_diurnal.png>] [20 <./figures/fig10
+[15] [16 <./figures/fig1_flightlevelcdo.png>] [17 <./figures/fig2_brch_allsonde
+s.png>] [18 <./figures/fig3_dist_allsondes.png>] [19 <./figures/fig4_brch_inten
+sity.png> <./figures/fig5_stabshear_intensity.png>] [20 <./figures/fig6_temp_di
+ff.png>] [21 <./figures/fig7_pdf_perturbs_intensity.png>] [22 <./figures/fig8_b
+rch_intensity.png> <./figures/fig9_stabshear_diurnal.png>] [23 <./figures/fig10
 _pdf_perturbs_diurnal_0-400km_11-15km_brch_-3-3.png>]
 \openout2 = `patricia.aux'.
 
  (./patricia.tex
  3.
-[21
+[24
 
 
 
-] [22]
+] [25]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 57.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1301,21 +1415,21 @@ ia . trak$[]\T1/cmr/m/n/12 ). The WB-57 drop-sonde
  []
 
 
-LaTeX Warning: Reference `patricia_ir' on page 23 undefined on input line 70.
+LaTeX Warning: Reference `patricia_ir' on page 26 undefined on input line 70.
 
-[23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
+[26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37]
 Overfull \hbox (26.42305pt too wide) in paragraph at lines 258--268
  [] 
  []
 
-<figures/fig01_patricia_ir.png, id=766, 1171.37625pt x 1151.80313pt>
+<figures/fig01_patricia_ir.png, id=801, 1171.37625pt x 1151.80313pt>
 File: figures/fig01_patricia_ir.png Graphic file (type png)
 
 <use figures/fig01_patricia_ir.png>
 Package pdftex.def Info: figures/fig01_patricia_ir.png used on input line 275.
 (pdftex.def)             Requested size: 468.0pt x 460.18584pt.
 
-<figures/fig02_patricia-intensity.png, id=767, 803.0pt x 803.0pt>
+<figures/fig02_patricia-intensity.png, id=802, 803.0pt x 803.0pt>
 File: figures/fig02_patricia-intensity.png Graphic file (type png)
 
 <use figures/fig02_patricia-intensity.png>
@@ -1323,7 +1437,7 @@ Package pdftex.def Info: figures/fig02_patricia-intensity.png used on input lin
 e 282.
 (pdftex.def)             Requested size: 468.0pt x 468.0071pt.
 
-<figures/fig03_cp_temp+theta+pres.png, id=774, 786.94pt x 2372.865pt>
+<figures/fig03_cp_temp+theta+pres.png, id=809, 786.94pt x 2372.865pt>
 File: figures/fig03_cp_temp+theta+pres.png Graphic file (type png)
 
 <use figures/fig03_cp_temp+theta+pres.png>
@@ -1334,7 +1448,7 @@ e 289.
 
 LaTeX Warning: Float too large for page by 25.48306pt on input line 292.
 
-<figures/fig04_dtdz+stab.png, id=775, 1332.47812pt x 2372.865pt>
+<figures/fig04_dtdz+stab.png, id=810, 1332.47812pt x 2372.865pt>
 File: figures/fig04_dtdz+stab.png Graphic file (type png)
 
 <use figures/fig04_dtdz+stab.png>
@@ -1344,7 +1458,7 @@ Package pdftex.def Info: figures/fig04_dtdz+stab.png used on input line 296.
 
 LaTeX Warning: Float too large for page by 17.40536pt on input line 299.
 
-<figures/fig05_theta+anomalies.png, id=776, 1336.995pt x 2372.865pt>
+<figures/fig05_theta+anomalies.png, id=811, 1336.995pt x 2372.865pt>
 File: figures/fig05_theta+anomalies.png Graphic file (type png)
 
 <use figures/fig05_theta+anomalies.png>
@@ -1352,21 +1466,21 @@ Package pdftex.def Info: figures/fig05_theta+anomalies.png used on input line 3
 03.
 (pdftex.def)             Requested size: 288.0pt x 511.13364pt.
 
-<figures/fig06_deltatheta.png, id=779, 1603.9925pt x 780.9175pt>
+<figures/fig06_deltatheta.png, id=814, 1603.9925pt x 780.9175pt>
 File: figures/fig06_deltatheta.png Graphic file (type png)
 
 <use figures/fig06_deltatheta.png>
 Package pdftex.def Info: figures/fig06_deltatheta.png used on input line 310.
 (pdftex.def)             Requested size: 468.0pt x 227.8425pt.
 
-<figures/fig07_schematic.png, id=780, 569.12625pt x 542.025pt>
+<figures/fig07_schematic.png, id=815, 569.12625pt x 542.025pt>
 File: figures/fig07_schematic.png Graphic file (type png)
 
 <use figures/fig07_schematic.png>
 Package pdftex.def Info: figures/fig07_schematic.png used on input line 317.
 (pdftex.def)             Requested size: 396.0pt x 377.15703pt.
 
-<figures/fig08_hovmoller_tbpercent.png, id=781, 661.47125pt x 560.0925pt>
+<figures/fig08_hovmoller_tbpercent.png, id=816, 661.47125pt x 560.0925pt>
 File: figures/fig08_hovmoller_tbpercent.png Graphic file (type png)
 
 <use figures/fig08_hovmoller_tbpercent.png>
@@ -1374,69 +1488,69 @@ Package pdftex.def Info: figures/fig08_hovmoller_tbpercent.png used on input li
 ne 324.
 (pdftex.def)             Requested size: 468.0pt x 396.26686pt.
 
-<figures/fig09_CFTD.png, id=782, 655.44875pt x 560.0925pt>
+<figures/fig09_CFTD.png, id=817, 655.44875pt x 560.0925pt>
 File: figures/fig09_CFTD.png Graphic file (type png)
 
 <use figures/fig09_CFTD.png>
 Package pdftex.def Info: figures/fig09_CFTD.png used on input line 331.
 (pdftex.def)             Requested size: 468.0pt x 399.91614pt.
 
-<figures/fig10_velocities.png, id=783, 1213.53375pt x 1186.4325pt>
+<figures/fig10_velocities.png, id=818, 1213.53375pt x 1186.4325pt>
 File: figures/fig10_velocities.png Graphic file (type png)
 
 <use figures/fig10_velocities.png>
 Package pdftex.def Info: figures/fig10_velocities.png used on input line 339.
 (pdftex.def)             Requested size: 468.0pt x 457.54732pt.
-) [35] [36 <./figures/fig01_patricia_ir.png>] [37 <./figures/fig02_patricia-int
-ensity.png>] [38 <./figures/fig03_cp_temp+theta+pres.png>] [39 <./figures/fig04
-_dtdz+stab.png>] [40 <./figures/fig05_theta+anomalies.png>] [41 <./figures/fig0
-6_deltatheta.png>] [42 <./figures/fig07_schematic.png>] [43 <./figures/fig08_ho
-vmoller_tbpercent.png>] [44 <./figures/fig09_CFTD.png>] [45 <./figures/fig10_ve
+) [38] [39 <./figures/fig01_patricia_ir.png>] [40 <./figures/fig02_patricia-int
+ensity.png>] [41 <./figures/fig03_cp_temp+theta+pres.png>] [42 <./figures/fig04
+_dtdz+stab.png>] [43 <./figures/fig05_theta+anomalies.png>] [44 <./figures/fig0
+6_deltatheta.png>] [45 <./figures/fig07_schematic.png>] [46 <./figures/fig08_ho
+vmoller_tbpercent.png>] [47 <./figures/fig09_CFTD.png>] [48 <./figures/fig10_ve
 locities.png>]
 \openout2 = `modeling.aux'.
 
  (./modeling.tex
  4.
-[46
+[49
 
 
 
-] [47] [48] [49] [50] [51] [52] [53] [54]
+] [50] [51] [52] [53] [54] [55] [56] [57]
 Overfull \hbox (14.1484pt too wide) in paragraph at lines 245--257
 []\T1/cmr/m/n/12 During the RI pe-riod, strong ra-dial and ver-ti-cal cir-cu-la
 -tions de-vel-oped near the tropopause
  []
 
-[55] [56] [57] [58] [59]
-<figures/vmax+pmin.png, id=1089, 780.9175pt x 1492.57625pt>
+[58] [59] [60] [61] [62]
+<figures/vmax+pmin.png, id=1124, 780.9175pt x 1492.57625pt>
 File: figures/vmax+pmin.png Graphic file (type png)
 
 <use figures/vmax+pmin.png>
 Package pdftex.def Info: figures/vmax+pmin.png used on input line 373.
 (pdftex.def)             Requested size: 228.0pt x 435.77399pt.
 
-<figures/mod+bud+res.png, id=1090, 2294.5725pt x 2089.8075pt>
+<figures/mod+bud+res.png, id=1125, 2294.5725pt x 2089.8075pt>
 File: figures/mod+bud+res.png Graphic file (type png)
 
 <use figures/mod+bud+res.png>
 Package pdftex.def Info: figures/mod+bud+res.png used on input line 380.
 (pdftex.def)             Requested size: 468.0pt x 426.21306pt.
 
-<figures/AVG_budterms.png, id=1097, 803.0pt x 803.0pt>
+<figures/AVG_budterms.png, id=1132, 803.0pt x 803.0pt>
 File: figures/AVG_budterms.png Graphic file (type png)
 
 <use figures/AVG_budterms.png>
 Package pdftex.def Info: figures/AVG_budterms.png used on input line 390.
 (pdftex.def)             Requested size: 228.0pt x 227.99968pt.
 
-<figures/n2-24hr-avgs.png, id=1098, 1515.6625pt x 1369.115pt>
+<figures/n2-24hr-avgs.png, id=1133, 1515.6625pt x 1369.115pt>
 File: figures/n2-24hr-avgs.png Graphic file (type png)
 
 <use figures/n2-24hr-avgs.png>
 Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 398.
 (pdftex.def)             Requested size: 468.0pt x 422.74998pt.
 
-<figures/h000-h024-budgetterms.png, id=1099, 1529.715pt x 2077.7625pt>
+<figures/h000-h024-budgetterms.png, id=1134, 1529.715pt x 2077.7625pt>
 File: figures/h000-h024-budgetterms.png Graphic file (type png)
 
 <use figures/h000-h024-budgetterms.png>
@@ -1444,7 +1558,7 @@ Package pdftex.def Info: figures/h000-h024-budgetterms.png used on input line 4
 06.
 (pdftex.def)             Requested size: 468.0pt x 635.66644pt.
 
-<figures/h024-h048-budgetterms.png, id=1100, 1529.715pt x 2077.7625pt>
+<figures/h024-h048-budgetterms.png, id=1135, 1529.715pt x 2077.7625pt>
 File: figures/h024-h048-budgetterms.png Graphic file (type png)
 
 <use figures/h024-h048-budgetterms.png>
@@ -1455,7 +1569,7 @@ Package pdftex.def Info: figures/h024-h048-budgetterms.png used on input line 4
 
 LaTeX Warning: Float too large for page by 12.06921pt on input line 420.
 
-<figures/h048-h072-budgetterms.png, id=1102, 1529.715pt x 2077.7625pt>
+<figures/h048-h072-budgetterms.png, id=1137, 1529.715pt x 2077.7625pt>
 File: figures/h048-h072-budgetterms.png Graphic file (type png)
 
 <use figures/h048-h072-budgetterms.png>
@@ -1466,63 +1580,65 @@ Package pdftex.def Info: figures/h048-h072-budgetterms.png used on input line 4
 
 LaTeX Warning: Float too large for page by 12.06921pt on input line 427.
 
-<figures/h024-h048-adv.png, id=1104, 1530.71875pt x 1381.16pt>
+<figures/h024-h048-adv.png, id=1139, 1530.71875pt x 1381.16pt>
 File: figures/h024-h048-adv.png Graphic file (type png)
 
 <use figures/h024-h048-adv.png>
 Package pdftex.def Info: figures/h024-h048-adv.png used on input line 431.
 (pdftex.def)             Requested size: 468.0pt x 422.27531pt.
 
-<figures/qi+radten.png, id=1105, 1535.7375pt x 2053.6725pt>
+<figures/qi+radten.png, id=1140, 1535.7375pt x 2053.6725pt>
 File: figures/qi+radten.png Graphic file (type png)
 
 <use figures/qi+radten.png>
 Package pdftex.def Info: figures/qi+radten.png used on input line 453.
 (pdftex.def)             Requested size: 468.0pt x 625.82082pt.
 
-<figures/Schematic2.png, id=1106, 722.7pt x 542.025pt>
+<figures/Schematic2.png, id=1141, 722.7pt x 542.025pt>
 File: figures/Schematic2.png Graphic file (type png)
 
 <use figures/Schematic2.png>
 Package pdftex.def Info: figures/Schematic2.png used on input line 462.
 (pdftex.def)             Requested size: 468.0pt x 350.99704pt.
 
-<figures/khvten.png, id=1107, 1543.7675pt x 1369.115pt>
+<figures/khvten.png, id=1142, 1543.7675pt x 1369.115pt>
 File: figures/khvten.png Graphic file (type png)
 
 <use figures/khvten.png>
 Package pdftex.def Info: figures/khvten.png used on input line 469.
 (pdftex.def)             Requested size: 468.0pt x 415.04121pt.
 
-<figures/fulltrop.png, id=1108, 764.8575pt x 2065.7175pt>
+<figures/fulltrop.png, id=1143, 764.8575pt x 2065.7175pt>
 File: figures/fulltrop.png Graphic file (type png)
 
 <use figures/fulltrop.png>
 Package pdftex.def Info: figures/fulltrop.png used on input line 476.
 (pdftex.def)             Requested size: 228.0pt x 615.78pt.
-) [60] [61 <./figures/vmax+pmin.png>] [62 <./figures/mod+bud+res.png>] [63 <./f
-igures/AVG_budterms.png>] [64 <./figures/n2-24hr-avgs.png>] [65 <./figures/h000
--h024-budgetterms.png>] [66] [67 <./figures/h024-h048-budgetterms.png>] [68 <./
-figures/h048-h072-budgetterms.png>] [69 <./figures/h024-h048-adv.png>] [70 <./f
-igures/qi+radten.png>] [71 <./figures/Schematic2.png>] [72 <./figures/khvten.pn
-g>] [73 <./figures/fulltrop.png>] [74]
+) [63] [64 <./figures/vmax+pmin.png>] [65 <./figures/mod+bud+res.png>] [66 <./f
+igures/AVG_budterms.png>] [67 <./figures/n2-24hr-avgs.png>] [68 <./figures/h000
+-h024-budgetterms.png>] [69] [70 <./figures/h024-h048-budgetterms.png>] [71 <./
+figures/h048-h072-budgetterms.png>] [72 <./figures/h024-h048-adv.png>] [73 <./f
+igures/qi+radten.png>] [74 <./figures/Schematic2.png>] [75 <./figures/khvten.pn
+g>] [76 <./figures/fulltrop.png>] [77]
 \openout2 = `hs3.aux'.
 
  (./hs3.tex
  5.
-) [75
+) [78
 
 
 
-] (aux_files/dissertation.bbl [76
+] (aux_files/dissertation.bbl [79
 
 
-] [77] [78] [79] [80] [81])
+] [80] [81] [82] [83] [84])
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
- [82]
+[85]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
-
-(aux_files/dissertation.aux (aux_files/abstract.aux) (aux_files/ack.aux)
+ (aux_files/dissertation.aux (aux_files/abstract.aux) (aux_files/ack.aux)
 (aux_files/introduction.aux) (aux_files/turb.aux) (aux_files/patricia.aux)
 (aux_files/modeling.aux) (aux_files/hs3.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
@@ -1538,10 +1654,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12333 strings out of 494953
- 180436 string characters out of 6180976
- 341174 words of memory out of 5000000
- 15026 multiletter control sequences out of 15000+600000
+ 12355 strings out of 494953
+ 180799 string characters out of 6180976
+ 341186 words of memory out of 5000000
+ 15046 multiletter control sequences out of 15000+600000
  17458 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  50i,12n,45p,2005b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1549,9 +1665,9 @@ Here is how much of TeX's memory you used:
 /patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/patrick/
 .texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/patrick/.texmf-va
 r/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/patrick/.texmf-var/fonts/p
-k/ljfour/jknappen/ec/tcrm1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/
-jknappen/ec/ecrm0800.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecti1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx12
+k/ljfour/jknappen/ec/ecti1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/
+jknappen/ec/tcrm1200.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecrm0800.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx12
 00.600pk> </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk>
  </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
@@ -1563,10 +1679,10 @@ ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
 /amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb>
-Output written on aux_files/dissertation.pdf (89 pages, 10398847 bytes).
+Output written on aux_files/dissertation.pdf (92 pages, 10407865 bytes).
 PDF statistics:
- 1669 PDF objects out of 1728 (max. 8388607)
- 1165 compressed objects within 12 object streams
- 249 named destinations out of 1000 (max. 500000)
- 481 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1703 PDF objects out of 1728 (max. 8388607)
+ 1197 compressed objects within 12 object streams
+ 251 named destinations out of 1000 (max. 500000)
+ 465 words of extra memory for PDF output out of 10000 (max. 10000000)
 

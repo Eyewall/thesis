@@ -1,4 +1,4 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{59}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -93,6 +93,11 @@ Duran, P., and J.~Molinari, 2018: {Dramatic inner-core tropopause variability
 Ebert, E.~E., and G.~J. Holland, 1992: {Observations of record cold cloud-top
   temperatures in Tropical Cyclone Hilda (1990)}. \textit{Mon.\ Wea.\ Rev.},
   \textbf{120}, 2240--2251.
+
+\bibitem[{Emanuel(2012)}]{Emanuel2012}
+Emanuel, K., 2012: {Self-stratification of tropical cyclone outflow. Part II:
+  Implications for storm intensification}. \textit{J.\ Atmos.\ Sci.},
+  \textbf{69}, 988--996.
 
 \bibitem[{Emanuel and Rotunno(2011)Emanuel, and Rotunno}]{EmanuelRotunno2011}
 Emanuel, K., and R.~Rotunno, 2011: {Self-stratification of tropical cyclone

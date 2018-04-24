@@ -30,6 +30,9 @@ Warning--I didn't find a database entry for "Wirth2003"
 Warning--I didn't find a database entry for "Griseetal2010"
 Warning--I didn't find a database entry for "Randeletal2007"
 Warning--I didn't find a database entry for "Ferreiraetal2016"
+Warning--I didn't find a database entry for "Laneetal2012"
+Warning--I didn't find a database entry for "TrierSharman2009"
+Warning--I didn't find a database entry for "Zovko-RajakLane2014"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in BellTCI
 Warning--missing publisher in Bryan2017
@@ -39,7 +42,7 @@ Warning--missing publisher in Wyoming2016
 Warning--missing publisher in WMO1998
 You've used 59 entries,
             3493 wiz_defined-function locations,
-            1271 strings with 18643 characters,
+            1277 strings with 18737 characters,
 and the built_in function-call counts, 58318 in all, are:
 = -- 6831
 > -- 1808
@@ -78,4 +81,4 @@ warning$ -- 6
 while$ -- 263
 width$ -- 0
 write$ -- 653
-(There were 26 warnings)
+(There were 29 warnings)

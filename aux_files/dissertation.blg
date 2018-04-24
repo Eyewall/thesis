@@ -10,8 +10,6 @@ A level-1 auxiliary file: modeling.aux
 A level-1 auxiliary file: hs3.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "LaSeurHawkins1963"
-Warning--I didn't find a database entry for "PendergrassWilloughby2009"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in BellTCI
 Warning--missing publisher in Bryan2017
@@ -19,45 +17,45 @@ Warning--missing publisher in Jarvinenetal1984
 Warning--missing publisher in Kimberlainetal2016
 Warning--missing publisher in Wyoming2016
 Warning--missing publisher in WMO1998
-You've used 79 entries,
+You've used 83 entries,
             3493 wiz_defined-function locations,
-            1351 strings with 21168 characters,
-and the built_in function-call counts, 80619 in all, are:
-= -- 9597
-> -- 2390
-< -- 48
-+ -- 1490
-- -- 603
-* -- 4037
-:= -- 8255
-add.period$ -- 158
-call.type$ -- 79
-change.case$ -- 594
-chr.to.int$ -- 79
-cite$ -- 85
-duplicate$ -- 8384
-empty$ -- 4407
-format.name$ -- 803
-if$ -- 16481
+            1371 strings with 21834 characters,
+and the built_in function-call counts, 85477 in all, are:
+= -- 10185
+> -- 2558
+< -- 50
++ -- 1594
+- -- 645
+* -- 4283
+:= -- 8729
+add.period$ -- 166
+call.type$ -- 83
+change.case$ -- 628
+chr.to.int$ -- 83
+cite$ -- 89
+duplicate$ -- 8882
+empty$ -- 4649
+format.name$ -- 857
+if$ -- 17477
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 816
-newline$ -- 248
-num.names$ -- 316
-pop$ -- 3810
+missing$ -- 862
+newline$ -- 260
+num.names$ -- 332
+pop$ -- 4045
 preamble$ -- 1
-purify$ -- 513
+purify$ -- 543
 quote$ -- 0
-skip$ -- 4804
+skip$ -- 5101
 stack$ -- 0
-substring$ -- 3889
-swap$ -- 6777
+substring$ -- 4125
+swap$ -- 7195
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 711
+type$ -- 747
 warning$ -- 6
-while$ -- 363
+while$ -- 383
 width$ -- 0
-write$ -- 873
-(There were 8 warnings)
+write$ -- 917
+(There were 6 warnings)

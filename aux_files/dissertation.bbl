@@ -1,4 +1,4 @@
-\begin{thebibliography}{79}
+\begin{thebibliography}{83}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -74,6 +74,13 @@ Das, S.~S., A.~K. Patra, and D.~N. Rao, 2008: Vhf radar echoes in the vicinity
 Das, S.~S., and Coauthors, 2016: Influence of tropical cyclones on tropospheric
   ozone: possible implications. \textit{{Atmos. Chem. Phys.}},
   \textbf{16~(4837-4847)}.
+
+\bibitem[{Davis et~al.(2014)Davis, Ahijevych, Haggerty,, and
+  Mahoney}]{Davisetal2014}
+Davis, C.~A., D.~A. Ahijevych, J.~A. Haggerty, and M.~J. Mahoney, 2014:
+  {Observations of temperature in the upper troposphere and lower stratosphere
+  of tropical weather disturbances}. \textit{J.\ Atmos.\ Sci.}, \textbf{71},
+  1593--1608.
 
 \bibitem[{Doyle et~al.(2017)}]{DoyleTCI}
 Doyle, J.~D., and Coauthors, 2017: {A view of tropical cyclones from above: The
@@ -170,6 +177,12 @@ Hawkins, H.~F., and D.~T. Rubsam, 1968: {Hurricane Hilda, 1964. II. Structure
 Hock, T.~F., and J.~L. Franklin, 1999: {The NCAR GPS dropwindsonde}.
   \textit{Bull.\ Amer.\ Meteor.\ Soc.}, \textbf{80}, 407--420.
 
+\bibitem[{Holton et~al.(1995)Holton, Haynes, McIntyre, Douglass, Hood,, and
+  Pfister}]{Holtonetal1995}
+Holton, J.~R., P.~H. Haynes, M.~E. McIntyre, A.~R. Douglass, R.~B. Hood, and
+  L.~Pfister, 1995: {Stratosphere-troposphere exchange}. \textit{{Rev.
+  Geophys.}}, \textbf{33}, 403--439.
+
 \bibitem[{Iacono et~al.(2008)Iacono, Delamere, Mlawer, Shephard, Clough,, and
   Collins}]{Iacono}
 Iacono, M.~J., J.~S. Delamere, E.~J. Mlawer, M.~W. Shephard, S.~A. Clough, and
@@ -218,7 +231,7 @@ Kuang, Z., and C.~S. Bretherton, 2004: Convective influence on the heat balance
   of the tropical tropopause layer: A cloud-resolving model study. \textit{J.\
   Atmos.\ Sci.}, \textbf{61}, 2919--2927.
 
-\bibitem[{La~Seur and Hawkins(1963)La~Seur, and Hawkins}]{LaSeurandHawkins1963}
+\bibitem[{La~Seur and Hawkins(1963)La~Seur, and Hawkins}]{LaSeurHawkins1963}
 La~Seur, N.~E., and H.~F. Hawkins, 1963: {An analysis of Hurricane Cleo (1958)
   based on data from research reconnaissance aircraft}. \textit{Mon.\ Wea.\
   Rev.}, \textbf{91}, 694--709.
@@ -271,9 +284,20 @@ Molinari, J., P.~Duran, and D.~Vollaro, 2014: {Low Richardson number in the
 Molinari, J., and D.~Vollaro, 2010: {Distribution of helicity, CAPE, and shear
   in tropical cyclones}. \textit{J.\ Atmos.\ Sci.}, \textbf{67}, 274--284.
 
+\bibitem[{Mote and Coauthors(1996)Mote, and Coauthors}]{Moteetal1996}
+Mote, P.~W., and Coauthors, 1996: {An atmospheric tape recorder: The imprint of
+  tropical tropopause temperature on stratospheric water vapor}. \textit{J.\
+  Geophys.\ Res.}, \textbf{101}, 3989--4006.
+
 \bibitem[{Ohno and Satoh(2015)Ohno, and Satoh}]{OhnoSatoh2015}
 Ohno, T., and M.~Satoh, 2015: On the warm core of a tropical cyclone formed
   near the tropopause. \textit{J.\ Atmos.\ Sci.}, \textbf{72}, 551--571.
+
+\bibitem[{Pendergrass and Willoughby(2009)Pendergrass, and
+  Willoughby}]{PendergrassWilloughby2009}
+Pendergrass, A.~G., and H.~E. Willoughby, 2009: {Diabatically induced secondary
+  flows in tropical cyclones. Part I: Quasi-steady forcing}. \textit{Mon.\
+  Wea.\ Rev.}, \textbf{137}, 805--821.
 
 \bibitem[{Penn(1965)}]{Penn1965}
 Penn, S., 1965: Ozone and temperature structure in a hurricane. \textit{{J.

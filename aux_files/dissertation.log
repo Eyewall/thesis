@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  21 APR 2018 21:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  23 APR 2018 20:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -127,13 +127,9 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-
-! LaTeX Error: File `yfonts.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/yfonts/yfonts.sty
+Package: yfonts 2003/01/08 v1.3 (WaS)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 
@@ -545,6 +541,10 @@ File: ts1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
 )
+Now handling font encoding LY ...
+... no UTF-8 mapping file for font encoding LY
+Now handling font encoding LYG ...
+... no UTF-8 mapping file for font encoding LYG
    defining Unicode char U+00A9 (decimal 169)
    defining Unicode char U+00AA (decimal 170)
    defining Unicode char U+00AE (decimal 174)
@@ -1053,6 +1053,10 @@ LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 \symgns@font=\mathgroup4
@@ -1397,39 +1401,39 @@ locities.png>]
 
 
 
-] [47] [48] [49] [50] [51] [52] [53]
-Overfull \hbox (14.1484pt too wide) in paragraph at lines 243--255
+] [47] [48] [49] [50] [51] [52] [53] [54]
+Overfull \hbox (14.1484pt too wide) in paragraph at lines 245--257
 []\T1/cmr/m/n/12 During the RI pe-riod, strong ra-dial and ver-ti-cal cir-cu-la
 -tions de-vel-oped near the tropopause
  []
 
-[54] [55] [56] [57] [58] [59]
+[55] [56] [57] [58] [59]
 <figures/vmax+pmin.png, id=1089, 780.9175pt x 1492.57625pt>
 File: figures/vmax+pmin.png Graphic file (type png)
 
 <use figures/vmax+pmin.png>
-Package pdftex.def Info: figures/vmax+pmin.png used on input line 371.
+Package pdftex.def Info: figures/vmax+pmin.png used on input line 373.
 (pdftex.def)             Requested size: 228.0pt x 435.77399pt.
 
 <figures/mod+bud+res.png, id=1090, 2294.5725pt x 2089.8075pt>
 File: figures/mod+bud+res.png Graphic file (type png)
 
 <use figures/mod+bud+res.png>
-Package pdftex.def Info: figures/mod+bud+res.png used on input line 378.
+Package pdftex.def Info: figures/mod+bud+res.png used on input line 380.
 (pdftex.def)             Requested size: 468.0pt x 426.21306pt.
 
 <figures/AVG_budterms.png, id=1097, 803.0pt x 803.0pt>
 File: figures/AVG_budterms.png Graphic file (type png)
 
 <use figures/AVG_budterms.png>
-Package pdftex.def Info: figures/AVG_budterms.png used on input line 388.
+Package pdftex.def Info: figures/AVG_budterms.png used on input line 390.
 (pdftex.def)             Requested size: 228.0pt x 227.99968pt.
 
 <figures/n2-24hr-avgs.png, id=1098, 1515.6625pt x 1369.115pt>
 File: figures/n2-24hr-avgs.png Graphic file (type png)
 
 <use figures/n2-24hr-avgs.png>
-Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 396.
+Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 398.
 (pdftex.def)             Requested size: 468.0pt x 422.74998pt.
 
 <figures/h000-h024-budgetterms.png, id=1099, 1529.715pt x 2077.7625pt>
@@ -1437,7 +1441,7 @@ File: figures/h000-h024-budgetterms.png Graphic file (type png)
 
 <use figures/h000-h024-budgetterms.png>
 Package pdftex.def Info: figures/h000-h024-budgetterms.png used on input line 4
-04.
+06.
 (pdftex.def)             Requested size: 468.0pt x 635.66644pt.
 
 <figures/h024-h048-budgetterms.png, id=1100, 1529.715pt x 2077.7625pt>
@@ -1445,56 +1449,56 @@ File: figures/h024-h048-budgetterms.png Graphic file (type png)
 
 <use figures/h024-h048-budgetterms.png>
 Package pdftex.def Info: figures/h024-h048-budgetterms.png used on input line 4
-15.
+17.
 (pdftex.def)             Requested size: 468.0pt x 635.66644pt.
 
 
-LaTeX Warning: Float too large for page by 12.06921pt on input line 418.
+LaTeX Warning: Float too large for page by 12.06921pt on input line 420.
 
 <figures/h048-h072-budgetterms.png, id=1102, 1529.715pt x 2077.7625pt>
 File: figures/h048-h072-budgetterms.png Graphic file (type png)
 
 <use figures/h048-h072-budgetterms.png>
 Package pdftex.def Info: figures/h048-h072-budgetterms.png used on input line 4
-22.
+24.
 (pdftex.def)             Requested size: 468.0pt x 635.66644pt.
 
 
-LaTeX Warning: Float too large for page by 12.06921pt on input line 425.
+LaTeX Warning: Float too large for page by 12.06921pt on input line 427.
 
 <figures/h024-h048-adv.png, id=1104, 1530.71875pt x 1381.16pt>
 File: figures/h024-h048-adv.png Graphic file (type png)
 
 <use figures/h024-h048-adv.png>
-Package pdftex.def Info: figures/h024-h048-adv.png used on input line 429.
+Package pdftex.def Info: figures/h024-h048-adv.png used on input line 431.
 (pdftex.def)             Requested size: 468.0pt x 422.27531pt.
 
 <figures/qi+radten.png, id=1105, 1535.7375pt x 2053.6725pt>
 File: figures/qi+radten.png Graphic file (type png)
 
 <use figures/qi+radten.png>
-Package pdftex.def Info: figures/qi+radten.png used on input line 451.
+Package pdftex.def Info: figures/qi+radten.png used on input line 453.
 (pdftex.def)             Requested size: 468.0pt x 625.82082pt.
 
 <figures/Schematic2.png, id=1106, 722.7pt x 542.025pt>
 File: figures/Schematic2.png Graphic file (type png)
 
 <use figures/Schematic2.png>
-Package pdftex.def Info: figures/Schematic2.png used on input line 460.
+Package pdftex.def Info: figures/Schematic2.png used on input line 462.
 (pdftex.def)             Requested size: 468.0pt x 350.99704pt.
 
 <figures/khvten.png, id=1107, 1543.7675pt x 1369.115pt>
 File: figures/khvten.png Graphic file (type png)
 
 <use figures/khvten.png>
-Package pdftex.def Info: figures/khvten.png used on input line 467.
+Package pdftex.def Info: figures/khvten.png used on input line 469.
 (pdftex.def)             Requested size: 468.0pt x 415.04121pt.
 
 <figures/fulltrop.png, id=1108, 764.8575pt x 2065.7175pt>
 File: figures/fulltrop.png Graphic file (type png)
 
 <use figures/fulltrop.png>
-Package pdftex.def Info: figures/fulltrop.png used on input line 474.
+Package pdftex.def Info: figures/fulltrop.png used on input line 476.
 (pdftex.def)             Requested size: 228.0pt x 615.78pt.
 ) [60] [61 <./figures/vmax+pmin.png>] [62 <./figures/mod+bud+res.png>] [63 <./f
 igures/AVG_budterms.png>] [64 <./figures/n2-24hr-avgs.png>] [65 <./figures/h000
@@ -1534,13 +1538,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12236 strings out of 494953
- 179173 string characters out of 6180977
- 340617 words of memory out of 5000000
- 14934 multiletter control sequences out of 15000+600000
+ 12333 strings out of 494953
+ 180436 string characters out of 6180976
+ 341174 words of memory out of 5000000
+ 15026 multiletter control sequences out of 15000+600000
  17458 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 50i,12n,45p,2005b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,12n,45p,2005b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk> </home
 /patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/patrick/
 .texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/patrick/.texmf-va
@@ -1559,10 +1563,10 @@ ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
 /amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb>
-Output written on aux_files/dissertation.pdf (89 pages, 10398171 bytes).
+Output written on aux_files/dissertation.pdf (89 pages, 10398847 bytes).
 PDF statistics:
- 1666 PDF objects out of 1728 (max. 8388607)
- 1163 compressed objects within 12 object streams
+ 1669 PDF objects out of 1728 (max. 8388607)
+ 1165 compressed objects within 12 object streams
  249 named destinations out of 1000 (max. 500000)
  481 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  24 APR 2018 19:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  25 APR 2018 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1510,81 +1510,95 @@ g>] [78 <./figures/fulltrop.png>] [79]
 
  (./hs3.tex
  5.
-<figures/nadine-skewt.png, id=1311, 1554.80875pt x 780.9175pt>
+
+Package natbib Warning: Citation `Young2012' on page 80 undefined on input line
+ 23.
+
+
+Package natbib Warning: Citation `Brown2013' on page 80 undefined on input line
+ 23.
+
+
+Package natbib Warning: Citation `MolinariVolarro2012' on page 80 undefined on 
+input line 25.
+
+[80
+
+
+
+] <figures/nadine-skewt.png, id=1329, 1554.80875pt x 780.9175pt>
 File: figures/nadine-skewt.png Graphic file (type png)
 
 <use figures/nadine-skewt.png>
-Package pdftex.def Info: figures/nadine-skewt.png used on input line 39.
+Package pdftex.def Info: figures/nadine-skewt.png used on input line 50.
 (pdftex.def)             Requested size: 468.0pt x 235.05157pt.
 
-<figures/nadine-n2.png, id=1312, 1558.82375pt x 1415.2875pt>
+<figures/nadine-n2.png, id=1330, 1558.82375pt x 1415.2875pt>
 File: figures/nadine-n2.png Graphic file (type png)
 
 <use figures/nadine-n2.png>
-Package pdftex.def Info: figures/nadine-n2.png used on input line 46.
+Package pdftex.def Info: figures/nadine-n2.png used on input line 57.
 (pdftex.def)             Requested size: 468.0pt x 424.89186pt.
 
-<figures/skewt-examples.png, id=1313, 1525.7pt x 1569.865pt>
+<figures/skewt-examples.png, id=1331, 1525.7pt x 1569.865pt>
 File: figures/skewt-examples.png Graphic file (type png)
 
 <use figures/skewt-examples.png>
-Package pdftex.def Info: figures/skewt-examples.png used on input line 53.
+Package pdftex.def Info: figures/skewt-examples.png used on input line 64.
 (pdftex.def)             Requested size: 468.0pt x 481.52693pt.
 
-<figures/tb_cdf_10Cbins_0-500km.png, id=1314, 803.0pt x 803.0pt>
+<figures/tb_cdf_10Cbins_0-500km.png, id=1332, 803.0pt x 803.0pt>
 File: figures/tb_cdf_10Cbins_0-500km.png Graphic file (type png)
 
 <use figures/tb_cdf_10Cbins_0-500km.png>
 Package pdftex.def Info: figures/tb_cdf_10Cbins_0-500km.png used on input line 
-60.
+71.
 (pdftex.def)             Requested size: 324.0pt x 324.0002pt.
 
-<figures/stationmap+stormlocations.png, id=1315, 771.88374pt x 1147.28625pt>
+<figures/stationmap+stormlocations.png, id=1333, 771.88374pt x 1147.28625pt>
 File: figures/stationmap+stormlocations.png Graphic file (type png)
 
 <use figures/stationmap+stormlocations.png>
 Package pdftex.def Info: figures/stationmap+stormlocations.png used on input li
-ne 67.
+ne 78.
 (pdftex.def)             Requested size: 324.0pt x 481.57684pt.
 
-<figures/sondelocs-scatterplot.png, id=1316, 1455.4375pt x 1551.7975pt>
+<figures/sondelocs-scatterplot.png, id=1334, 1455.4375pt x 1551.7975pt>
 File: figures/sondelocs-scatterplot.png Graphic file (type png)
 
 <use figures/sondelocs-scatterplot.png>
-Package pdftex.def Info: figures/sondelocs-scatterplot.png used on input line 7
-4.
+Package pdftex.def Info: figures/sondelocs-scatterplot.png used on input line 8
+5.
 (pdftex.def)             Requested size: 468.0pt x 498.97688pt.
 
-<figures/t+dtdz+d2tdz2-intensity-montage.png, id=1317, 2436.10126pt x 790.955pt
+<figures/t+dtdz+d2tdz2-intensity-montage.png, id=1335, 2436.10126pt x 790.955pt
 >
 File: figures/t+dtdz+d2tdz2-intensity-montage.png Graphic file (type png)
  <use figures/t+dtdz+d2tdz2-intensity-montage.png>
 Package pdftex.def Info: figures/t+dtdz+d2tdz2-intensity-montage.png used on in
-put line 81.
+put line 92.
 (pdftex.def)             Requested size: 468.0pt x 151.94853pt.
 
-<figures/t+dtdz+d2tdz2-irbt-montage.png, id=1318, 2436.10126pt x 790.955pt>
+<figures/t+dtdz+d2tdz2-irbt-montage.png, id=1336, 2436.10126pt x 790.955pt>
 File: figures/t+dtdz+d2tdz2-irbt-montage.png Graphic file (type png)
 
 <use figures/t+dtdz+d2tdz2-irbt-montage.png>
 Package pdftex.def Info: figures/t+dtdz+d2tdz2-irbt-montage.png used on input l
-ine 88.
+ine 99.
 (pdftex.def)             Requested size: 468.0pt x 151.94853pt.
-) [80
-
-
-
-] [81 <./figures/nadine-skewt.png>] [82 <./figures/nadine-n2.png>] [83 <./figur
-es/skewt-examples.png>]
-[84 <./figures/tb_cdf_10Cbins_0-500km.png>] [85 <./figures/stationmap+stormloca
-tions.png>] [86 <./figures/sondelocs-scatterplot.png>] [87 <./figures/t+dtdz+d2
-tdz2-intensity-montage.png> <./figures/t+dtdz+d2tdz2-irbt-montage.png>]
+) [81 <./figures/nadine-skewt.png>] [82 <./figures/nadine-n2.png>] [83 <./figur
+es/skewt-examples.png>] [84 <./figures/tb_cdf_10Cbins_0-500km.png>] [85 <./figu
+res/stationmap+stormlocations.png>] [86 <./figures/sondelocs-scatterplot.png>] 
+[87 <./figures/t+dtdz+d2tdz2-intensity-montage.png> <./figures/t+dtdz+d2tdz2-ir
+bt-montage.png>]
 (aux_files/dissertation.bbl [88
 
 
 ] [89] [90] [91] [92] [93] [94] [95] [96])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
 
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
 [97]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
  (aux_files/dissertation.aux (aux_files/abstract.aux) (aux_files/ack.aux)
@@ -1603,10 +1617,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12500 strings out of 494953
- 184231 string characters out of 6180976
- 344921 words of memory out of 5000000
- 15139 multiletter control sequences out of 15000+600000
+ 12506 strings out of 494953
+ 184322 string characters out of 6180976
+ 344981 words of memory out of 5000000
+ 15143 multiletter control sequences out of 15000+600000
  17458 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  50i,12n,45p,2005b,600s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1628,10 +1642,10 @@ ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
 /amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb>
-Output written on aux_files/dissertation.pdf (104 pages, 13661872 bytes).
+Output written on aux_files/dissertation.pdf (104 pages, 13666100 bytes).
 PDF statistics:
- 1877 PDF objects out of 2073 (max. 8388607)
- 1346 compressed objects within 14 object streams
- 295 named destinations out of 1000 (max. 500000)
+ 1897 PDF objects out of 2073 (max. 8388607)
+ 1361 compressed objects within 14 object streams
+ 297 named destinations out of 1000 (max. 500000)
  505 words of extra memory for PDF output out of 10000 (max. 10000000)
 

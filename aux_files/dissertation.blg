@@ -10,6 +10,9 @@ A level-1 auxiliary file: modeling.aux
 A level-1 auxiliary file: hs3.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
+Warning--I didn't find a database entry for "Young2012"
+Warning--I didn't find a database entry for "Brown2013"
+Warning--I didn't find a database entry for "MolinariVolarro2012"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in BellTCI
 Warning--missing publisher in Bryan2017
@@ -19,7 +22,7 @@ Warning--missing publisher in Wyoming2016
 Warning--missing publisher in WMO1998
 You've used 83 entries,
             3493 wiz_defined-function locations,
-            1371 strings with 21834 characters,
+            1377 strings with 21908 characters,
 and the built_in function-call counts, 85477 in all, are:
 = -- 10185
 > -- 2558
@@ -58,4 +61,4 @@ warning$ -- 6
 while$ -- 383
 width$ -- 0
 write$ -- 917
-(There were 6 warnings)
+(There were 9 warnings)

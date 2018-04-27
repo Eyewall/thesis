@@ -1,4 +1,4 @@
-\begin{thebibliography}{83}
+\begin{thebibliography}{86}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -33,6 +33,10 @@ Bowman, K.~P., and M.~D. Fowler, 2015: {The diurnal cycle of precipitation in
 Braun, S.~A., P.~A. Newman, and G.~M. Heymsfield, 2016: {NASA's Hurricane and
   Severe Storm Sentinel (HS3) Investigation}. \textit{Bull.\ Amer.\ Meteor.\
   Soc.}, \textbf{97}, 2085--2102.
+
+\bibitem[{Brown(2013)}]{Brown2013}
+Brown, D.~P., 2013: {Tropical Cyclone Report: Hurricane Natricia. National
+  Hurricane Center}. [Available online at www.nhc.noaa.gov].
 
 \bibitem[{Bryan(cited 2018)}]{Bryan2017}
 Bryan, G.~H., cited 2018: {The governing equations for CM1}. {[Available online
@@ -81,6 +85,12 @@ Davis, C.~A., D.~A. Ahijevych, J.~A. Haggerty, and M.~J. Mahoney, 2014:
   {Observations of temperature in the upper troposphere and lower stratosphere
   of tropical weather disturbances}. \textit{J.\ Atmos.\ Sci.}, \textbf{71},
   1593--1608.
+
+\bibitem[{DeMaria et~al.(2005)DeMaria, Mainelli, Shay, Knaff,, and
+  Kaplan}]{DeMariaetal2005}
+DeMaria, M., M.~Mainelli, L.~K. Shay, J.~A. Knaff, and J.~Kaplan, 2005:
+  {Further improvements to the Statistical Hurricane Intensity Prediction
+  Scheme (SHIPS)}. \textit{Wea.\ Forecasting}, \textbf{20}, 531--543.
 
 \bibitem[{Doyle et~al.(2017)}]{DoyleTCI}
 Doyle, J.~D., and Coauthors, 2017: {A view of tropical cyclones from above: The
@@ -421,6 +431,9 @@ WMO, 1957: {Meteorology---A three-dimensional science.} \textit{{WMO Bull.}},
 \bibitem[{WMO(1998)}]{WMO1998}
 WMO, 1998: {Manual on codes. Vol. I.1 (Part A: Alphanumeric codes)}. WMO Publ.
   WMO-306, 466 pp.
+
+\bibitem[{Young et~al.()Young, Wang, Hock, Lauritsen,, and Martin}]{Young2016}
+Young, K., J.~Wang, T.~Hock, D.~Lauritsen, and C.~Martin, ????: .
 
 \bibitem[{Yuter and Houze(1995)Yuter, and Houze}]{YuterHouze1995}
 Yuter, S.~E., and R.~A. Houze, 1995: {Three-dimensional kinematic and

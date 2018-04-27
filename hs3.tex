@@ -19,26 +19,80 @@ Then the static stability structure of a large number of TCs is analyzed using t
 %---------------------------------------------------------------------------------------%
 \section{Data and methods}
 %---------------------------------------------------------------------------------------%
-Hurricane Nadine (2012) was a long-lived TC in the North Atlantic that was the focus of five research flights conducted by a NASA Global Hawk aicraft during HS3 \citep{Braunetal2016}.
-The second research flight into the storm deployed 70 dropsondes \cite{Young2012} while Nadine intensified from a tropical storm to a category 1 hurricane \cite{Brown2013} on 14 September 2012.
+Hurricane Nadine (2012), a long-lived TC in the North Atlantic, was the focus of five research flights conducted by a NASA Global Hawk aicraft during HS3 \citep{Braunetal2016}.
+The second research flight into the storm deployed 70 dropsondes \cite{Young2016} while Nadine intensified from a tropical storm to a category 1 hurricane \cite{Brown2013} on 14 September 2012.
 These dropsondes, deployed from the lower stratosphere, provided full-tropospheric profiles of temperature, humidity, and wind across a broad region of the storm.
-The observations were interpolated to a 100-m vertical grid following \cite{MolinariVolarro2012} and the static stability ($N^2$) was computed following \cite{DuranMolinari2018}.
-A great strength of the HS3 dropsonde dataset is that it provides numerous high-resolution soundings within and around individual TCs within short time periods.
+The observations were interpolated to a 100-m vertical grid following \cite{MolinariVollaro2010} and the static stability ($N^2$) was computed following \cite{DuranMolinari2018}.
+A great strength of the HS3 dropsonde dataset is that it provides numerous high-resolution soundings within and around individual TCs during short time periods.
 This strength will be leveraged to analyze the tropopause-layer static stability structure of Nadine as it intensified to hurricane strength.
 
 Although HS3 deployed 965 dropsondes within 1000 km of TCs over three years, providing unprecended dropsonde coverage in TCs, these dropsondes sampled only seven different storms.
+Thus, although numerous observations are available, these observations may not be representative of TCs in general.
 To get a more general sense of the tropopause-layer structure of TCs, the large rawinsonde dataset of \cite{DuranMolinari2016} will be employed.
 This dataset includes 11735 rawinsondes that were launched within 1000 km of TCs between the years 1998-2011\footnote{Note that fewer rawinsondes were included in the \cite{DuranMolinari2016} study because the Richardson number, which was the focus of that paper, requires both winds and thermodynamic observations. Many soundings were excluded from that analysis due to missing wind observations in the upper troposphere.}.
 After imposing a requirement that the cold-point tropopause be located at or above 14 km, 9318 soundings remained within 1000 km of TCs.
-
-CONSIDER MOVING MAPS AND STORM-CENTERED PLOTS UP TO FIGS. 1-2 IN THIS SECTION.
-
-These rawinsondes 
+These rawinsondes were deployed from stations across the eastern and central United States, as well as Belize, Grand Cayman, Puerto Rico, and Barbados (Fig. \ref{fig:maps}a).
+They observed 164 different Atlantic-basin TCs at a wide range of intensities within the western Atlantic Ocean, Caribbean Sea, and the Gulf of Mexico (Fig. \ref{fig:maps}b).
+Since most of the observations were collected in the mainland United States, the northwest quadrant of TCs was more well-observed than other quadrants (Fig. \ref{fig:scatterplot}), particularly in hurricanes.
+All quadrants, however, contained observations at a wide range of radii for all storm categories, which facilitates the construction of composite averages.
 
 %---------------------------------------------------------------------------------------%
 \section{Results}
 %---------------------------------------------------------------------------------------%
-\subsection{Aircraft turbulence observations}
+\subsection{The tropopause-layer static stability structure of Hurricane Nadine (2012)}
+The NASA Global Hawk aircraft completed multiple dropsonde transects across TC Nadine (2012) soon after it intensified to hurricane strength near 30\textdegree{}N latitude.
+Observations from three dropsondes deployed during one of these transects are depicted in Fig. \ref{fig:nadine-skewt}.
+One dropsonde was deployed near the edge of Nadine's cirrus canopy (Fig. \ref{fig:nadine-skewt}a, magenta star), a second within Nadine's cirrus canopy near cloud tops colder than -40\textdegree{}C (Fig. \ref{fig:nadine-skewt}a, green star), and a third within a region of cloud tops colder than -60\textdegree{}C (Fig. \ref{fig:nadine-skewt}b, blue star).
+Temperature soundings from these three dropsondes are depicted in Fig. \ref{fig:nadine-skewt}b, where the colors of the lines correspond to the colors of the stars in Fig. \ref{fig:nadine-skewt}a).
+
+All three soundings were fairly similar below the 200-mb level, but the temperature profiles differed considerably above that level.
+The 150-200-mb layer was warmer on the edge of the cirrus canopy (magenta) than within the cirrus canopy (green, blue).
+Both soundings deployed within the cirrus canopy (green,blue) exhibited very similar temperature profiles in this layer, with nearly dry-adiabatic lapse rates.
+Just above the 150-mb layer, the sounding deployed within the coldest cloud tops (blue) exhibited a temperature inversion.
+The other cirrus-canopy sounding (green) also exhibited a temperature inversion, but it was higher than that observed within the region of coldest cloud tops (blue).
+The difference in the height of these inversion layers corresponded to a maximum temperature difference of 4 K within this layer.
+Above the inversion layers, however, the two soundings converged and exhibited very similar temperature profiles, including a nearly-identical cold point that was slightly warmer than that observed on the edge of the cirrus canopy (magenta).
+These soundings imply that strong horizontal gradients of temperature and stability might have existed in the upper levels of Hurricane Nadine.
+
+Cross sections of squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$; 10\textsuperscript{-4} s\textsuperscript{-2}) constructed using two sets of dropsondes are shown in Fig. \ref{fig:nadine-n2}.
+The first set consisted of dropsondes (Fig. \ref{fig:nadine-n2}a) that were deployed primarily within and near Nadine's cirrus canopy.
+The other set of dropsondes was deployed outside of Nadine's cirrus canopy, upshear of the center of circulation\footnote{According to the Statistical Hurricane Intensity Prediction Scheme (SHIPS; \citeauthor{DeMariaetal2005} \citeyear{DeMariaetal2005}) developmental database, the area-averaged, vortex-removed 850-200-mb wind shear at 00 UTC 15 September was from the southwest at 23 kt.}.
+The cross-sections are constructed along the flight track, with each of the dropsonde deployment locations marked by bold black digits on the satellite images and along the horizontal axes of the cross sections.
+
+The dropsondes deployed within Nadine's cirrus canopy (Fig. \ref{fig:nadine-n2}a,b) detected two distinct static stability maxima in the 12-17-km layer.
+One maximum was associated with a rapid increase in $N^2$ above the cold-point tropopause, which was located near the 16-km level.
+This stability maximum is quite similar to that observed outside of the eye in Hurricane Patricia \citep{DuranMolinari2018} and is consistent with the tropopause inversion layer noted by \cite{Wirth2003}.
+The second existed within the 13.5-15-km layer, where a horizontally-extended region of enhanced static stability was present everwhere within Nadine's cirrus canopy.
+Within this lower stable layer, $N^2$ was largest in the two soundings that were deployed at locations where the infrared brightness temperature was colder than -55\textdegree{}C (dropsondes number 4 and 7).
+The static stability also maximized at a slightly higher altitude in these two soundings (14.4 and 14.5 km) than in the other soundings, which showed an $N^2$ maximum closer to 14 km.
+
+The dropsondes deployed outside of Nadine's cirrus canopy (Fig. \ref{fig:nadine-n2}c,d) observed a considerably different upper-level static stability structure.
+The lower-stratospheric $N^2$ maximum observed near and above 16 km was not nearly as coherent as it was within the cirrus canopy.
+There existed numerous local $N^2$ maxima near and above 16 km, but rather than forming a horizontally-homogeneous stable layer above the tropopause, they were isolated from one another.
+Likewise, there were a few weak, isolated local maxima in $N^2$ within the 12-15-km layer, but the distinct secondary stable layer that was observed within the cirrus canopy did not exist outside of the cirrus canopy.
+
+These observations suggest that there might be processes unique to the TC cirrus canopy that produce stronger static stability above the cold-point tropopause and a secondary stability maximum below the tropopause.
+
+\subsection{The relationship between infrared brightness temperature and the tropopause-layer temperature structure obseved by HS3 dropsondes}
+To get a more general sense of the relationship between infrared brightness temperature and the upper-tropospheric static stability structure, all HS3 dropsondes deployed within 500 km of TCs were analyzed.
+The locations of these dropsondes relative to a composite TC center can be seen in Fig. \ref{fig:hs3-scatterplot}.
+Only 26 of these observations were collected in tropical depressions, whereas 296 and 241 were collected in tropical storms and hurricanes, respectively.
+The highest dropsonde density was within the innermost 100 km, but all radial bands and storm quadrants were sampled.
+Each of these dropsondes was assigned an infrared brightness temperature by picking the satellite image pixel closest to the dropsonde deployment in both space and time, using 4-km-resolution GOES-13 infrared satellite imagery obtained from the NOAA Comprehensive Large Array-data Stewardship System (CLASS; \url{http://www.class.ncdc.noaa.gov/}).
+The soundings were plotted on skew $T$--log$p$ diagrams and each sounding was assigned subjectively one of three classifications based on the upper-level temperature profile\footnote{These assignments were performed with no knowledge of the geographic location of the sounding, its location relative to a TC, or its infrared brightness temperature environment.}.
+Examples of each of the three classifications are plotted in Fig. \ref{fig:skewt-examples}.
+The "smooth tropopause" soundings (Fig. \ref{fig:skewt-examples}a) exhibited a temperature profile that transitioned smoothly from the upper troposphere to the lower stratosphere, whereas the "sharp tropopause" soundings (Fig. \ref{fig:skewt-examples}b) exhibited an abrupt transition near the tropopause.
+The "multiple stable layer" soundings exhibited multiple distinct static stability maxima in the upper troposphere, as indicated by oscillations in the temperature profile (Fig. \ref{fig:skewt-examples}c).
+If a profile exhibited multiple stable layers in the upper troposphere as well as a "sharp tropopause," the sounding was assigned the "multiple stable layer" classification.
+
+Cumulative distributions of infrared brightness temperature for each of the three categories are plotted in Fig. \ref{fig:cdf}.
+The distributions for the "sharp tropopause" (orange) and "multiple stable layer" (blue) categories are nearly identical, which indicates that sharp tropopauses and multiple stable layers tend to occur in regions of similar infrared brightness temperature.
+These distributions also indicate that smooth tropopauses (red) tend to be located in regions of warmer infrared brightness temperature.
+For example, 42\% of "sharp tropopause" soundings and 45\% of multiple stable layer soundings were located in regions with brightness temperatures colder than -40\textdegree{}C, whereas only 28\% of "smooth tropopause" soundings were located in such regions.
+These distributions provide further evidence for a relationship between the infrared brightness temperature and the structure of the upper-tropospheric temperature profile.
+
+\subsection{The tropopause-layer temperature structure of TCs as observed by a large rawinsonde dataset}
+
 
 %---------------------------------------------------------------------------------------%
 \section{Discussion}
@@ -51,54 +105,62 @@ These rawinsondes
 
 %FIGURE 1%
 \begin{figure*}[ht]
+\centerline{\includegraphics[width=33pc]{figures/stationmap+stormlocations.png}}
+\caption{(top) Map of the number of rawinsondes deployed within 1000 km of tropical cyclones by station locations. (bottom) The locations of the center positions of (blue stars) tropical depressions, (orange stars) tropical storms, and (red stars) hurricanes at times when rawinsonde observations were collected.}
+\label{fig:maps}
+\end{figure*}
+
+%FIGURE 2%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/droplocs_scatterplot_rawinsondes.png}}
+\caption{Rawinsonde deployment locations relative to a composite TC center for (blue) tropical depressions, (orange) tropical storms, and (red) hurricanes. Range rings are plotted every 100 km, starting at 100 km and ending at 1000 km.}
+\label{fig:scatterplot}
+\end{figure*}
+
+%FIGURE 3%
+\begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/nadine-skewt.png}}
    \caption{(left) Infrared brightness temperature (\textdegree{}C) image of Hurricane Nadine at 2245 UTC 14 September 2012. Magenta, green, and blue stars represent dropsonde deployment locations corresponding to the three temperature soundings shown in the skew $T$--log$p$ diagram (right).}
 \label{fig:nadine-skewt}
 \end{figure*}
 
-%FIGURE 2%
+%FIGURE 4%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/nadine-n2}}
 \caption{Infrared brightness temperature (\textdegree{}C) images of Hurricane Nadine at (top left) 2315 UTC 14 September 2012 and (bottom left) 0015 UTC 15 September 2015. Digits represent dropsonde deployment locations. (right panels) Vertical cross sections of the squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$; 10\textsuperscript{-4} s\textsuperscript{-2}) constructed using the dropsondes depicted in the left panels. Digits along the bottom of the cross-sections correspond to the dropsonde locations indicated in the left panels.}
 \label{fig:nadine-n2}
 \end{figure*}
 
-%FIGURE 3%
-\begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{figures/skewt-examples.png}}
-\caption{Skew $T$--log $p$ diagrams depicting examples of three tropopause structure classifications: (top left) smooth tropopause, (top right) sharp tropopause, (bottom left) multiple tropopause.}
-\label{fig:skewt-examples}
-\end{figure*}
-
-%FIGURE 4%
-\begin{figure*}[ht]
-\centerline{\includegraphics[width=27pc]{figures/tb_cdf_10Cbins_0-500km.png}}
-\caption{Cumulative distributions of infrared brightness temperature (\textdegree{}C) for three tropopause structure classifications: (red) smooth tropopause, (orange) sharp tropopause, and (blue) multiple tropopause.}
-\label{fig:cdf}
-\end{figure*}
-
 %FIGURE 5%
 \begin{figure*}[ht]
-\centerline{\includegraphics[width=27pc]{figures/stationmap+stormlocations.png}}
-\caption{(top) Map of the number of rawinsondes deployed within 1000 km of tropical cyclones by station locations. (bottom) The locations of the center positions of (blue stars) tropical depressions, (orange stars) tropical storms, and (red stars) hurricanes at times when rawinsonde observations were deployed.}
-\label{fig:maps}
+\centerline{\includegraphics[width=39pc]{figures/droplocs_scatterplot_hs3.png}}
+\caption{As in Fig. \ref{fig:scatterplot}, but for all dropsondes deployed within 500 km of a TC center during the NASA Hurricane and Severe Storm Sentinel field campaign.}
+\label{fig:hs3-scatterplot}
 \end{figure*}
 
 %FIGURE 6%
 \begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{figures/sondelocs-scatterplot.png}}
-\caption{Rawinsonde deployment locations relative to a composite TC center for (blue) tropical depressions, (orange) tropical storms, and (red) hurricanes. Range rings are plotted every 100 km, starting at 100 km and ending at 1000 km.}
-\label{fig:scatterplot}
+\centerline{\includegraphics[width=39pc]{figures/skewt-examples.png}}
+\caption{Skew $T$--log $p$ diagrams depicting examples of three tropopause structure classifications: (top left) smooth tropopause, (top right) sharp tropopause, (bottom left) multiple stable layer.}
+\label{fig:skewt-examples}
 \end{figure*}
 
 %FIGURE 7%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=27pc]{figures/tb_cdf_10Cbins_0-500km.png}}
+\caption{Cumulative distributions of infrared brightness temperature (\textdegree{}C) for three tropopause structure classifications: (red) smooth tropopause, (orange) sharp tropopause, and (blue) multiple stable layer.}
+\label{fig:cdf}
+\end{figure*}
+
+
+%FIGURE 8%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/t+dtdz+d2tdz2-intensity-montage.png}}
 \caption{Composite mean vertical profiles of (left) temperature (\textdegree{}C), (middle) the vertical temperature gradient (\textdegree{}C km\textsuperscript{-1}), and (right) the second derivative of temperature with respect to height (\textdegree{}C km\textsuperscript{-2}) composited about the cold-point tropopause height for (blue) tropical depressions and tropical storms and (red) hurricanes.}
 \label{fig:tline-int}
 \end{figure*}
 
-%FIGURE 8%
+%FIGURE 9%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/t+dtdz+d2tdz2-irbt-montage.png}}
 \caption{As in Fig. \ref{fig:tline-int} but for rawinsondes deployed in regions of brightness temperature (magenta) colder than -50\textdegree{}C, (red) between -30 and -50\textdegree{}C, and (blue) warmer than -30\textdegree{}C.}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{86}
+\begin{thebibliography}{98}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -24,6 +24,11 @@ Black, P., L.~Harrison, M.~Beaubien, R.~Bluth, R.~Woods, A.~Penny, R.~W. Smith,
   and J.~D. Doyle, 2017: {High definition sounding system (HDSS) for
   atmospheric profiling}. \textit{J.\ Atmos.\ Oceanic Technol.}, \textbf{34},
   777--796.
+
+\bibitem[{Black and Coauthors(2007)Black, and Coauthors}]{Blacketal2007}
+Black, P.~G., and Coauthors, 2007: {Air–sea exchange in hurricanes: Synthesis
+  of observations from the Coupled Boundary Layer Air–Sea Transfer
+  experiment}. \textit{Bull.\ Amer.\ Meteor.\ Soc.}, \textbf{88}, 357--374.
 
 \bibitem[{Bowman and Fowler(2015)Bowman, and Fowler}]{BowmanFowler2015}
 Bowman, K.~P., and M.~D. Fowler, 2015: {The diurnal cycle of precipitation in
@@ -61,7 +66,7 @@ Chen, H., and S.~G. Gopalakrishnan, 2015: {A study of the asymmetric rapid
 \bibitem[{Chen and Zhang(2013)Chen, and Zhang}]{ChenZhang2013}
 Chen, H., and D.-L. Zhang, 2013: On the rapid intensification of hurricane
   wilma (2005). part ii: Convective bursts and the upper-level warm core.
-  \textit{J.\ Atmos.\ Sci.}, \textbf{70~(146-162)}.
+  \textit{J.\ Atmos.\ Sci.}, \textbf{70}, 146--162.
 
 \bibitem[{Danielsen(1993)}]{Danielsen1993}
 Danielsen, E.~F., 1993: {In situ evidence of rapid, vertical, irreversible
@@ -76,8 +81,8 @@ Das, S.~S., A.~K. Patra, and D.~N. Rao, 2008: Vhf radar echoes in the vicinity
 
 \bibitem[{Das et~al.(2016)}]{Dasetal2016}
 Das, S.~S., and Coauthors, 2016: Influence of tropical cyclones on tropospheric
-  ozone: possible implications. \textit{{Atmos. Chem. Phys.}},
-  \textbf{16~(4837-4847)}.
+  ozone: possible implications. \textit{{Atmos. Chem. Phys.}}, \textbf{16},
+  4837--4847.
 
 \bibitem[{Davis et~al.(2014)Davis, Ahijevych, Haggerty,, and
   Mahoney}]{Davisetal2014}
@@ -91,6 +96,10 @@ Davis, C.~A., D.~A. Ahijevych, J.~A. Haggerty, and M.~J. Mahoney, 2014:
 DeMaria, M., M.~Mainelli, L.~K. Shay, J.~A. Knaff, and J.~Kaplan, 2005:
   {Further improvements to the Statistical Hurricane Intensity Prediction
   Scheme (SHIPS)}. \textit{Wea.\ Forecasting}, \textbf{20}, 531--543.
+
+\bibitem[{Dinh et~al.(2010)Dinh, Durran,, and Ackerman}]{Dinhetal2010}
+Dinh, T.~P., D.~R. Durran, and T.~P. Ackerman, 2010: {Maintenance of tropical
+  tropopause layer cirrus}. \textit{J.\ Geophys.\ Res.}, \textbf{115~(D02104)}.
 
 \bibitem[{Doyle et~al.(2017)}]{DoyleTCI}
 Doyle, J.~D., and Coauthors, 2017: {A view of tropical cyclones from above: The
@@ -114,7 +123,13 @@ Duran, P., and J.~Molinari, 2016: {Upper-tropospheric low Richardson number in
 \bibitem[{Duran and Molinari(2018)Duran, and Molinari}]{DuranMolinari2018}
 Duran, P., and J.~Molinari, 2018: {Dramatic inner-core tropopause variability
   during the rapid intensification of Hurricane Patricia (2015)}. \textit{Mon.
-  Wea. Rev.}, \textbf{146~(1)}, 119--134.
+  Wea. Rev.}, \textbf{146}, 119--134.
+
+\bibitem[{Durran et~al.(2009)Durran, Dinh, Ammerman,, and
+  Ackerman}]{Durranetal2009}
+Durran, D.~R., T.~Dinh, M.~Ammerman, and T.~Ackerman, 2009: {The mesoscale
+  dynamics of thin tropical tropopause cirrus}. \textit{J.\ Atmos.\ Sci.},
+  \textbf{66}, 2859--2873.
 
 \bibitem[{Ebert and Holland(1992)Ebert, and Holland}]{EbertHolland1992}
 Ebert, E.~E., and G.~J. Holland, 1992: {Observations of record cold cloud-top
@@ -144,6 +159,19 @@ Ferreira, A.~P., J.~M. Castanheira, and L.~Gimeno, 2016: {Water vapour
   midlatitude tropopause}. \textit{Quart.\ J.\ Roy.\ Meteor.\ Soc.},
   \textbf{142}, 957--970.
 
+\bibitem[{Fovell et~al.(2016)Fovell, Bu, Corbosiero, Tung, Cao, Kuo, Hsu,, and
+  Su}]{Fovelletal2016}
+Fovell, R.~G., Y.~P. Bu, K.~L. Corbosiero, W.-W. Tung, Y.~Cao, H.-C. Kuo, L.-H.
+  Hsu, and H.~Su, 2016: {Influence of cloud microphysics and radiation on
+  tropical cyclone structure and motion}. \textit{Meteor.\ Monogr.},
+  \textbf{56}, 11.1--11.27.
+
+\bibitem[{Gall et~al.(2013)Gall, Franklin, Marks, Rappaport,, and
+  Toepfer}]{Galletal2013}
+Gall, R., J.~Franklin, F.~Marks, E.~N. Rappaport, and F.~Toepfer, 2013: The
+  hurricane forecast improvement project. \textit{Bull.\ Amer.\ Meteor.\ Soc.},
+  \textbf{94}, 329--343.
+
 \bibitem[{Garrett et~al.(2005)}]{Garrettetal2005}
 Garrett, T.~J., and Coauthors, 2005: {Evolution of a Florida cirrus anvil}.
   \textit{J.\ Atmos.\ Sci.}, \textbf{62}, 2352--2372.
@@ -161,7 +189,7 @@ Grise, K.~M., D.~W.~J. Thompson, and T.~Birner, 2010: {A global survey of
 \bibitem[{Guimond et~al.(2010)Guimond, Heymsfield,, and Turk}]{Guimondetal2010}
 Guimond, S.~R., G.~Heymsfield, and F.~J. Turk, 2010: Multiscale observations of
   hurricane dennis (2005): The effects of hot towers on rapid intensification.
-  \textit{J.\ Atmos.\ Sci.}, \textbf{67~(633-653)}.
+  \textit{J.\ Atmos.\ Sci.}, \textbf{67}, 633--653.
 
 \bibitem[{Halverson et~al.(2006)Halverson, Simpson, Heymsfield, Pierce, Hock,,
   and Ritchie}]{Halversonetal2006}
@@ -183,9 +211,23 @@ Hawkins, H.~F., and D.~T. Rubsam, 1968: {Hurricane Hilda, 1964. II. Structure
   and budgets of the hurricane on October 1, 1964}. \textit{Mon.\ Wea.\ Rev.},
   \textbf{96}, 617--636.
 
+\bibitem[{Highwood and Hoskins(1998)Highwood, and
+  Hoskins}]{HighwoodHoskins1998}
+Highwood, E.~J., and B.~J. Hoskins, 1998: The tropical tropopause.
+  \textit{Quart.\ J.\ Roy.\ Meteor.\ Soc.}, \textbf{124}, 1579--1604.
+
 \bibitem[{Hock and Franklin(1999)Hock, and Franklin}]{HockFranklin1999}
 Hock, T.~F., and J.~L. Franklin, 1999: {The NCAR GPS dropwindsonde}.
   \textit{Bull.\ Amer.\ Meteor.\ Soc.}, \textbf{80}, 407--420.
+
+\bibitem[{Hoerling et~al.(1991)Hoerling, Schaack,, and
+  Lenzen}]{Hoerlingetal1991}
+Hoerling, M.~P., T.~K. Schaack, and A.~J. Lenzen, 1991: Global objective
+  tropopause analysis. \textit{Mon.\ Wea.\ Rev.}, \textbf{119}, 1816--1831.
+
+\bibitem[{Holton and Hakim(2013)Holton, and Hakim}]{HoltonHakim}
+Holton, J.~R., and G.~J. Hakim, 2013: \textit{An Introduction to Dynamic
+  Meteorology}. Elsevier Academic Press, 532 pp.
 
 \bibitem[{Holton et~al.(1995)Holton, Haynes, McIntyre, Douglass, Hood,, and
   Pfister}]{Holtonetal1995}
@@ -267,7 +309,7 @@ Lenz, A., K.~M. Bedka, W.~F. Feltz, and S.~A. Ackerman, 2009: {Convectively
 \bibitem[{Love and Geller(2012)Love, and Geller}]{LoveGeller2012}
 Love, P.~T., and M.~A. Geller, 2012: Research using high (and higher)
   resolution radiosonde data. \textit{{Eos, Trans. Amer. Geophys. Union}},
-  \textbf{93~(337-344)}.
+  \textbf{93}, 337--344.
 
 \bibitem[{Malkus(1958)}]{Malkus1958}
 Malkus, J.~S., 1958: {On the structure and maintenance of the mature hurricane
@@ -311,12 +353,17 @@ Pendergrass, A.~G., and H.~E. Willoughby, 2009: {Diabatically induced secondary
 
 \bibitem[{Penn(1965)}]{Penn1965}
 Penn, S., 1965: Ozone and temperature structure in a hurricane. \textit{{J.
-  Appl. Meteor.}}, \textbf{4~(212-216)}.
+  Appl. Meteor.}}, \textbf{4}, 212--216.
 
 \bibitem[{Penn(1966)}]{Penn1966}
 Penn, S., 1966: {Temperature and ozone variations near tropopause level over
   Hurricane Isbell October 1964}. \textit{{J. Appl. Meteor.}}, \textbf{5},
   407--410.
+
+\bibitem[{Powell and Aberson(2001)Powell, and Aberson}]{PowellAberson2001}
+Powell, M.~D., and S.~D. Aberson, 2001: {Accuracy of United States tropical
+  cyclone landfall forecasts in the Atlantic basin (1976-2000)}. \textit{Bull.\
+  Amer.\ Meteor.\ Soc.}, \textbf{82}, 2749--2767.
 
 \bibitem[{Randel et~al.(2007)Randel, Wu,, and Forser}]{Randeletal2007}
 Randel, W.~J., F.~Wu, and P.~Forser, 2007: {The extratropical tropopause
@@ -327,7 +374,12 @@ Randel, W.~J., F.~Wu, and P.~Forser, 2007: {The extratropical tropopause
   Sherwood}]{RobinsonSherwood2006}
 Robinson, F., and S.~Sherwood, 2006: Modeling the impact of convective
   entrainment on the tropical tropopause. \textit{J.\ Atmos.\ Sci.},
-  \textbf{63~(1013-1027)}.
+  \textbf{63}, 1013--1027.
+
+\bibitem[{Rogers et~al.(2006)}]{Rogersetal2006}
+Rogers, R., and Coauthors, 2006: {The Intensity Forecasting Experiment (IFEX):
+  A NOAA multi-year field program for improving tropical cyclone intensity
+  forecasts}. \textit{Bull.\ Amer.\ Meteor.\ Soc.}, \textbf{87}, 1523--1537.
 
 \bibitem[{Rogers et~al.(2017)Rogers, Aberson, Bell, Cecil, Doyle, Morgerman,
   Shay,, and Velden}]{Rogersetal2017}
@@ -385,8 +437,8 @@ Stern, D.~P., and F.~Zhang, 2013: {How does the eye warm? Part I: A potential
 \bibitem[{Thompson et~al.(2004)Thompson, Rasmussen,, and Manning}]{Thompson}
 Thompson, G., R.~M. Rasmussen, and K.~Manning, 2004: {Explicit Forecasts of
   Winter Precipitation Using an Improved Bulk Microphysics Scheme. Part I:
-  Description and Sensitivity Analysis}. \textit{Mon. Wea. Rev.},
-  \textbf{132~(2)}, 519--542.
+  Description and Sensitivity Analysis}. \textit{Mon. Wea. Rev.}, \textbf{132},
+  519--542.
 
 \bibitem[{Trier and Sharman(2009)Trier, and Sharman}]{TrierSharman2009}
 Trier, S.~B., and R.~D. Sharman, 2009: {Convection-permitting simulations of
@@ -416,6 +468,11 @@ Wang, S., S.~J. Camargo, A.~H. Sobel, and L.~M. Polvani, 2014: {Impact of the
   study using a mesoscale model}. \textit{J.\ Atmos.\ Sci.}, \textbf{71},
   4333--4348.
 
+\bibitem[{Wilcox et~al.(2011)Wilcox, Hoskins,, and Shine}]{Wilcoxetal2011}
+Wilcox, L.~J., B.~J. Hoskins, and K.~P. Shine, 2011: {A global blended
+  tropopause based on ERA data. Part I: Climatology}. \textit{Quart.\ J.\ Roy.\
+  Meteor.\ Soc.}, \textbf{138}, 561--575.
+
 \bibitem[{Willoughby(1979)}]{Willoughby1979}
 Willoughby, H.~E., 1979: {Forced secondary circulations in hurricanes}.
   \textit{J.\ Geophys.\ Res.}, \textbf{84}, 3173--3183.
@@ -426,14 +483,24 @@ Wirth, V., 2003: {Static stability in the extratropical tropopause region}.
 
 \bibitem[{WMO(1957)}]{WMO1957}
 WMO, 1957: {Meteorology---A three-dimensional science.} \textit{{WMO Bull.}},
-  \textbf{6~(134-138)}.
+  \textbf{6}, 134--138.
 
 \bibitem[{WMO(1998)}]{WMO1998}
 WMO, 1998: {Manual on codes. Vol. I.1 (Part A: Alphanumeric codes)}. WMO Publ.
   WMO-306, 466 pp.
 
-\bibitem[{Young et~al.()Young, Wang, Hock, Lauritsen,, and Martin}]{Young2016}
-Young, K., J.~Wang, T.~Hock, D.~Lauritsen, and C.~Martin, ????: .
+\bibitem[{Young et~al.(2016)Young, Wang, Hock, Lauritsen,, and
+  Martin}]{Young2016}
+Young, K., J.~Wang, T.~Hock, D.~Lauritsen, and C.~Martin, 2016: {Hurricane and
+  Severe Storm Sentinel (GS3) 2012 Global Hawk Dropsonde Project Analysis
+  Summary}. \doi{10.5065/D6BV7DSK}.
+
+\bibitem[{Yuchechen and Canziani(2017)Yuchechen, and
+  Canziani}]{YuchechenandCanziani}
+Yuchechen, A.~E., and P.~O. Canziani, 2017: A comparison between thermal
+  tropopauses derived from mandatory and significant levels for the {Indian}
+  subcontinent upper-air network. \textit{{Atmos. Sci. Let.}}, \textbf{18},
+  207--214.
 
 \bibitem[{Yuter and Houze(1995)Yuter, and Houze}]{YuterHouze1995}
 Yuter, S.~E., and R.~A. Houze, 1995: {Three-dimensional kinematic and

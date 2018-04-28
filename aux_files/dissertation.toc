@@ -1,43 +1,50 @@
 \contentsline {chapter}{ABSTRACT}{ii}{section*.1}
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{iv}{section*.3}
 \contentsline {chapter}{\numberline {1.}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2.}Upper-tropospheric low Richardson number in tropical cyclones: Sensitivity to cyclone intensity and the diurnal cycle}{6}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}
-\contentsline {section}{\numberline {2.2}Data and methods}{7}{section.2.2}
-\contentsline {section}{\numberline {2.3}Results}{9}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Aircraft turbulence observations}{9}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Low Richardson number, stability, and shear in the upper troposphere}{9}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Variation of Richardson number with TC intensity}{10}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Variation of Richardson number with time of day}{14}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}Discussion}{15}{section.2.4}
-\contentsline {chapter}{\numberline {3.}Dramatic inner-core tropopause variability during the rapid intensification of {Hurricane Patricia} (2015)}{26}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{26}{section.3.1}
-\contentsline {section}{\numberline {3.2}Data and methods}{26}{section.3.2}
-\contentsline {section}{\numberline {3.3}Results}{28}{section.3.3}
-\contentsline {section}{\numberline {3.4}Discussion}{37}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Early RI}{37}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Late RI}{38}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Characteristics common to early and late RI}{39}{subsection.3.4.3}
-\contentsline {chapter}{\numberline {4.}Tropopause evolution in a rapidly intensifying tropical cyclone: A static stability budget analysis in an idealized, axisymmetric framework}{51}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{51}{section.4.1}
-\contentsline {section}{\numberline {4.2}Model setup}{51}{section.4.2}
-\contentsline {section}{\numberline {4.3}Budget computation}{52}{section.4.3}
-\contentsline {section}{\numberline {4.4}Results}{56}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Static stability evolution}{56}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Static stability budget analysis}{56}{subsection.4.4.2}
-\contentsline {paragraph}{0-24 hours}{56}{section*.6}
-\contentsline {paragraph}{24-48 hours}{57}{section*.7}
-\contentsline {paragraph}{48-72 hours}{58}{section*.8}
-\contentsline {section}{\numberline {4.5}Discussion}{59}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}The role of advection}{59}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}The role of radiation}{62}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}The role of turbulent mixing}{63}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Conclusions}{64}{section.4.6}
-\contentsline {chapter}{\numberline {5.}The tropopause-layer static stability structure of tropical cyclones as revealed by HS3 dropsondes and a large rawinsonde dataset}{80}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{80}{section.5.1}
-\contentsline {section}{\numberline {5.2}Data and methods}{80}{section.5.2}
-\contentsline {section}{\numberline {5.3}Results}{81}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}The tropopause-layer static stability structure of Hurricane Nadine (2012)}{81}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}The relationship between infrared brightness temperature and the tropopause structure obseved by HS3 dropsondes}{83}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}The tropopause-layer temperature structure of TCs as observed by a large rawinsonde dataset}{85}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Discussion}{85}{section.5.4}
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}The theoretical importance of the tropopause in TCs}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Definition of the tropopause}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Observations of the tropopause in TCs}{3}{section.1.4}
+\contentsline {section}{\numberline {1.5}The TC warm core and its influence on the tropopause}{4}{section.1.5}
+\contentsline {section}{\numberline {1.6}The effect of radiative heating near the tropopause}{6}{section.1.6}
+\contentsline {section}{\numberline {1.7}Outline}{7}{section.1.7}
+\contentsline {chapter}{\numberline {2.}Upper-tropospheric low Richardson number in tropical cyclones: Sensitivity to cyclone intensity and the diurnal cycle}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Data and methods}{10}{section.2.2}
+\contentsline {section}{\numberline {2.3}Results}{12}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Aircraft turbulence observations}{12}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Low Richardson number, stability, and shear in the upper troposphere}{12}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Variation of Richardson number with TC intensity}{13}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Variation of Richardson number with time of day}{17}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Discussion}{18}{section.2.4}
+\contentsline {chapter}{\numberline {3.}Dramatic inner-core tropopause variability during the rapid intensification of {Hurricane Patricia} (2015)}{29}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{29}{section.3.1}
+\contentsline {section}{\numberline {3.2}Data and methods}{29}{section.3.2}
+\contentsline {section}{\numberline {3.3}Results}{32}{section.3.3}
+\contentsline {section}{\numberline {3.4}Discussion}{40}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Early RI}{40}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Late RI}{41}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Characteristics common to early and late RI}{42}{subsection.3.4.3}
+\contentsline {chapter}{\numberline {4.}Tropopause evolution in a rapidly intensifying tropical cyclone: A static stability budget analysis in an idealized, axisymmetric framework}{54}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{54}{section.4.1}
+\contentsline {section}{\numberline {4.2}Model setup}{54}{section.4.2}
+\contentsline {section}{\numberline {4.3}Budget computation}{55}{section.4.3}
+\contentsline {section}{\numberline {4.4}Results}{59}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Static stability evolution}{59}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Static stability budget analysis}{59}{subsection.4.4.2}
+\contentsline {paragraph}{0-24 hours}{59}{section*.6}
+\contentsline {paragraph}{24-48 hours}{60}{section*.7}
+\contentsline {paragraph}{48-72 hours}{61}{section*.8}
+\contentsline {section}{\numberline {4.5}Discussion}{62}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}The role of advection}{62}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}The role of radiation}{65}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}The role of turbulent mixing}{66}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Conclusions}{67}{section.4.6}
+\contentsline {chapter}{\numberline {5.}The tropopause-layer static stability structure of tropical cyclones as revealed by HS3 dropsondes and a large rawinsonde dataset}{83}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{83}{section.5.1}
+\contentsline {section}{\numberline {5.2}Data and methods}{83}{section.5.2}
+\contentsline {section}{\numberline {5.3}Results}{84}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}The tropopause-layer static stability structure of Hurricane Nadine (2012)}{84}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}The relationship between infrared brightness temperature and the tropopause-layer temperature structure obseved by HS3 dropsondes}{86}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}The tropopause-layer temperature structure of TCs as observed by a large rawinsonde dataset}{88}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Discussion}{88}{section.5.4}

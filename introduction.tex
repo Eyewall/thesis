@@ -7,12 +7,18 @@
 \chapter{Introduction}
 \label{intro}
 
-\indent \indent The cold-point tropopause is defined as the level of minimum temperature in a sounding (Highwood and Hoskins 1998).
-This tropopause definition is widely used in the tropics because the cold-point temperature influences the exchange of ozone and water vapor between the troposphere and stratosphere \citep{Moteetal1996}, which has important climatological implications \citep{Holtonetal1995}.
-Although few papers have analyzed the effect of tropical cyclones (TCs) on the tropopause, radar observations suggest that TCs can enhance troposphere--stratosphere exchange through deep convection and turbulent mixing \citep{Dasetal2008}.
-In addition, \citep{Davisetal2014} noted that convection within intensifying tropical
-disturbances can penetrate up to or above the cold-point tropopause, acting to decrease its temperature.
+\section{Motivation}
 
+\indent \indent The latter decades of the 20\textsuperscript{th} century saw a remarkable increase in the accuracy of tropical cyclone (TC) track forecasts \citep{PowellAberson2001}, a trend that has continued to the present day.
+This increase in skill, largely attributable to improved global numerical weather prediction models and data assimilation schemes \citep{Galletal2013}, has far outpaced intensity forecasts.
+
+TC intensification is fundamentally driven by meso- and micro-scale processes that are not well represented in global models or even regional convection-permitting models \citep{Rogersetal2006}.
+Until very recently, many of these processes---particularly those in the boundary layer \citep{Blacketal2007} and upper troposphere \citep{DoyleTCI}---have not been well observed.
+This dissertation will focus on the latter---documenting the tropopause-layer structure of TCs, how this structure evolves as a TC intensifies, and the mechanisms that might drive the observed evolution.
+A better understanding of these processes will add to the overall knowledge of the TC intensification process and hopefully improve theoretical and numerical modeling representations of TCs.
+
+\section{The theoretical importance of the tropopause in TCs}
+ 
 Tropopause temperature is an important parameter in theoretical models of TC structure and intensity.
 \cite{EmanuelRotunno2011} expressed the maximum gradient wind speed at the top of the TC boundary layer as a function of upper-level outflow temperature.
 They argued that the outflow-layer stratification is determined by a requirement that the Richardson number remains near a critical value for turbulence.
@@ -22,6 +28,27 @@ From a climate perspective, changes in tropopause temperature could modify the t
 \cite{Emanueletal2013} noted that recent increases in potential intensity [as defined by \cite{BisterEmanuel1998}] observed in the North Atlantic region can be explained by observed decreases in temperature near the tropopause.
 These theoretical arguments are supported by the three-dimensional radiative-convective equilibrium simulations of \cite{Wangetal2014}, in which the maximum wind speed of TCs increased by 0.4 m s\textsuperscript{-1} per 1 K of tropopause cooling.
 
+\section{Definition of the tropopause}
+
+The tropopause can be defined in many ways, depending on the application and the region of interest.
+
+In the midlatitudes, the tropopause often is defined as a surface of constant potential vorticity---typically in the range of 1.5--4 PVU (1 PVU = 10\textsuperscript{-6} K kg\textsuperscript{-1} m\textsuperscript{2} s\textsuperscript{-1}; \citeauthor{Wilcoxetal2011} \citeyear{Wilcoxetal2011}; \citeauthor{HoltonHakim} \citeyear{HoltonHakim}).
+This definition requires knowledge of the 2-dimensional wind field, however, and can be difficult to apply when only point observations such as dropsondes or rawinsondes are available.
+
+The "thermal tropopause" or "lapse-rate tropopause" is defined as "the lowest level at which the lapse rate decreases to 2\textdegree{}C km\textsuperscript{-1} or less, provided that the average lapse rate between this level and all higher levels within 2 km does not exceed 2\textdegree{}C km\textsuperscript{-1} \citep{WMO1957}.
+Since this definition considers only the vertical temperature gradient, the tropopause height and temperature can be determined using only a single sounding.
+This definition is well-suited for low-resolution soundings in which only mandatory and significant levels are reported because the tropopause should be located at a "significant level," where temperature changes abruptly with height \citep{YuchechenandCanziani}.
+The tropopause so defined, however, does not always have physical significance \citep{HighwoodHoskins1998}, and can be erroneous if multiple stable layers exist in the sounding \citep{Hoerlingetal1991}.
+
+The cold-point tropopause is defined as the level of minimum temperature in a sounding \citep{HighwoodHoskins1998}.
+Since this definition requires the detection of a minimum, the sounding used to derive it must have high vertical resolution.
+The tropopause so defined has great physical relevance in the tropics.
+In particular, the cold-point temperature influences the exchange of ozone and water vapor between the troposphere and stratosphere \citep{Moteetal1996}, which has important climatological implications \citep{Holtonetal1995}.
+Although few papers have analyzed the effect of TCs on the tropopause, radar observations suggest that TCs can enhance troposphere--stratosphere exchange through deep convection and turbulent mixing \citep{Dasetal2008}.
+In addition, \citep{Davisetal2014} noted that convection within intensifying tropical disturbances can penetrate up to or above the cold-point tropopause, acting to decrease its temperature.
+Due to its physical relevance and the availability of high-resolution rawinsonde and dropsonde data to define it, the cold-point tropopause will be used everywhere in this dissertation except in Chapter \ref{chapter:turb}, where the tropopause was not the focus of the results.
+
+\section{Observations of the tropopause in TCs}
 Despite its potential importance, most analyses of TC tropopause structure are decades old.
 \cite{JordanJordan1954} composited radiosonde ascents through many storms, finding that the tropopause near the storm center was both higher and colder than the surrounding region.
 In a case study of four landfalling hurricanes using radiosonde composites, \cite{Koteswaram1967} likewise found an elevated and anomalously cold tropopause at innermost radii in three of the storms.
@@ -37,6 +64,9 @@ The coldest temperatures, -85\textdegree{}C, were observed in the regions of mos
 Likewise in Hurricane Beulah (1967), the coldest temperature, -86\textdegree{}C, was observed a few hundred meters above the highest cloud tops \citep{Waco1970}.
 Very near the storm center, the temperature at 16.5-km altitude increased from -86\textdegree{}C to -77\textdegree{}C over a horizontal distance less than 30 km as the aircraft approached the storm center [see Fig. 2 ‘‘Run 2’’ in \cite{Waco1970}].
 This strong inward temperature increase was likely associated with an intense upper-tropospheric warm core within and near Beulah’s eye.
+The anomalous warming associated with this upper-tropospheric warm core could have implications for the tropopause-layer static stability.
+
+\section{The TC warm core and its influence on the tropopause}
 
 The presence of a warm core in the upper troposphere of hurricanes was documented by a series of studies (\citeauthor{LaSeurHawkins1963} \citeyear{LaSeurHawkins1963}; \citeauthor{HawkinsRubsam1968} \citeyear{HawkinsRubsam1968}; \citeauthor{HawkinsImbembo1976} \citeyear{HawkinsImbembo1976}) using aircraft observations.
 \citeauthor{HawkinsImbembo1976} (\citeyear{HawkinsImbembo1976}, their Fig. 6) depicted two anomalous warming maxima---one centered near 600 mb (1 mb = 1 hPa) and another centered near 300 mb---in Hurricane Inez (1966).
@@ -70,8 +100,38 @@ It is unclear whether these strong inversions were a consequence of the hurrican
 More recent literature (e.g., \cite{Wirth2003}) has noted that strong, shallow temperature inversions immediately above the cold-point tropopause are a common feature in the tropics, now known as the tropopause inversion layer (TIL).
 On the planetary scale, TIL formation and maintenance has been tied to planetary wave dynamics \cite{Griseetal2010} and vertical gradients of radiative heating across the tropopause \citep{Randeletal2007}, but the relative contributions of dynamics and thermodynamics remains uncertain \citep{Ferreiraetal2016}.
 To our knowledge, no paper has examined how hurricanes affect the TIL, although the simulations of \cite{OhnoSatoh2015} provide some evidence that they can considerably alter the static stability near the tropopause.
-The importance of tropopause temperature in theoretical models of TCs, combined with the potential role of static stability in determining the precise structure of the warm core, motivates a closer look at the evolution of the tropopause and static stability in a hurricane.
-This dissertation will employ dropsonde and rawinsonde observations collected within TCs along with idealized modeling to investigate the tropopause-layer static stability structure and evolution of TCs.
+
+\section{The effect of radiative heating near the tropopause}
+
+Recent numerical studies have highlighted the importance of radiative heating in the upper levels of TCs.
+\cite{Buetal2014} and \cite{Fovelletal2016} noted that longwave radiative heating within the TC cirrus canopy acts to broaden the TC circulation.
+When this within-cloud longwave heating was eliminated, the model produced a more radially-confined cirrus canopy and primary and secondary circulations (see their Figs. 11,12).
+Although the highest-magnitude radiative tendencies in their simulations occurred at the top of the cirrus canopy, where radiative cooling exceeded 0.3 K h\textsuperscript{-1}, these tendencies exerted little impact on the overall storm structure.
+This strong cooling was, however, associated with strong vertical gradients of radiative heating above and below the cloud top.
+The magnitude and persistence of this longwave cooling suggests that it could have a direct impact on the static stability near the cloud top.
+In particular, persisent cooling near the cloud top would act to destabilize the layer below the cloud top and stabilize the layer above.
+These radiative tendencies also could exert an indirect effect on the upper-level static stability by modifying the storm's radial-vertical circulation.
+\cite{Durranetal2009} described the circulation that develops in response to radiative heating within tropopause-layer cirrus clouds.
+The heating induces upward motion through the heat source, inflow below the heat source, and outflow above.
+\cite{Dinhetal2010} showed that these circulations act to spread cirrus clouds laterally, which then would feed back onto the radiatve tendencies.
+
+The results of \cite{Buetal2014} and \cite{Fovelletal2016} show that, although the cloud-top radiative cooling plays a negligible role in the storm expansion, it does affect the circulation near the cloud top.
+In particular, it drives weak inflow above the cooling maximum and outflow below, along with subsidence within the region of cooling (see \citeauthor{Fovelletal2016} \citeyear{Fovelletal2016}, Fig. 21).
+Although these circulations are weak, their persistence could drive differential advection of potential temperature, as discussed by \cite{ChenZhang2013} and \cite{ChenGopalakrishnan2015},  which would modify the tropopause-layer static stability.
+
+Other than its effect on 
+
+\section{Outline}
+
+The importance of tropopause temperature in theoretical models of TCs, combined with the potential role of static stability in determining the precise structure of the warm core and the evolution of the tropical cyclone diurnal cycle, motivates a closer look at the evolution of the tropopause and static stability in a hurricane.
+
+This dissertation will employ dropsonde and rawinsonde observations, along with idealized modeling, to investigate the structure and evolution of tropopause-layer turbulence and static stability in TCs.
+Chapter \ref{chapter:turb} examines the radial-vertical structure of bulk Richardson number in TCs, how it varies with storm intensity and time of day, and the relative importance of static stability and vertical wind shear in producing layers conductive to turbulence in the upper troposphere.
+Chapter \ref{chapter:patricia} analyzes the tropopause and upper-level static stability evolution of Hurricane Patricia (2015) during its rapid intensification, and hypothesizes mechanisms that might have led to the observed variability.
+Chapter \ref{chapter:modeling} employs idealized, axisymmetric simulations to reproduce the tropopause and static stability tendencies observed in Hurricane Patricia.
+Budget analyses are performed to isolate the most important mechanisms that drive the tropopause variability in the modeled storm.
+Chapter \ref{chapter:hs3} presents the upper-level static stability structure of category one Hurricane Nadine (2012) and provides a preliminary analysis of the tropopause characteristics of a large number of TCs.
+
 
 %-----Figures-----
 \clearpage

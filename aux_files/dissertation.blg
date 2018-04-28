@@ -10,11 +10,6 @@ A level-1 auxiliary file: modeling.aux
 A level-1 auxiliary file: hs3.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 837 of file references.bib
- : 
- : title={{Hurricane and Severe Storm Sentinel (GS3) 2012 Global Hawk Dropsonde Project Analysis Summary}},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in BellTCI
 Warning--missing publisher in Brown2013
@@ -23,47 +18,46 @@ Warning--missing publisher in Jarvinenetal1984
 Warning--missing publisher in Kimberlainetal2016
 Warning--missing publisher in Wyoming2016
 Warning--missing publisher in WMO1998
-Warning--empty year in Young2016; set to ????
 Warning--missing publisher in Young2016
-You've used 86 entries,
+You've used 98 entries,
             3493 wiz_defined-function locations,
-            1384 strings with 22216 characters,
-and the built_in function-call counts, 87894 in all, are:
-= -- 10416
-> -- 2689
-< -- 51
-+ -- 1660
-- -- 678
-* -- 4423
-:= -- 9021
-add.period$ -- 171
-call.type$ -- 86
-change.case$ -- 654
-chr.to.int$ -- 86
-cite$ -- 95
-duplicate$ -- 9090
-empty$ -- 4786
-format.name$ -- 895
-if$ -- 17968
+            1459 strings with 24438 characters,
+and the built_in function-call counts, 104989 in all, are:
+= -- 12647
+> -- 3144
+< -- 56
++ -- 1989
+- -- 792
+* -- 5208
+:= -- 10552
+add.period$ -- 196
+call.type$ -- 98
+change.case$ -- 751
+chr.to.int$ -- 98
+cite$ -- 106
+duplicate$ -- 10932
+empty$ -- 5601
+format.name$ -- 1043
+if$ -- 21480
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 894
-newline$ -- 269
-num.names$ -- 344
-pop$ -- 4174
+missing$ -- 1033
+newline$ -- 305
+num.names$ -- 392
+pop$ -- 4953
 preamble$ -- 1
-purify$ -- 566
+purify$ -- 651
 quote$ -- 0
-skip$ -- 5224
+skip$ -- 6409
 stack$ -- 0
-substring$ -- 4202
-swap$ -- 7326
+substring$ -- 5158
+swap$ -- 8961
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 774
-warning$ -- 9
-while$ -- 394
+type$ -- 879
+warning$ -- 8
+while$ -- 464
 width$ -- 0
-write$ -- 946
-(There was 1 error message)
+write$ -- 1080
+(There were 8 warnings)

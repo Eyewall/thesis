@@ -8,9 +8,11 @@ A level-1 auxiliary file: turb.aux
 A level-1 auxiliary file: patricia.aux
 A level-1 auxiliary file: modeling.aux
 A level-1 auxiliary file: hs3.aux
+A level-1 auxiliary file: conclusions.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--missing publisher in AMSglossary
 Warning--missing publisher in BellTCI
 Warning--missing publisher in Brown2013
 Warning--missing publisher in Bryan2017
@@ -19,45 +21,45 @@ Warning--missing publisher in Kimberlainetal2016
 Warning--missing publisher in Wyoming2016
 Warning--missing publisher in WMO1998
 Warning--missing publisher in Young2016
-You've used 98 entries,
+You've used 99 entries,
             3493 wiz_defined-function locations,
-            1459 strings with 24438 characters,
-and the built_in function-call counts, 104989 in all, are:
-= -- 12647
-> -- 3144
+            1465 strings with 24757 characters,
+and the built_in function-call counts, 105415 in all, are:
+= -- 12682
+> -- 3154
 < -- 56
-+ -- 1989
-- -- 792
-* -- 5208
-:= -- 10552
-add.period$ -- 196
-call.type$ -- 98
-change.case$ -- 751
-chr.to.int$ -- 98
-cite$ -- 106
-duplicate$ -- 10932
-empty$ -- 5601
-format.name$ -- 1043
-if$ -- 21480
++ -- 1993
+- -- 795
+* -- 5226
+:= -- 10624
+add.period$ -- 198
+call.type$ -- 99
+change.case$ -- 756
+chr.to.int$ -- 99
+cite$ -- 108
+duplicate$ -- 10972
+empty$ -- 5639
+format.name$ -- 1045
+if$ -- 21565
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 1033
-newline$ -- 305
-num.names$ -- 392
-pop$ -- 4953
+missing$ -- 1041
+newline$ -- 308
+num.names$ -- 396
+pop$ -- 4972
 preamble$ -- 1
-purify$ -- 651
+purify$ -- 655
 quote$ -- 0
-skip$ -- 6409
+skip$ -- 6429
 stack$ -- 0
-substring$ -- 5158
-swap$ -- 8961
+substring$ -- 5171
+swap$ -- 8975
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 879
-warning$ -- 8
-while$ -- 464
+type$ -- 888
+warning$ -- 9
+while$ -- 467
 width$ -- 0
-write$ -- 1080
-(There were 8 warnings)
+write$ -- 1090
+(There were 9 warnings)

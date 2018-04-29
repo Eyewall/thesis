@@ -1,4 +1,4 @@
-\begin{thebibliography}{98}
+\begin{thebibliography}{99}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -8,6 +8,11 @@
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{{American Meteorological Society}(2012)}]{AMSglossary}
+{American Meteorological Society}, 2012: {Significant level. Glossary of
+  Meteorology}. {[Available online at
+  \url{http://glossary.ametsoc.org/wiki/Significant\_level}]}.
 
 \bibitem[{Bell et~al.(2016)}]{BellTCI}
 Bell, M.~M., and Coauthors, 2016: Office of {N}aval {R}esearch {T}ropical
@@ -25,7 +30,7 @@ Black, P., L.~Harrison, M.~Beaubien, R.~Bluth, R.~Woods, A.~Penny, R.~W. Smith,
   atmospheric profiling}. \textit{J.\ Atmos.\ Oceanic Technol.}, \textbf{34},
   777--796.
 
-\bibitem[{Black and Coauthors(2007)Black, and Coauthors}]{Blacketal2007}
+\bibitem[{Black et~al.(2007)}]{Blacketal2007}
 Black, P.~G., and Coauthors, 2007: {Air–sea exchange in hurricanes: Synthesis
   of observations from the Coupled Boundary Layer Air–Sea Transfer
   experiment}. \textit{Bull.\ Amer.\ Meteor.\ Soc.}, \textbf{88}, 357--374.

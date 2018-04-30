@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  28 APR 2018 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  30 APR 2018 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -127,13 +127,9 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-
-! LaTeX Error: File `yfonts.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/yfonts/yfonts.sty
+Package: yfonts 2003/01/08 v1.3 (WaS)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 
@@ -545,6 +541,10 @@ File: ts1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
 )
+Now handling font encoding LY ...
+... no UTF-8 mapping file for font encoding LY
+Now handling font encoding LYG ...
+... no UTF-8 mapping file for font encoding LYG
    defining Unicode char U+00A9 (decimal 169)
    defining Unicode char U+00AA (decimal 170)
    defining Unicode char U+00AE (decimal 174)
@@ -1054,6 +1054,10 @@ LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 \symgns@font=\mathgroup4
@@ -1523,32 +1527,32 @@ File: figures/stationmap+stormlocations.png Graphic file (type png)
 
 <use figures/stationmap+stormlocations.png>
 Package pdftex.def Info: figures/stationmap+stormlocations.png used on input li
-ne 109.
+ne 110.
 (pdftex.def)             Requested size: 396.0pt x 588.59198pt.
 
 
-LaTeX Warning: Float too large for page by 6.16199pt on input line 112.
+LaTeX Warning: Float too large for page by 6.16199pt on input line 113.
 
 <figures/droplocs_scatterplot_rawinsondes.png, id=1532, 803.0pt x 803.0pt>
 File: figures/droplocs_scatterplot_rawinsondes.png Graphic file (type png)
 
 <use figures/droplocs_scatterplot_rawinsondes.png>
 Package pdftex.def Info: figures/droplocs_scatterplot_rawinsondes.png used on i
-nput line 116.
+nput line 117.
 (pdftex.def)             Requested size: 468.0pt x 468.0071pt.
 
 <figures/nadine-skewt.png, id=1533, 1554.80875pt x 780.9175pt>
 File: figures/nadine-skewt.png Graphic file (type png)
 
 <use figures/nadine-skewt.png>
-Package pdftex.def Info: figures/nadine-skewt.png used on input line 123.
+Package pdftex.def Info: figures/nadine-skewt.png used on input line 124.
 (pdftex.def)             Requested size: 468.0pt x 235.05157pt.
 
 <figures/nadine-n2.png, id=1534, 1558.82375pt x 1415.2875pt>
 File: figures/nadine-n2.png Graphic file (type png)
 
 <use figures/nadine-n2.png>
-Package pdftex.def Info: figures/nadine-n2.png used on input line 130.
+Package pdftex.def Info: figures/nadine-n2.png used on input line 131.
 (pdftex.def)             Requested size: 468.0pt x 424.89186pt.
 
 <figures/droplocs_scatterplot_hs3.png, id=1535, 803.0pt x 803.0pt>
@@ -1556,14 +1560,14 @@ File: figures/droplocs_scatterplot_hs3.png Graphic file (type png)
 
 <use figures/droplocs_scatterplot_hs3.png>
 Package pdftex.def Info: figures/droplocs_scatterplot_hs3.png used on input lin
-e 137.
+e 138.
 (pdftex.def)             Requested size: 468.0pt x 468.0071pt.
 
 <figures/skewt-examples.png, id=1538, 1525.7pt x 1569.865pt>
 File: figures/skewt-examples.png Graphic file (type png)
 
 <use figures/skewt-examples.png>
-Package pdftex.def Info: figures/skewt-examples.png used on input line 144.
+Package pdftex.def Info: figures/skewt-examples.png used on input line 145.
 (pdftex.def)             Requested size: 468.0pt x 481.52693pt.
 
 <figures/tb_cdf_10Cbins_0-500km.png, id=1539, 803.0pt x 803.0pt>
@@ -1571,7 +1575,7 @@ File: figures/tb_cdf_10Cbins_0-500km.png Graphic file (type png)
 
 <use figures/tb_cdf_10Cbins_0-500km.png>
 Package pdftex.def Info: figures/tb_cdf_10Cbins_0-500km.png used on input line 
-151.
+152.
 (pdftex.def)             Requested size: 324.0pt x 324.0002pt.
 
 <figures/t+dtdz+d2tdz2-intensity-montage.png, id=1540, 2436.10126pt x 790.955pt
@@ -1579,7 +1583,7 @@ Package pdftex.def Info: figures/tb_cdf_10Cbins_0-500km.png used on input line
 File: figures/t+dtdz+d2tdz2-intensity-montage.png Graphic file (type png)
  <use figures/t+dtdz+d2tdz2-intensity-montage.png>
 Package pdftex.def Info: figures/t+dtdz+d2tdz2-intensity-montage.png used on in
-put line 159.
+put line 160.
 (pdftex.def)             Requested size: 468.0pt x 151.94853pt.
 
 <figures/t+dtdz+d2tdz2-irbt-montage.png, id=1541, 2436.10126pt x 790.955pt>
@@ -1587,7 +1591,7 @@ File: figures/t+dtdz+d2tdz2-irbt-montage.png Graphic file (type png)
 
 <use figures/t+dtdz+d2tdz2-irbt-montage.png>
 Package pdftex.def Info: figures/t+dtdz+d2tdz2-irbt-montage.png used on input l
-ine 166.
+ine 167.
 (pdftex.def)             Requested size: 468.0pt x 151.94853pt.
 ) [88] [89 <./figures/stationmap+stormlocations.png>] [90 <./figures/droplocs_s
 catterplot_rawinsondes.png>]
@@ -1626,13 +1630,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12525 strings out of 494953
- 185291 string characters out of 6180977
- 348708 words of memory out of 5000000
- 15118 multiletter control sequences out of 15000+600000
+ 12622 strings out of 494953
+ 186554 string characters out of 6180976
+ 349265 words of memory out of 5000000
+ 15210 multiletter control sequences out of 15000+600000
  17458 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 50i,12n,45p,2005b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,12n,45p,2005b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk> </home
 /patrick/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/patrick/
 .texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/patrick/.texmf-va
@@ -1651,9 +1655,9 @@ ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
 /amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb>
-Output written on aux_files/dissertation.pdf (115 pages, 13218531 bytes).
+Output written on aux_files/dissertation.pdf (115 pages, 13218965 bytes).
 PDF statistics:
- 2144 PDF objects out of 2487 (max. 8388607)
+ 2145 PDF objects out of 2487 (max. 8388607)
  1571 compressed objects within 16 object streams
  340 named destinations out of 1000 (max. 500000)
  582 words of extra memory for PDF output out of 10000 (max. 10000000)

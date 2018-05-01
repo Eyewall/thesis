@@ -1,4 +1,4 @@
-\begin{thebibliography}{99}
+\begin{thebibliography}{101}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -69,8 +69,8 @@ Chen, H., and S.~G. Gopalakrishnan, 2015: {A study of the asymmetric rapid
   Atmos.\ Sci.}, \textbf{72}, 531--549.
 
 \bibitem[{Chen and Zhang(2013)Chen, and Zhang}]{ChenZhang2013}
-Chen, H., and D.-L. Zhang, 2013: On the rapid intensification of hurricane
-  wilma (2005). part ii: Convective bursts and the upper-level warm core.
+Chen, H., and D.-L. Zhang, 2013: {On the rapid intensification of Hurricane
+  Wilma (2005). Part II: Convective bursts and the upper-level warm core}.
   \textit{J.\ Atmos.\ Sci.}, \textbf{70}, 146--162.
 
 \bibitem[{Danielsen(1993)}]{Danielsen1993}
@@ -186,6 +186,11 @@ Gentry, R., 1967: {Structure of the upper troposphere and lower stratosphere in
   the vicinity of Hurricane Isbell, 1964.} \textit{Pap. Meteor. Geophys.},
   \textbf{18}, 293--310.
 
+\bibitem[{Griffin(2017)}]{Griffin2017}
+Griffin, S.~M., 2017: {Climatology of tropical overshooting tops in North
+  Atlantic tropical cyclones}. \textit{J.\ Appl.\ Meteor.\ Climatol.},
+  \textbf{56}, 1783--1796.
+
 \bibitem[{Grise et~al.(2010)Grise, Thompson,, and Birner}]{Griseetal2010}
 Grise, K.~M., D.~W.~J. Thompson, and T.~Birner, 2010: {A global survey of
   static stability in the stratosphere and upper troposphere}. \textit{J.\
@@ -272,6 +277,10 @@ Kieu, C., V.~Tallapragada, D.-L. Zhang, and Z.~Moon, 2016: {On the development
 Kimberlain, T.~B., E.~S. Blake, and J.~P. Cangialosi, 2016: {Tropical cyclone
   report: Hurricane Patricia. National Hurricane Center}. [Available online at
   www.nhc.noaa.gov].
+
+\bibitem[{Knapp et~al.(2011)}]{Knappetal2011}
+Knapp, K.~R., and Coauthors, 2011: Globally gridded satellite observations for
+  climate studies. \textit{Bull.\ Amer.\ Meteor.\ Soc.}, \textbf{92}, 893--907.
 
 \bibitem[{Komaromi and Doyle(2017)Komaromi, and Doyle}]{KomaromiDoyle2017}
 Komaromi, W.~A., and J.~D. Doyle, 2017: Tropical cyclone outflow and warm core

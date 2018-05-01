@@ -21,7 +21,7 @@ Then the static stability structure of a large number of TCs is analyzed using t
 \section{Data and methods}
 %---------------------------------------------------------------------------------------%
 Hurricane Nadine (2012), a long-lived TC in the North Atlantic, was the focus of five research flights conducted by a NASA Global Hawk aicraft during HS3 \citep{Braunetal2016}.
-The second research flight into the storm deployed 70 dropsondes \cite{Young2016} while Nadine intensified from a tropical storm to a category 1 hurricane \cite{Brown2013} on 14 September 2012.
+The second research flight into the storm deployed 70 dropsondes \cite{Young2016} while Nadine intensified from a tropical storm to a category 1 hurricane \citep{Brown2013} on 14 September 2012.
 These dropsondes, deployed from the lower stratosphere, provided full-tropospheric profiles of temperature, humidity, and wind across a broad region of the storm.
 The observations were interpolated to a 100-m vertical grid following \cite{MolinariVollaro2010} and the static stability ($N^2$) was computed following \cite{DuranMolinari2018}.
 A great strength of the HS3 dropsonde dataset is that it provides numerous high-resolution soundings within and around individual TCs during short time periods.
@@ -43,7 +43,7 @@ All quadrants, however, contained observations at a wide range of radii for all 
 \subsection{The tropopause-layer static stability structure of Hurricane Nadine (2012)}
 The NASA Global Hawk aircraft completed multiple dropsonde transects across TC Nadine (2012) soon after it intensified to hurricane strength near 30\textdegree{}N latitude.
 Observations from three dropsondes deployed during one of these transects are depicted in Fig. \ref{fig:nadine-skewt}.
-One dropsonde was deployed near the edge of Nadine's cirrus canopy (Fig. \ref{fig:nadine-skewt}a, magenta star), a second within Nadine's cirrus canopy near cloud tops colder than -40\textdegree{}C (Fig. \ref{fig:nadine-skewt}a, green star), and a third within a region of cloud tops colder than -60\textdegree{}C (Fig. \ref{fig:nadine-skewt}b, blue star).
+One dropsonde was released near the edge of Nadine's cirrus canopy (Fig. \ref{fig:nadine-skewt}a, magenta star), a second within Nadine's cirrus canopy near cloud tops colder than -40\textdegree{}C (Fig. \ref{fig:nadine-skewt}a, green star), and a third within a region of cloud tops colder than -60\textdegree{}C (Fig. \ref{fig:nadine-skewt}b, blue star).
 Temperature soundings from these three dropsondes are depicted in Fig. \ref{fig:nadine-skewt}b, where the colors of the lines correspond to the colors of the stars in Fig. \ref{fig:nadine-skewt}a).
 
 All three soundings were fairly similar below the 200-mb level, but the temperature profiles differed considerably above that level.
@@ -53,11 +53,11 @@ Just above the 150-mb layer, the sounding deployed within the coldest cloud tops
 The other cirrus-canopy sounding (green) also exhibited a temperature inversion, but it was at a higher altitude than that observed within the region of coldest cloud tops (blue).
 The difference in the height of these inversion layers corresponded to a maximum temperature difference of 4 K within this layer.
 Above the inversion layers, however, the two soundings converged and exhibited very similar temperature profiles, including a nearly-identical cold point that was slightly warmer than that observed on the edge of the cirrus canopy (magenta).
-These soundings indicate that strong horizontal gradients of temperature and stability might existed in the upper levels of Hurricane Nadine.
+These soundings indicate that strong horizontal gradients of temperature and stability existed in the upper levels of Hurricane Nadine.
 
 Cross sections of squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$; 10\textsuperscript{-4} s\textsuperscript{-2}) constructed using two sets of dropsondes are shown in Fig. \ref{fig:nadine-n2}.
 The first set consisted of dropsondes (Fig. \ref{fig:nadine-n2}a) that were deployed primarily within and near Nadine's cirrus canopy.
-The other set of dropsondes was deployed outside of Nadine's cirrus canopy, upshear of the center of circulation\footnote{According to the Statistical Hurricane Intensity Prediction Scheme (SHIPS; \citeauthor{DeMariaetal2005} \citeyear{DeMariaetal2005}) developmental database, the area-averaged, vortex-removed 850-200-mb wind shear at 00 UTC 15 September was 23 kt from the southwest.}.
+The other set of dropsondes was released outside of Nadine's cirrus canopy, upshear of the center of circulation\footnote{According to the Statistical Hurricane Intensity Prediction Scheme (SHIPS; \citeauthor{DeMariaetal2005} \citeyear{DeMariaetal2005}) developmental database, the area-averaged, vortex-removed 850-200-mb wind shear at 00 UTC 15 September was 23 kt from the southwest.}.
 The cross-sections are constructed along the flight track, with each of the dropsonde deployment locations marked by bold black digits on the satellite images and along the horizontal axes of the cross sections.
 
 The dropsondes deployed within Nadine's cirrus canopy (Fig. \ref{fig:nadine-n2}a,b) detected two distinct static stability maxima in the 12-17-km layer.
@@ -69,12 +69,14 @@ The static stability also maximized at a slightly higher altitude in these two s
 
 The dropsondes deployed outside of Nadine's cirrus canopy (Fig. \ref{fig:nadine-n2}c,d) observed a considerably different upper-level static stability structure.
 The lower-stratospheric $N^2$ maximum observed near and above 16 km was not nearly as coherent as it was within the cirrus canopy.
-There existed numerous local $N^2$ maxima near and above 16 km, but rather than forming a horizontally-homogeneous stablity maximum above the tropopause, the maxima were isolated from one another.
+There existed numerous local $N^2$ maxima near and above 16 km, but rather than forming a horizontally-homogeneous stability maximum above the tropopause, the maxima were isolated from one another.
 Likewise, there were a few weak, isolated local maxima in $N^2$ within the 12-15-km layer, but the distinct secondary stable layer that was observed within the cirrus canopy did not exist outside of the cirrus canopy.
 
 These observations suggest that there might be processes unique to the TC cirrus canopy that produce stronger static stability above the cold-point tropopause and a secondary stability maximum below the tropopause.
 
 \subsection{The relationship between infrared brightness temperature and the tropopause-layer temperature profile obseved by HS3 dropsondes}
+\label{hs3-irbt}
+
 To get a more general sense of the relationship between infrared brightness temperature and the upper-tropospheric static stability structure, all HS3 dropsondes deployed within 500 km of TCs were analyzed.
 The locations of these dropsondes relative to a composite TC center can be seen in Fig. \ref{fig:hs3-scatterplot}.
 Only 26 of these observations were collected in tropical depressions, whereas 296 and 241 were collected in tropical storms and hurricanes, respectively.
@@ -94,6 +96,35 @@ These distributions provide further evidence for a relationship between the infr
 
 \subsection{The tropopause-layer temperature structure of TCs as observed by a large rawinsonde dataset}
 
+To get a general view of the tropopause-layer temperature structure in TCs, all rawinisondes shown in Fig. \ref{fig:scatterplot} are combined to create composite averages with respect to the cold-point tropopause.
+These averages will be used to analyze the sensitivity of the tropopause-layer thermodynamic structure to TC intensity and cirrus environment.
+
+\subsubsection{Sensitivity of the tropopause-layer thermodynamic structure to TC intensity}
+First, soundings released in tropical depressions and tropical storms (blue and orange dots in Fig. \ref{fig:scatterplot}) are gathered into one category (hereafter called "weak TCs") and compared to hurricanes (red dots in Fig. \ref{fig:scatterplot}).
+Composite averages of temperature, the vertical temperature gradient, and the second derivative of temperature with respect to height for these two intensity categories are plotted in Fig. \ref{fig:tline-int}.
+For clarity, these plots focus on the 3-km-deep layers immediately surrounding the tropopause, with zero on the vertical axis corresponding to the tropopause height.
+
+The tropopause-layer temperature in hurricanes (Fig. \ref{fig:tline-int} left, red line) is colder than in tropical depressions and tropical storms (Fig. \ref{fig:tline-int} left, blue line).
+Although the composite-average temperatures for both categories are nearly identical 3 km below the tropopause, the two temperature profiles diverge with height up to the tropopause, where the average temperature in hurricanes is -75.8\textdegree{}C and in weak TCs -73.5\textdegree{}C.
+This divergence in the temperature profiles corresponds to a steeper vertical temperature gradient below the tropopause in hurricanes than in weak TCs (Fig. \ref{fig:tline-int}, center), which is consistent with the smaller upper-tropospheric static stability observed in hurricanes by \cite{DuranMolinari2016}.
+Curiously, the composite-average temperature in hurricanes remains colder than that in weak TCs all the way past 3 km above the tropopause, although the temperature difference decreases with height.
+The convergence of the temperature profiles with height above the tropopause corresponds to a larger lower-stratospheric vertical temperature gradient in hurricanes than in weak TCs (Fig. \ref{fig:tline-int}, center), which suggests that hurricanes are characterized by stronger static stability in the lower stratospheres.
+These results show that the effect of hurricanes on the thermodynamic environment is not limited to the troposphere; rather, their effects can extend far above the tropopause.
+
+The second derivative of temperature with respect to height (Fig. \ref{fig:tline-int}, right) can be thought of as a measure of the "sharpness" of the tropopause.
+Although this quantity is nearly identical in hurricanes and weak TCs throughout most of the tropopause layer, it is larger in hurricanes at and just above the tropopause than in weak TCs.
+This suggests that, on average, the tropopause is sharper (i.e., the vertical temperature gradient changes more rapidly with height) at the tropopuase in hurricanes than in weak TCs.
+
+\subsubsection{Sensitivity of the tropopause-layer thermodynamic structure to the infrared brightness temperature environment}
+The HS3 observations shown in Section \ref{hs3-irbt} suggested that there might be some connection between the upper-tropospheric thermodynamic structure and the cloud environment.
+To assess this potential connection in a larger number of storms, each rawinsonde in the dataset is assigned an infrared brightness temperature based on its location and time of release.
+The brightness temperatures come from the GridSat-B1 Climate Data Record (CDR), which is a calibrated infrared brightness temperature dataset with 8-km resolution \cite{Knappetal2011}.
+Although Gridsat's relatively coarse 8-km resolution precludes observation of the coldest cloud tops in TCs associated with individual overshooting updrafts (e.g. \citeauthor{Griffin2017} \citeyear{Griffin2017}), its resolution is sufficient to discriminate between cloud-free areas and mesoscale regions of very cold cloud tops.
+
+The rawinsondes were stratified into three bins according brightness temperature: colder than -50\textdegree{}C (Fig. \ref{fig:tline-ir}, magenta lines), between -30\textdegree{}C and -50\textdegree{}C (Fig. \ref{fig:tline-ir}, red lines), and warmer than -30\textdegree{}C (Fig. \ref{fig:tline-ir}, blue lines).
+The left panel of Fig. \ref{fig:tline-ir} indicates that the colder the infrared brightness temperature in which the rawinsonde was released, the colder the upper-tropospheric and lower-stratospheric temperature observed by that rawinsonde.
+Above the tropopause, the temperature differences are nearly constant with height, which is reflected in the very similar vertical temperature gradients observed for each of the categories (Fig. \ref{fig:tline-ir}, center panel).
+These results suggest that deep convection within TCs alters the vertical temperature profile not only in the troposphere, but also well into the lower stratosphere.
 
 
 %---------------------------------------------------------------------------------------%

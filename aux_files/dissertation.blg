@@ -8,7 +8,6 @@ A level-1 auxiliary file: turb.aux
 A level-1 auxiliary file: patricia.aux
 A level-1 auxiliary file: modeling.aux
 A level-1 auxiliary file: hs3.aux
-A level-1 auxiliary file: conclusions.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
@@ -21,45 +20,45 @@ Warning--missing publisher in Kimberlainetal2016
 Warning--missing publisher in Wyoming2016
 Warning--missing publisher in WMO1998
 Warning--missing publisher in Young2016
-You've used 99 entries,
+You've used 101 entries,
             3493 wiz_defined-function locations,
-            1465 strings with 24757 characters,
-and the built_in function-call counts, 105415 in all, are:
-= -- 12682
-> -- 3154
-< -- 56
-+ -- 1993
-- -- 795
-* -- 5226
-:= -- 10624
-add.period$ -- 198
-call.type$ -- 99
-change.case$ -- 756
-chr.to.int$ -- 99
-cite$ -- 108
-duplicate$ -- 10972
-empty$ -- 5639
-format.name$ -- 1045
-if$ -- 21565
+            1475 strings with 25185 characters,
+and the built_in function-call counts, 107513 in all, are:
+= -- 12952
+> -- 3188
+< -- 57
++ -- 2021
+- -- 804
+* -- 5317
+:= -- 10831
+add.period$ -- 202
+call.type$ -- 101
+change.case$ -- 768
+chr.to.int$ -- 101
+cite$ -- 110
+duplicate$ -- 11208
+empty$ -- 5756
+format.name$ -- 1057
+if$ -- 21993
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 1041
-newline$ -- 308
-num.names$ -- 396
-pop$ -- 4972
+missing$ -- 1060
+newline$ -- 314
+num.names$ -- 404
+pop$ -- 5085
 preamble$ -- 1
-purify$ -- 655
+purify$ -- 665
 quote$ -- 0
-skip$ -- 6429
+skip$ -- 6548
 stack$ -- 0
-substring$ -- 5171
-swap$ -- 8975
+substring$ -- 5289
+swap$ -- 9175
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 888
+type$ -- 906
 warning$ -- 9
-while$ -- 467
+while$ -- 477
 width$ -- 0
-write$ -- 1090
+write$ -- 1112
 (There were 9 warnings)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{101}
+\begin{thebibliography}{102}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -47,6 +47,11 @@ Braun, S.~A., P.~A. Newman, and G.~M. Heymsfield, 2016: {NASA's Hurricane and
 \bibitem[{Brown(2013)}]{Brown2013}
 Brown, D.~P., 2013: {Tropical Cyclone Report: Hurricane Natricia. National
   Hurricane Center}. [Available online at www.nhc.noaa.gov].
+
+\bibitem[{Bryan(2012)}]{Bryan2012}
+Bryan, G.~H., 2012: Effects of surface exchange coefficients and turbulence
+  length scales on the intensity and structure of numerically simulated
+  hurricanes. \textit{Mon.\ Wea.\ Rev.}, \textbf{140}, 1125--1143.
 
 \bibitem[{Bryan(cited 2018)}]{Bryan2017}
 Bryan, G.~H., cited 2018: {The governing equations for CM1}. {[Available online
@@ -350,7 +355,7 @@ Molinari, J., P.~Duran, and D.~Vollaro, 2014: {Low Richardson number in the
 Molinari, J., and D.~Vollaro, 2010: {Distribution of helicity, CAPE, and shear
   in tropical cyclones}. \textit{J.\ Atmos.\ Sci.}, \textbf{67}, 274--284.
 
-\bibitem[{Mote and Coauthors(1996)Mote, and Coauthors}]{Moteetal1996}
+\bibitem[{Mote et~al.(1996)}]{Moteetal1996}
 Mote, P.~W., and Coauthors, 1996: {An atmospheric tape recorder: The imprint of
   tropical tropopause temperature on stratospheric water vapor}. \textit{J.\
   Geophys.\ Res.}, \textbf{101}, 3989--4006.

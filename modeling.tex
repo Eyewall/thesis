@@ -22,7 +22,7 @@ These simulations, which successfully reproduced the observed variability, provi
 %---------------------------------------------------------------------------------------%
 \section{Model setup}
 %---------------------------------------------------------------------------------------%
-
+\label{modelsetup}
 The numerical simulations were performed using version 19.4 of Cloud Model 1 (CM1) described in \cite{BryanRotunno2009}.
 The equations of motion were integrated on a 3000-km-wide, 30-km-deep axisymmetric grid with 1-km horizontal and 250-m vertical grid spacing.
 The computations were performed on an \textit{f}-plane at 15\textdegree{N} latitude, over a sea surface with constant temperature of 30.5\textdegree C, which matches that observed near Hurricane Patricia (2015; \citeauthor{Kimberlainetal2016} \citeyear{Kimberlainetal2016}).
@@ -85,7 +85,7 @@ The first two terms on the right-hand side of Eq.~\ref{eq:advtend} represent adv
 These terms act to rearrange the static stability field, but cannot strengthen or weaken static stability maxima or minima.
 The third and fourth terms on the right-hand side of Eq.~\ref{eq:advtend} represent, respectively, the tilting of isentropes in the presence of vertical wind shear, and the stretching or squashing of isentropes by vertical gradients of vertical velocity.
 Since these terms involve velocity gradients, they can act to strengthen or weaken static stability maxima or minima through differential advection.
-Unless otherwise stated, any reference to "advection" in this paper indicates the sum of all of the terms in Eq.~\ref{eq:advtend}.
+Unless otherwise stated, any reference to "advection" in this chapter indicates the sum of all of the terms in Eq.~\ref{eq:advtend}.
 
 Returning to Eq.~\ref{eq:dthetadt}, HTURB and VTURB are the $\theta$ tendencies from the horizontal and vertical turbulence parameterizations, MP is the tendency from the microphysics scheme, RAD is the tendency from the radiation scheme, and DISS is the tendency due to turbulent dissipation.
 This equation neglects Rayleigh damping, since the entire analysis domain lies outside of the regions where damping is applied.
@@ -342,23 +342,24 @@ These results support the hypothesized role of turbulence in setting the outflow
 
   \section{Sensitivity experiments}
 The simulations exhibited some sensitivity to the initial thermodynamic profile and the prescribed vertical mixing length.
-Although the details of the intensification and the tropopause-layer $N^2$ evolution varied when these quantities were changed, the conclusions of the paper remain unchanged.
+Although the details of the intensification and the tropopause-layer $N^2$ evolution varied when these quantities were changed, the conclusions remain unchanged.
 
-%%% Appendix section numbering (note, skip \section and begin with \subsection)
  \subsection{Sensitivity to the initial thermodynamic profile}
+\label{thermosensitivity}
 A number of sensitivity experiments were conducted using a variety of initial soundings.
 Changing the initial temperature and humidity profiles affected the timing of the onset of organized deep convection and the rapidity of intensification.
 In all simulations, however, convection eventually penetrated to the tropopause, at which time vertical turbulence and radiation combined with advection to adjust the $N^2$ profile toward that which was observed in the control run.
 By the end of the RI period in every simulation, all three processes were actively modifying the $N^2$ profile near the tropopause.
 
-As an example, 24-hour averages of $N^2$ are plotted in Fig. A1 for a simulation that was identical to that used in this paper, except the initial sounding was determined by averaging every CFSR grid point within 1000 km of TC Patricia's storm center at 18 UTC 21 October 2015 instead of averaging only within the 100-km radius.
+As an example, 24-hour averages of $N^2$ are plotted in Fig. \ref{fig:n2-1000km} for a simulation that was identical to that used in this chapter, except the initial sounding was determined by averaging every CFSR grid point within 1000 km of TC Patricia's storm center at 18 UTC 21 October 2015 instead of averaging only within the 100-km radius.
 Although the lower-stratospheric stable layer developed more slowly and was weaker than that shown in Fig.~\ref{fig:n2-24hr-avgs}, the overall evolution was quite similar and the same budget terms dominated the $N^2$ evolution.
 
  \subsection{Sensitivity to the vertical mixing length}
+\label{lvsensitivity}
 The rate of turbulent mixing in the Smagorinsky scheme used herein is highly dependent on a prescribed length scale.
-The vertical mixing length used in this paper (100 m) was based on the sensitivity experiments of \cite{Bryan2012}.
+The vertical mixing length used in the simulation described in Section \ref{modelsetup}, 100 m, was based on the sensitivity experiments of \cite{Bryan2012}.
 Prescribing a smaller mixing length produces smaller $\theta$ tendencies due to turbulence, but even with a mixing length on the low end of those tested by \cite{Bryan2012}, turbulence still played an important role in the tropopause-layer $N^2$ evolution.
-Fig. A2 shows the 24-hour-averaged contributions of turbulent mixing to the $N^2$ evolution from a simulation identical to that used in this paper, except with a vertical mixing length of 50 m.
+Fig. \ref{fig:turb-50m} shows the 24-hour-average contributions of turbulent mixing to the $N^2$ evolution from a simulation identical to that described in Section \ref{modelsetup}, except with a vertical mixing length of 50 m.
 At all times, vertical turbulence still played an important role in the tropopause-layer $N^2$ evolution, particularly during the latter stages of RI (48-72 hours).
 
   \section{Conclusions}
@@ -496,14 +497,14 @@ Orange lines represent the cold-point tropopause height averaged over the 0-24-h
 %FIGURE 12%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/n2-1000km.png}}
-\caption{Twenty-four-hour averages of squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$; 10\textsuperscript{-4} s\textsuperscript{-2}) over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, and (d) 72-96 hours for the simulation described in Section ??. Orange lines represent the cold-point tropopause height averaged over the same time periods.}
+\caption{Twenty-four-hour averages of squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$; 10\textsuperscript{-4} s\textsuperscript{-2}) over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, and (d) 72-96 hours for the simulation described in Section \ref{thermosensitivity}. Orange lines represent the cold-point tropopause height averaged over the same time periods.}
 \label{fig:n2-1000km}
 \end{figure*}
 
 %FIGURE 13%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/turb-50m.png}}
-\caption{The contribution of vertical turbulence to the $N^2$ variability (10\textsuperscript{-4} s\textsuperscript{-2} (24 h)\textsuperscript{-1}) averaged over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, and (d) 72-96 hours for the simulation described in Section ??. Orange lines represent the cold-point tropopause height averaged over the same time periods.}
+\caption{The contribution of vertical turbulence to the $N^2$ variability (10\textsuperscript{-4} s\textsuperscript{-2} (24 h)\textsuperscript{-1}) averaged over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, and (d) 72-96 hours for the simulation described in Section \ref{lvsensitivity}. Orange lines represent the cold-point tropopause height averaged over the same time periods.}
 \label{fig:turb-50m}
 \end{figure*}
 

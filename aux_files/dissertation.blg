@@ -2,6 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: ack.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: turb.aux
@@ -22,7 +23,7 @@ Warning--missing publisher in WMO1998
 Warning--missing publisher in Young2016
 You've used 102 entries,
             3493 wiz_defined-function locations,
-            1480 strings with 25502 characters,
+            1481 strings with 25513 characters,
 and the built_in function-call counts, 108577 in all, are:
 = -- 13094
 > -- 3198

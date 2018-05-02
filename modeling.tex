@@ -8,7 +8,7 @@
 \label{chapter:modeling}
 \resetfootnote %this command starts footnote numbering with 1 again.
 
-\textbf{Submitted to Journal of the Atmospheric Sciences, in review.}
+%\textbf{Submitted to Journal of the Atmospheric Sciences, in review.}
 
 %---------------------------------------------------------------------------------------%
 \section{Introduction}
@@ -341,8 +341,9 @@ The large vertical gradient of vertical eddy diffusivity near the tropopause pla
 These results support the hypothesized role of turbulence in setting the outflow-layer $\theta$ stratification in \cite{RotunnoEmanuel}.
 
   \section{Sensitivity experiments}
+\label{sensitivitysection}
 The simulations exhibited some sensitivity to the initial thermodynamic profile and the prescribed vertical mixing length.
-Although the details of the intensification and the tropopause-layer $N^2$ evolution varied when these quantities were changed, the conclusions remain unchanged.
+Although the details of the intensification and the tropopause-layer $N^2$ evolution varied when these quantities were changed, the overall conclusions remain the same.
 
  \subsection{Sensitivity to the initial thermodynamic profile}
 \label{thermosensitivity}
@@ -351,16 +352,31 @@ Changing the initial temperature and humidity profiles affected the timing of th
 In all simulations, however, convection eventually penetrated to the tropopause, at which time vertical turbulence and radiation combined with advection to adjust the $N^2$ profile toward that which was observed in the control run.
 By the end of the RI period in every simulation, all three processes were actively modifying the $N^2$ profile near the tropopause.
 
-As an example, 24-hour averages of $N^2$ are plotted in Fig. \ref{fig:n2-1000km} for a simulation that was identical to that used in this chapter, except the initial sounding was determined by averaging every CFSR grid point within 1000 km of TC Patricia's storm center at 18 UTC 21 October 2015 instead of averaging only within the 100-km radius.
-Although the lower-stratospheric stable layer developed more slowly and was weaker than that shown in Fig.~\ref{fig:n2-24hr-avgs}, the overall evolution was quite similar and the same budget terms dominated the $N^2$ evolution.
+As an example, the maximum wind speed and minimum sea-level pressure for two of these simulations are plotted in Fig. \ref{fig:vmax+pmin-2runs-init}.
+One simulation (Fig. \ref{fig:vmax+pmin-2runs-init}, red lines) is identical to that described in Section \ref{modelsetup}.
+The second simulation (Fig. \ref{fig:vmax+pmin-2runs-init}, blue lines) also uses the same setup, except the initial sounding was determined by averaging every CFSR grid point within 1000 km of TC Patricia's storm center at 18 UTC 21 October 2015 instead of averaging only within the 100-km radius.
+The 100-km-average simulation (Fig. \ref{fig:vmax+pmin-2runs-init}, red lines) begins and completes its RI period sooner than the 1000-km simulation (Fig. \ref{fig:vmax+pmin-2runs-init}, blue lines), but the intensification rates and final intensity of the two simulations are quite similar.
+
+The most notable difference between these two initial soundings is the dew point depression.
+The 100-km-average sounding (Fig.~\ref{fig:cfsr-skewt}a) is more moist throughout the depth of the troposphere than the 1000-km average sounding (Fig.~\ref{fig:cfsr-skewt}b).
+This more saturated environment, which should more readily support persistent organized convection, could account for the more rapid intensification of the 100-km-average TC.
+
+%Alghough the less-rapid development in the 1000-km TC delays the strengthening of the lower-stratospheric stable layer, the $N^2$ evolution is quite similar once the RI begins.
+Twenty-four-hour averages of $N^2$ from the 1000-km-average simulation are plotted in Fig. \ref{fig:n2-1000km}.
+Although the lower-stratospheric stable layer developed more slowly than that shown in Fig.~\ref{fig:n2-24hr-avgs}, the overall evolution was quite similar once RI commenced, and the same budget terms dominated the tropopause-layer $N^2$ evolution (Fig.~\ref{fig:avgbudterms-run07}).
+
+%Additionally, the 100-mb temperature was approximately 4\textdegree{}C colder in the 100-km-radius average sounding than in the 1000-km-radius average.
+%This colder tropopause corresponded to smaller static stability in the upper troposphere, but larger static stability in the lower stratosphere.
 
  \subsection{Sensitivity to the vertical mixing length}
 \label{lvsensitivity}
-The rate of turbulent mixing in the Smagorinsky scheme used herein is highly dependent on a prescribed length scale.
-The vertical mixing length used in the simulation described in Section \ref{modelsetup}, 100 m, was based on the sensitivity experiments of \cite{Bryan2012}.
-Prescribing a smaller mixing length produces smaller $\theta$ tendencies due to turbulence, but even with a mixing length on the low end of those tested by \cite{Bryan2012}, turbulence still played an important role in the tropopause-layer $N^2$ evolution.
-Fig. \ref{fig:turb-50m} shows the 24-hour-average contributions of turbulent mixing to the $N^2$ evolution from a simulation identical to that described in Section \ref{modelsetup}, except with a vertical mixing length of 50 m.
-At all times, vertical turbulence still played an important role in the tropopause-layer $N^2$ evolution, particularly during the latter stages of RI (48-72 hours).
+The rate of turbulent mixing in the Smagorinsky scheme used here is highly dependent on a prescribed length scale.
+The vertical mixing length of the simulation described in Section \ref{modelsetup}, 100 m, was based on the sensitivity experiments of \cite{Bryan2012}.
+%Prescribing a smaller mixing length produces smaller $\theta$ tendencies due to turbulence, but even with a mixing length on the low end of those tested by \cite{Bryan2012}, turbulence still plays an important role in the tropopause-layer $N^2$ evolution.
+Prescribing a smaller vertial mixing length (50 m) delays rapid intensification (Fig. \ref{fig:vmax+pmin-2runs-lv}, blue lines), but the final intensity of this storm closely matches that in the simulation that uses a 100-m mixing length (Fig. \ref{fig:vmax+pmin-2runs-lv}, red lines).
+
+The $N^2$ evolution of this simulation (Fig. \ref{fig:n2-50m}) is quite similar to that observed in the simulation which used a 100-m vertical mixing length (Fig. \ref{fig:n2-24hr-avgs}), although the lower-stratospheric $N^2$ maximum developed more slowly (compare Figs. \ref{fig:n2-24hr-avgs}b, \ref{fig:n2-50m}b).
+Although the magnitude of the tropopause-layer $N^2$ forcing by vertical turbulence was smaller in this simulation than in the 100-m-mixing-length simulation (compare Figs. \ref{fig:avgbudterms}, \ref{fig:avgbudterms-run14}, blue lines), vertical turbulence still played an important role in destabilizing the layer immediately surrounding the tropopause and stabilizing the lower stratosphere (Fig. \ref{fig:turb-50m}).
 
   \section{Conclusions}
 The simulated $N^2$ evolution shown herein closely matched that observed during the RI of Hurricane Patricia (2015).
@@ -410,7 +426,7 @@ Orange lines represent the cold-point tropopause height averaged over the same t
 
 %FIGURE 3%
 \begin{figure}[ht]
-\centerline{\includegraphics[width=19pc]{figures/AVG_budterms.png}}
+\centerline{\includegraphics[width=27pc]{figures/AVG_budterms.png}}
 \caption{Time series of the contribution of each of the budget terms to the time tendency of the squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$; 10\textsuperscript{-4} s\textsuperscript{-2}).
 For each budget term, the absolute value of the $N^2$ tendency is averaged temporally over 1-hour periods (using output every minute), and spatially in a region extending from 0 to 200 km radius and 14 to 21 km altitude.}
 \label{fig:avgbudterms}
@@ -490,30 +506,72 @@ Orange lines represent the cold-point tropopause height averaged over the 0-24-h
 %FIGURE 11%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/khvten.png}}
-\caption{Vertical eddy diffusivity (m\textsuperscript{2} s\textsuperscript{-2}; filled contours), cold-point tropopause height (cyan lines), and radial velocity (m s\textsuperscript{-1}; thick black lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
+\caption{Vertical eddy diffusivity (m\textsuperscript{2} s\textsuperscript{-1}; filled contours), cold-point tropopause height (cyan lines), and radial velocity (m s\textsuperscript{-1}; thick black lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
 \label{fig:diff}
 \end{figure*}
 
 %FIGURE 12%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/vmax+pmin_run12+run07.png}}
+\caption{(a) The maximum 2-m wind speed (m s\textsuperscript{-1}) and (b) minimum sea-level pressure (hPa) for the simulations described in (red) Section \ref{modelsetup} and (blue) Section \ref{thermosensitivity}.}
+\label{fig:vmax+pmin-2runs-init}
+\end{figure*}
+
+%FIGURE 13%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/cfsr-skewt-montage.png}}
+\caption{Skew $T$--log $p$ diagrams depicting the initial soundings used in the simulations described in (a) Section \ref{modelsetup} and (b) Section \ref{thermosensitivity}.}
+\label{fig:cfsr-skewt}
+\end{figure*}
+
+%FIGURE 14%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/n2-1000km.png}}
 \caption{Twenty-four-hour averages of squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$; 10\textsuperscript{-4} s\textsuperscript{-2}) over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, and (d) 72-96 hours for the simulation described in Section \ref{thermosensitivity}. Orange lines represent the cold-point tropopause height averaged over the same time periods.}
 \label{fig:n2-1000km}
 \end{figure*}
 
-%FIGURE 13%
+%FIGURE 15%
 \begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{figures/turb-50m.png}}
-\caption{The contribution of vertical turbulence to the $N^2$ variability (10\textsuperscript{-4} s\textsuperscript{-2} (24 h)\textsuperscript{-1}) averaged over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, and (d) 72-96 hours for the simulation described in Section \ref{lvsensitivity}. Orange lines represent the cold-point tropopause height averaged over the same time periods.}
+\centerline{\includegraphics[width=27pc]{figures/AVG_budterms_run07.png}}
+\caption{As in Fig. \ref{fig:avgbudterms}, but for the simulation described in Section \ref{thermosensitivity}.}
+\label{fig:avgbudterms-run07}
+\end{figure*}
+
+%FIGURE 16%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/vmax+pmin_run12+run14.png}}
+\caption{(a) The maximum 2-m wind speed (m s\textsuperscript{-1}) and (b) minimum sea-level pressure (hPa) for the simulations described in (red) Section \ref{modelsetup} and (blue) Section \ref{lvsensitivity}.}
 \label{fig:turb-50m}
 \end{figure*}
 
-%FIGURE 14%
+%FIGURE 17%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/n2-50m.png}}
+\caption{As in Fig. \ref{fig:n2-1000km}, but for the simulation described in Section \ref{lvsensitivity}.}
+\label{fig:n2-50m}
+\end{figure*}
+
+%FIGURE 18%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=27pc]{figures/AVG_budterms-50m.png}}
+\caption{As in Fig. \ref{fig:avgbudterms}, but for the simulation described in Section \ref{lvsensitivity}.}
+\label{fig:avgbudterms-run14}
+\end{figure*}
+
+%FIGURE 19%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/turb-50m.png}}
+\caption{The contribution of vertical turbulence to the $N^2$ variability (10\textsuperscript{-4} s\textsuperscript{-2} (24 h)\textsuperscript{-1}) averaged over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, and (d) 72-96 hours for the simulation described in Section \ref{lvsensitivity}. Orange lines represent the cold-point tropopause height averaged over the same time periods.}
+\label{fig:vmax+pmin-2runs-lv}
+\end{figure*}
+
+%FIGURE 20%
 \begin{figure}[ht]
 \centerline{\includegraphics[width=19pc]{figures/fulltrop.png}}
 \end{figure}
 \begin{figure}
-\caption{(Top panel) Change in $N^2$ over the 24-48-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 h)\textsuperscript{-1}) directly output by the model for the 0-21-km layer. (Middle panel) Vertical eddy diffusivity (m\textsuperscript{2} s\textsuperscript{-2}) averaged over the same time period. (Bottom panel) Radiative heating rate (K h\textsuperscript{-1}) averaged over the same time period.}
+\caption{(Top panel) Change in $N^2$ over the 24-48-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 h)\textsuperscript{-1}) directly output by the model for the 0-21-km layer. (Middle panel) Vertical eddy diffusivity (m\textsuperscript{2} s\textsuperscript{-1}) averaged over the same time period. (Bottom panel) Radiative heating rate (K h\textsuperscript{-1}) averaged over the same time period.}
 \label{fig:fulltrop}
 \end{figure}
 

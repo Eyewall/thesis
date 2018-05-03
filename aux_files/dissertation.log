@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  2 MAY 2018 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  3 MAY 2018 12:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1032,7 +1032,7 @@ LaTeX Warning: Label `fig:schematic' multiply defined.
 
 LaTeX Warning: Label `sec:discussion' multiply defined.
 
-))
+) (aux_files/conclusion.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -1049,7 +1049,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 25.
@@ -1158,11 +1159,11 @@ Overfull \hbox (35.89388pt too wide) in paragraph at lines 52--52
 -per-a-ture and the tropopause- 
  []
 
-)
+[8])
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
- [8]
+ [9]
 \openout2 = `introduction.aux'.
 
  (./introduction.tex
@@ -1193,7 +1194,7 @@ if-fer-ences in the upper-tropospheric
  []
 
 [13] [14] [15] [16] [17] [18] [19]
-<figures/fig1_flightlevelcdo.png, id=725, 1084.05pt x 464.4853pt>
+<figures/fig1_flightlevelcdo.png, id=755, 1084.05pt x 464.4853pt>
 File: figures/fig1_flightlevelcdo.png Graphic file (type png)
 
 <use figures/fig1_flightlevelcdo.png>
@@ -1201,7 +1202,7 @@ Package pdftex.def Info: figures/fig1_flightlevelcdo.png used on input line 241
 .
 (pdftex.def)             Requested size: 468.0pt x 200.52567pt.
 
-<figures/fig2_brch_allsondes.png, id=727, 602.25pt x 602.25pt>
+<figures/fig2_brch_allsondes.png, id=757, 602.25pt x 602.25pt>
 File: figures/fig2_brch_allsondes.png Graphic file (type png)
 
 <use figures/fig2_brch_allsondes.png>
@@ -1209,7 +1210,7 @@ Package pdftex.def Info: figures/fig2_brch_allsondes.png used on input line 248
 .
 (pdftex.def)             Requested size: 468.0pt x 468.01627pt.
 
-<figures/fig3_dist_allsondes.png, id=728, 599.99156pt x 569.87906pt>
+<figures/fig3_dist_allsondes.png, id=758, 599.99156pt x 569.87906pt>
 File: figures/fig3_dist_allsondes.png Graphic file (type png)
 
 <use figures/fig3_dist_allsondes.png>
@@ -1217,7 +1218,7 @@ Package pdftex.def Info: figures/fig3_dist_allsondes.png used on input line 255
 .
 (pdftex.def)             Requested size: 468.0pt x 444.52126pt.
 
-<figures/fig4_brch_intensity.png, id=729, 986.18437pt x 464.4853pt>
+<figures/fig4_brch_intensity.png, id=759, 986.18437pt x 464.4853pt>
 File: figures/fig4_brch_intensity.png Graphic file (type png)
 
 <use figures/fig4_brch_intensity.png>
@@ -1225,7 +1226,7 @@ Package pdftex.def Info: figures/fig4_brch_intensity.png used on input line 263
 .
 (pdftex.def)             Requested size: 468.0pt x 220.42728pt.
 
-<figures/fig5_stabshear_intensity.png, id=732, 933.4875pt x 434.37282pt>
+<figures/fig5_stabshear_intensity.png, id=762, 933.4875pt x 434.37282pt>
 File: figures/fig5_stabshear_intensity.png Graphic file (type png)
 
 <use figures/fig5_stabshear_intensity.png>
@@ -1233,14 +1234,14 @@ Package pdftex.def Info: figures/fig5_stabshear_intensity.png used on input lin
 e 270.
 (pdftex.def)             Requested size: 468.0pt x 217.76913pt.
 
-<figures/fig6_temp_diff.png, id=735, 602.25pt x 602.25pt>
+<figures/fig6_temp_diff.png, id=765, 602.25pt x 602.25pt>
 File: figures/fig6_temp_diff.png Graphic file (type png)
 
 <use figures/fig6_temp_diff.png>
 Package pdftex.def Info: figures/fig6_temp_diff.png used on input line 277.
 (pdftex.def)             Requested size: 468.0pt x 468.01627pt.
 
-<figures/fig7_pdf_perturbs_intensity.png, id=736, 595.47469pt x 580.41844pt>
+<figures/fig7_pdf_perturbs_intensity.png, id=766, 595.47469pt x 580.41844pt>
 File: figures/fig7_pdf_perturbs_intensity.png Graphic file (type png)
 
 <use figures/fig7_pdf_perturbs_intensity.png>
@@ -1248,7 +1249,7 @@ Package pdftex.def Info: figures/fig7_pdf_perturbs_intensity.png used on input
 line 284.
 (pdftex.def)             Requested size: 468.0pt x 456.16972pt.
 
-<figures/fig8_brch_intensity.png, id=739, 921.4425pt x 434.37282pt>
+<figures/fig8_brch_intensity.png, id=769, 921.4425pt x 434.37282pt>
 File: figures/fig8_brch_intensity.png Graphic file (type png)
 
 <use figures/fig8_brch_intensity.png>
@@ -1256,7 +1257,7 @@ Package pdftex.def Info: figures/fig8_brch_intensity.png used on input line 291
 .
 (pdftex.def)             Requested size: 468.0pt x 220.61253pt.
 
-<figures/fig9_stabshear_diurnal.png, id=744, 933.4875pt x 434.37282pt>
+<figures/fig9_stabshear_diurnal.png, id=774, 933.4875pt x 434.37282pt>
 File: figures/fig9_stabshear_diurnal.png Graphic file (type png)
 
 <use figures/fig9_stabshear_diurnal.png>
@@ -1264,7 +1265,7 @@ Package pdftex.def Info: figures/fig9_stabshear_diurnal.png used on input line
 298.
 (pdftex.def)             Requested size: 468.0pt x 217.76913pt.
 
-<figures/fig10_pdf_perturbs_diurnal_0-400km_11-15km_brch_-3-3.png, id=747, 593.
+<figures/fig10_pdf_perturbs_diurnal_0-400km_11-15km_brch_-3-3.png, id=777, 593.
 96906pt x 575.90157pt>
 File: figures/fig10_pdf_perturbs_diurnal_0-400km_11-15km_brch_-3-3.png Graphic 
 file (type png)
@@ -1303,14 +1304,14 @@ Overfull \hbox (26.42305pt too wide) in paragraph at lines 263--273
  [] 
  []
 
-<figures/fig01_patricia_ir.png, id=1075, 1171.37625pt x 1151.80313pt>
+<figures/fig01_patricia_ir.png, id=1106, 1171.37625pt x 1151.80313pt>
 File: figures/fig01_patricia_ir.png Graphic file (type png)
 
 <use figures/fig01_patricia_ir.png>
 Package pdftex.def Info: figures/fig01_patricia_ir.png used on input line 280.
 (pdftex.def)             Requested size: 468.0pt x 460.18584pt.
 
-<figures/fig02_patricia-intensity.png, id=1076, 803.0pt x 803.0pt>
+<figures/fig02_patricia-intensity.png, id=1107, 803.0pt x 803.0pt>
 File: figures/fig02_patricia-intensity.png Graphic file (type png)
 
 <use figures/fig02_patricia-intensity.png>
@@ -1318,7 +1319,7 @@ Package pdftex.def Info: figures/fig02_patricia-intensity.png used on input lin
 e 287.
 (pdftex.def)             Requested size: 468.0pt x 468.0071pt.
 
-<figures/fig03_cp_temp+theta+pres.png, id=1083, 786.94pt x 2372.865pt>
+<figures/fig03_cp_temp+theta+pres.png, id=1114, 786.94pt x 2372.865pt>
 File: figures/fig03_cp_temp+theta+pres.png Graphic file (type png)
 
 <use figures/fig03_cp_temp+theta+pres.png>
@@ -1329,7 +1330,7 @@ e 294.
 
 LaTeX Warning: Float too large for page by 25.48306pt on input line 297.
 
-<figures/fig04_dtdz+stab.png, id=1084, 1332.47812pt x 2372.865pt>
+<figures/fig04_dtdz+stab.png, id=1115, 1332.47812pt x 2372.865pt>
 File: figures/fig04_dtdz+stab.png Graphic file (type png)
 
 <use figures/fig04_dtdz+stab.png>
@@ -1339,7 +1340,7 @@ Package pdftex.def Info: figures/fig04_dtdz+stab.png used on input line 301.
 
 LaTeX Warning: Float too large for page by 17.40536pt on input line 304.
 
-<figures/fig05_theta+anomalies.png, id=1085, 1336.995pt x 2372.865pt>
+<figures/fig05_theta+anomalies.png, id=1116, 1336.995pt x 2372.865pt>
 File: figures/fig05_theta+anomalies.png Graphic file (type png)
 
 <use figures/fig05_theta+anomalies.png>
@@ -1347,21 +1348,21 @@ Package pdftex.def Info: figures/fig05_theta+anomalies.png used on input line 3
 08.
 (pdftex.def)             Requested size: 288.0pt x 511.13364pt.
 
-<figures/fig06_deltatheta.png, id=1088, 1603.9925pt x 780.9175pt>
+<figures/fig06_deltatheta.png, id=1119, 1603.9925pt x 780.9175pt>
 File: figures/fig06_deltatheta.png Graphic file (type png)
 
 <use figures/fig06_deltatheta.png>
 Package pdftex.def Info: figures/fig06_deltatheta.png used on input line 315.
 (pdftex.def)             Requested size: 468.0pt x 227.8425pt.
 
-<figures/fig07_schematic.png, id=1089, 569.12625pt x 542.025pt>
+<figures/fig07_schematic.png, id=1120, 569.12625pt x 542.025pt>
 File: figures/fig07_schematic.png Graphic file (type png)
 
 <use figures/fig07_schematic.png>
 Package pdftex.def Info: figures/fig07_schematic.png used on input line 322.
 (pdftex.def)             Requested size: 396.0pt x 377.15703pt.
 
-<figures/fig08_hovmoller_tbpercent.png, id=1090, 661.47125pt x 560.0925pt>
+<figures/fig08_hovmoller_tbpercent.png, id=1121, 661.47125pt x 560.0925pt>
 File: figures/fig08_hovmoller_tbpercent.png Graphic file (type png)
 
 <use figures/fig08_hovmoller_tbpercent.png>
@@ -1369,14 +1370,14 @@ Package pdftex.def Info: figures/fig08_hovmoller_tbpercent.png used on input li
 ne 329.
 (pdftex.def)             Requested size: 468.0pt x 396.26686pt.
 
-<figures/fig09_CFTD.png, id=1091, 655.44875pt x 560.0925pt>
+<figures/fig09_CFTD.png, id=1122, 655.44875pt x 560.0925pt>
 File: figures/fig09_CFTD.png Graphic file (type png)
 
 <use figures/fig09_CFTD.png>
 Package pdftex.def Info: figures/fig09_CFTD.png used on input line 336.
 (pdftex.def)             Requested size: 468.0pt x 399.91614pt.
 
-<figures/fig10_velocities.png, id=1092, 1213.53375pt x 1186.4325pt>
+<figures/fig10_velocities.png, id=1123, 1213.53375pt x 1186.4325pt>
 File: figures/fig10_velocities.png Graphic file (type png)
 
 <use figures/fig10_velocities.png>
@@ -1403,35 +1404,35 @@ Overfull \hbox (14.1484pt too wide) in paragraph at lines 246--258
  []
 
 [62] [63] [64] [65] [66] [67] [68]
-<figures/vmax+pmin.png, id=1437, 780.9175pt x 1492.57625pt>
+<figures/vmax+pmin.png, id=1468, 780.9175pt x 1492.57625pt>
 File: figures/vmax+pmin.png Graphic file (type png)
 
 <use figures/vmax+pmin.png>
 Package pdftex.def Info: figures/vmax+pmin.png used on input line 412.
 (pdftex.def)             Requested size: 228.0pt x 435.77399pt.
 
-<figures/mod+bud+res.png, id=1438, 2294.5725pt x 2089.8075pt>
+<figures/mod+bud+res.png, id=1469, 2294.5725pt x 2089.8075pt>
 File: figures/mod+bud+res.png Graphic file (type png)
 
 <use figures/mod+bud+res.png>
 Package pdftex.def Info: figures/mod+bud+res.png used on input line 419.
 (pdftex.def)             Requested size: 468.0pt x 426.21306pt.
 
-<figures/AVG_budterms.png, id=1445, 803.0pt x 803.0pt>
+<figures/AVG_budterms.png, id=1476, 803.0pt x 803.0pt>
 File: figures/AVG_budterms.png Graphic file (type png)
 
 <use figures/AVG_budterms.png>
 Package pdftex.def Info: figures/AVG_budterms.png used on input line 429.
 (pdftex.def)             Requested size: 324.0pt x 324.0002pt.
 
-<figures/n2-24hr-avgs.png, id=1446, 1515.6625pt x 1369.115pt>
+<figures/n2-24hr-avgs.png, id=1477, 1515.6625pt x 1369.115pt>
 File: figures/n2-24hr-avgs.png Graphic file (type png)
 
 <use figures/n2-24hr-avgs.png>
 Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 437.
 (pdftex.def)             Requested size: 468.0pt x 422.74998pt.
 
-<figures/h000-h024-budgetterms.png, id=1447, 1529.715pt x 2077.7625pt>
+<figures/h000-h024-budgetterms.png, id=1478, 1529.715pt x 2077.7625pt>
 File: figures/h000-h024-budgetterms.png Graphic file (type png)
 
 <use figures/h000-h024-budgetterms.png>
@@ -1439,7 +1440,7 @@ Package pdftex.def Info: figures/h000-h024-budgetterms.png used on input line 4
 45.
 (pdftex.def)             Requested size: 468.0pt x 635.66644pt.
 
-<figures/h024-h048-budgetterms.png, id=1448, 1529.715pt x 2077.7625pt>
+<figures/h024-h048-budgetterms.png, id=1479, 1529.715pt x 2077.7625pt>
 File: figures/h024-h048-budgetterms.png Graphic file (type png)
 
 <use figures/h024-h048-budgetterms.png>
@@ -1450,7 +1451,7 @@ Package pdftex.def Info: figures/h024-h048-budgetterms.png used on input line 4
 
 LaTeX Warning: Float too large for page by 12.06921pt on input line 459.
 
-<figures/h048-h072-budgetterms.png, id=1450, 1529.715pt x 2077.7625pt>
+<figures/h048-h072-budgetterms.png, id=1481, 1529.715pt x 2077.7625pt>
 File: figures/h048-h072-budgetterms.png Graphic file (type png)
 
 <use figures/h048-h072-budgetterms.png>
@@ -1461,35 +1462,35 @@ Package pdftex.def Info: figures/h048-h072-budgetterms.png used on input line 4
 
 LaTeX Warning: Float too large for page by 12.06921pt on input line 466.
 
-<figures/h024-h048-adv.png, id=1452, 1530.71875pt x 1381.16pt>
+<figures/h024-h048-adv.png, id=1483, 1530.71875pt x 1381.16pt>
 File: figures/h024-h048-adv.png Graphic file (type png)
 
 <use figures/h024-h048-adv.png>
 Package pdftex.def Info: figures/h024-h048-adv.png used on input line 470.
 (pdftex.def)             Requested size: 468.0pt x 422.27531pt.
 
-<figures/qi+radten.png, id=1453, 1535.7375pt x 2053.6725pt>
+<figures/qi+radten.png, id=1484, 1535.7375pt x 2053.6725pt>
 File: figures/qi+radten.png Graphic file (type png)
 
 <use figures/qi+radten.png>
 Package pdftex.def Info: figures/qi+radten.png used on input line 492.
 (pdftex.def)             Requested size: 468.0pt x 625.82082pt.
 
-<figures/Schematic2.png, id=1454, 722.7pt x 542.025pt>
+<figures/Schematic2.png, id=1485, 722.7pt x 542.025pt>
 File: figures/Schematic2.png Graphic file (type png)
 
 <use figures/Schematic2.png>
 Package pdftex.def Info: figures/Schematic2.png used on input line 501.
 (pdftex.def)             Requested size: 468.0pt x 350.99704pt.
 
-<figures/khvten.png, id=1455, 1543.7675pt x 1369.115pt>
+<figures/khvten.png, id=1486, 1543.7675pt x 1369.115pt>
 File: figures/khvten.png Graphic file (type png)
 
 <use figures/khvten.png>
 Package pdftex.def Info: figures/khvten.png used on input line 508.
 (pdftex.def)             Requested size: 468.0pt x 415.04121pt.
 
-<figures/vmax+pmin_run12+run07.png, id=1456, 1581.91pt x 762.85pt>
+<figures/vmax+pmin_run12+run07.png, id=1487, 1581.91pt x 762.85pt>
 File: figures/vmax+pmin_run12+run07.png Graphic file (type png)
 
 <use figures/vmax+pmin_run12+run07.png>
@@ -1497,7 +1498,7 @@ Package pdftex.def Info: figures/vmax+pmin_run12+run07.png used on input line 5
 15.
 (pdftex.def)             Requested size: 468.0pt x 225.679pt.
 
-<figures/cfsr-skewt-montage.png, id=1461, 1505.625pt x 774.895pt>
+<figures/cfsr-skewt-montage.png, id=1492, 1505.625pt x 774.895pt>
 File: figures/cfsr-skewt-montage.png Graphic file (type png)
 
 <use figures/cfsr-skewt-montage.png>
@@ -1505,14 +1506,14 @@ Package pdftex.def Info: figures/cfsr-skewt-montage.png used on input line 522.
 
 (pdftex.def)             Requested size: 468.0pt x 240.86528pt.
 
-<figures/n2-1000km.png, id=1466, 1515.6625pt x 1357.07pt>
+<figures/n2-1000km.png, id=1497, 1515.6625pt x 1357.07pt>
 File: figures/n2-1000km.png Graphic file (type png)
 
 <use figures/n2-1000km.png>
 Package pdftex.def Info: figures/n2-1000km.png used on input line 529.
 (pdftex.def)             Requested size: 468.0pt x 419.03078pt.
 
-<figures/AVG_budterms_run07.png, id=1469, 803.0pt x 803.0pt>
+<figures/AVG_budterms_run07.png, id=1500, 803.0pt x 803.0pt>
 File: figures/AVG_budterms_run07.png Graphic file (type png)
 
 <use figures/AVG_budterms_run07.png>
@@ -1520,7 +1521,7 @@ Package pdftex.def Info: figures/AVG_budterms_run07.png used on input line 536.
 
 (pdftex.def)             Requested size: 324.0pt x 324.0002pt.
 
-<figures/vmax+pmin_run12+run14.png, id=1472, 1581.91pt x 762.85pt>
+<figures/vmax+pmin_run12+run14.png, id=1503, 1581.91pt x 762.85pt>
 File: figures/vmax+pmin_run12+run14.png Graphic file (type png)
 
 <use figures/vmax+pmin_run12+run14.png>
@@ -1528,28 +1529,28 @@ Package pdftex.def Info: figures/vmax+pmin_run12+run14.png used on input line 5
 43.
 (pdftex.def)             Requested size: 468.0pt x 225.679pt.
 
-<figures/n2-50m.png, id=1477, 1515.6625pt x 1357.07pt>
+<figures/n2-50m.png, id=1508, 1515.6625pt x 1357.07pt>
 File: figures/n2-50m.png Graphic file (type png)
 
 <use figures/n2-50m.png>
 Package pdftex.def Info: figures/n2-50m.png used on input line 550.
 (pdftex.def)             Requested size: 468.0pt x 419.03078pt.
 
-<figures/AVG_budterms-50m.png, id=1480, 803.0pt x 803.0pt>
+<figures/AVG_budterms-50m.png, id=1511, 803.0pt x 803.0pt>
 File: figures/AVG_budterms-50m.png Graphic file (type png)
 
 <use figures/AVG_budterms-50m.png>
 Package pdftex.def Info: figures/AVG_budterms-50m.png used on input line 557.
 (pdftex.def)             Requested size: 324.0pt x 324.0002pt.
 
-<figures/turb-50m.png, id=1483, 1529.715pt x 1381.16pt>
+<figures/turb-50m.png, id=1514, 1529.715pt x 1381.16pt>
 File: figures/turb-50m.png Graphic file (type png)
 
 <use figures/turb-50m.png>
 Package pdftex.def Info: figures/turb-50m.png used on input line 564.
 (pdftex.def)             Requested size: 468.0pt x 422.54929pt.
 
-<figures/fulltrop.png, id=1486, 764.8575pt x 2065.7175pt>
+<figures/fulltrop.png, id=1517, 764.8575pt x 2065.7175pt>
 File: figures/fulltrop.png Graphic file (type png)
 
 <use figures/fulltrop.png>
@@ -1574,7 +1575,7 @@ _budterms-50m.png>] [87 <./figures/turb-50m.png>]
 
 
 ] [91] [92] [93] [94] [95] [96]
-<figures/stationmap+stormlocations.png, id=1711, 771.88374pt x 1147.28625pt>
+<figures/stationmap+stormlocations.png, id=1741, 771.88374pt x 1147.28625pt>
 File: figures/stationmap+stormlocations.png Graphic file (type png)
 
 <use figures/stationmap+stormlocations.png>
@@ -1585,7 +1586,7 @@ ne 150.
 
 LaTeX Warning: Float too large for page by 6.16199pt on input line 153.
 
-<figures/droplocs_scatterplot_rawinsondes.png, id=1712, 803.0pt x 803.0pt>
+<figures/droplocs_scatterplot_rawinsondes.png, id=1742, 803.0pt x 803.0pt>
 File: figures/droplocs_scatterplot_rawinsondes.png Graphic file (type png)
 
 <use figures/droplocs_scatterplot_rawinsondes.png>
@@ -1593,21 +1594,21 @@ Package pdftex.def Info: figures/droplocs_scatterplot_rawinsondes.png used on i
 nput line 157.
 (pdftex.def)             Requested size: 468.0pt x 468.0071pt.
 
-<figures/nadine-skewt.png, id=1713, 1514.65875pt x 784.9325pt>
+<figures/nadine-skewt.png, id=1743, 1514.65875pt x 784.9325pt>
 File: figures/nadine-skewt.png Graphic file (type png)
 
 <use figures/nadine-skewt.png>
 Package pdftex.def Info: figures/nadine-skewt.png used on input line 164.
 (pdftex.def)             Requested size: 468.0pt x 242.5241pt.
 
-<figures/nadine-n2.png, id=1714, 1491.5725pt x 1413.28pt>
+<figures/nadine-n2.png, id=1744, 1491.5725pt x 1413.28pt>
 File: figures/nadine-n2.png Graphic file (type png)
 
 <use figures/nadine-n2.png>
 Package pdftex.def Info: figures/nadine-n2.png used on input line 171.
 (pdftex.def)             Requested size: 468.0pt x 443.41724pt.
 
-<figures/droplocs_scatterplot_hs3.png, id=1715, 803.0pt x 803.0pt>
+<figures/droplocs_scatterplot_hs3.png, id=1745, 803.0pt x 803.0pt>
 File: figures/droplocs_scatterplot_hs3.png Graphic file (type png)
 
 <use figures/droplocs_scatterplot_hs3.png>
@@ -1615,14 +1616,14 @@ Package pdftex.def Info: figures/droplocs_scatterplot_hs3.png used on input lin
 e 178.
 (pdftex.def)             Requested size: 468.0pt x 468.0071pt.
 
-<figures/skewt-examples.png, id=1718, 1525.7pt x 1569.865pt>
+<figures/skewt-examples.png, id=1748, 1525.7pt x 1569.865pt>
 File: figures/skewt-examples.png Graphic file (type png)
 
 <use figures/skewt-examples.png>
 Package pdftex.def Info: figures/skewt-examples.png used on input line 185.
 (pdftex.def)             Requested size: 468.0pt x 481.52693pt.
 
-<figures/tb_cdf_10Cbins_0-500km.png, id=1719, 803.0pt x 803.0pt>
+<figures/tb_cdf_10Cbins_0-500km.png, id=1749, 803.0pt x 803.0pt>
 File: figures/tb_cdf_10Cbins_0-500km.png Graphic file (type png)
 
 <use figures/tb_cdf_10Cbins_0-500km.png>
@@ -1630,7 +1631,7 @@ Package pdftex.def Info: figures/tb_cdf_10Cbins_0-500km.png used on input line
 192.
 (pdftex.def)             Requested size: 324.0pt x 324.0002pt.
 
-<figures/t+dtdz+d2tdz2-intensity-montage.png, id=1720, 2436.10126pt x 790.955pt
+<figures/t+dtdz+d2tdz2-intensity-montage.png, id=1750, 2436.10126pt x 790.955pt
 >
 File: figures/t+dtdz+d2tdz2-intensity-montage.png Graphic file (type png)
  <use figures/t+dtdz+d2tdz2-intensity-montage.png>
@@ -1638,7 +1639,7 @@ Package pdftex.def Info: figures/t+dtdz+d2tdz2-intensity-montage.png used on in
 put line 200.
 (pdftex.def)             Requested size: 468.0pt x 151.94853pt.
 
-<figures/t+dtdz+d2tdz2-irbt-montage.png, id=1721, 2436.10126pt x 790.955pt>
+<figures/t+dtdz+d2tdz2-irbt-montage.png, id=1751, 2436.10126pt x 790.955pt>
 File: figures/t+dtdz+d2tdz2-irbt-montage.png Graphic file (type png)
 
 <use figures/t+dtdz+d2tdz2-irbt-montage.png>
@@ -1651,18 +1652,27 @@ catterplot_rawinsondes.png>]
 res/droplocs_scatterplot_hs3.png>] [103 <./figures/skewt-examples.png>]
 [104 <./figures/tb_cdf_10Cbins_0-500km.png> <./figures/t+dtdz+d2tdz2-intensity-
 montage.png>] [105 <./figures/t+dtdz+d2tdz2-irbt-montage.png>]
-(aux_files/dissertation.bbl [106
+\openout2 = `conclusion.aux'.
 
 
-] [107] [108] [109] [110] [111] [112] [113]
-[114] [115] [116])
+(./conclusion.tex
+ 6.
+[106
+
+
+
+] [107]) [108] (aux_files/dissertation.bbl [109
+
+
+] [110] [111] [112] [113]
+[114] [115] [116] [117] [118] [119])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
- [117]
+ [120]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
- (aux_files/dissertation.aux (aux_files/abstract.aux)
-(aux_files/preface.aux) (aux_files/ack.aux) (aux_files/introduction.aux)
-(aux_files/turb.aux) (aux_files/patricia.aux) (aux_files/modeling.aux)
-(aux_files/hs3.aux))
+ (aux_files/dissertation.aux
+(aux_files/abstract.aux) (aux_files/preface.aux) (aux_files/ack.aux)
+(aux_files/introduction.aux) (aux_files/turb.aux) (aux_files/patricia.aux)
+(aux_files/modeling.aux) (aux_files/hs3.aux) (aux_files/conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
@@ -1673,10 +1683,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12621 strings out of 494953
- 187245 string characters out of 6180977
- 355907 words of memory out of 5000000
- 15176 multiletter control sequences out of 15000+600000
+ 12644 strings out of 494953
+ 187592 string characters out of 6180977
+ 356505 words of memory out of 5000000
+ 15183 multiletter control sequences out of 15000+600000
  17458 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  50i,12n,45p,2005b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1698,10 +1708,10 @@ ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
 /amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb>
-Output written on aux_files/dissertation.pdf (125 pages, 14692169 bytes).
+Output written on aux_files/dissertation.pdf (129 pages, 14699069 bytes).
 PDF statistics:
- 2326 PDF objects out of 2487 (max. 8388607)
- 1725 compressed objects within 18 object streams
- 368 named destinations out of 1000 (max. 500000)
- 670 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2372 PDF objects out of 2487 (max. 8388607)
+ 1767 compressed objects within 18 object streams
+ 377 named destinations out of 1000 (max. 500000)
+ 710 words of extra memory for PDF output out of 10000 (max. 10000000)
 

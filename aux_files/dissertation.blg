@@ -10,6 +10,7 @@ A level-1 auxiliary file: patricia.aux
 A level-1 auxiliary file: modeling.aux
 A level-1 auxiliary file: hs3.aux
 A level-1 auxiliary file: conclusion.aux
+A level-1 auxiliary file: conclusions.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
@@ -24,7 +25,7 @@ Warning--missing publisher in WMO1998
 Warning--missing publisher in Young2016
 You've used 102 entries,
             3493 wiz_defined-function locations,
-            1482 strings with 25527 characters,
+            1483 strings with 25542 characters,
 and the built_in function-call counts, 108577 in all, are:
 = -- 13094
 > -- 3198

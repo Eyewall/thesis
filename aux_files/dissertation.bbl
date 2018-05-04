@@ -1,4 +1,4 @@
-\begin{thebibliography}{102}
+\begin{thebibliography}{105}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -292,6 +292,10 @@ Komaromi, W.~A., and J.~D. Doyle, 2017: Tropical cyclone outflow and warm core
   structure as revealed by {HS3} dropsonde data. \textit{Mon.\ Wea.\ Rev.},
   \textbf{145}, 1339--1359.
 
+\bibitem[{Kossin(2002)}]{Kossin2002}
+Kossin, J., 2002: {Daily hurricane variability inferred from GOES infrared
+  imagery}. \textit{Mon.\ Wea.\ Rev.}, \textbf{130}, 2260--2270.
+
 \bibitem[{Koteswaram(1957)}]{Koteswaram1967}
 Koteswaram, P., 1957: {On the structure of hurricanes in the upper troposphere
   and lower stratosphere}. \textit{Mon.\ Wea.\ Rev.}, \textbf{95}, 541--564.
@@ -339,6 +343,11 @@ Markowski, P.~M., and G.~H. Bryan, 2016: {LES} of laminar flow in the {PBL}: A
   potential problem for convective storm simulations. \textit{Mon.\ Wea.\
   Rev.}, \textbf{144}, 1841--1850.
 
+\bibitem[{McGill and Hlavka(2015)McGill, and Hlavka}]{CPL}
+McGill, M., and D.~Hlavka, 2015: {Hurricane and Severe Storm Sentinel (HS3)
+  Global Hawk Cloud Physics Lidar (CPL) [ATB files]. NASA Global Hydrology
+  Resource Center DAAC]}. Doi:10.5067/HS3/CPL/DATA202.
+
 \bibitem[{Melhauser and Zhang(2014)Melhauser, and Zhang}]{MelhauserZhang2014}
 Melhauser, C., and F.~Zhang, 2014: {Diurnal radiation cycle impact on the
   pregenesis environment of Hurricane Karl (2010)}. \textit{J.\ Atmos.\ Sci.},
@@ -359,6 +368,11 @@ Molinari, J., and D.~Vollaro, 2010: {Distribution of helicity, CAPE, and shear
 Mote, P.~W., and Coauthors, 1996: {An atmospheric tape recorder: The imprint of
   tropical tropopause temperature on stratospheric water vapor}. \textit{J.\
   Geophys.\ Res.}, \textbf{101}, 3989--4006.
+
+\bibitem[{Navarro and Hakim(2016)Navarro, and Hakim}]{NavarroHakim2016}
+Navarro, E.~L., and G.~J. Hakim, 2016: {Idealized numerical modeling of the
+  diurnal cycle of tropical cyclones}. \textit{J.\ Atmos.\ Sci.}, \textbf{73},
+  4189--4201.
 
 \bibitem[{Ohno and Satoh(2015)Ohno, and Satoh}]{OhnoSatoh2015}
 Ohno, T., and M.~Satoh, 2015: On the warm core of a tropical cyclone formed

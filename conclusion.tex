@@ -14,7 +14,7 @@
 
 A large rawinsonde dataset collected during the 1998-2011 Atlantic hurricane seasons provided new insight into the tropopause-layer turbulence structure of TCs.
 In addition, two new dropsonde datasets collected during HS3 and TCI provided observations of the TC tropopause layer with unprecedented spatiotemporal resolution.
-These observations both confirm the results of many previous observational studies and provide new insight into the static stability structure of TCs.
+These observations both confirm the results of many previous observational studies and provide analyses of the static stability structure of TCs with unprecedented resolution.
 Finally, idealized simulations were able to reproduce the observed structure and evolution of turbulence and static stability in the tropopause layer.
 These simulations provided further insight into the physical mechanisms responsible for the observed variability.
 
@@ -79,12 +79,12 @@ The new observations collected during HS3 and TCI have just begun to be utilized
 
 It was seen in Chapter \ref{chapter:hs3} that it is more common for multiple upper-tropospheric static stability maxima to be present within regions of cold cirrus clouds.
 The relative locations of these stable layers and cloud layers, however, remains unknown.
-The Cloud Physics Lidar (CPL) dataset from HS3 provides a unique opportunity to examine the relationship between stability maxima and cloud layers.
+The Cloud Physics Lidar (CPL) dataset from HS3 provides a unique opportunity to examine the relationship between stability maxima and the presence of cloud layers.
 The CPL provides observations of cloud and aerosol optical depth, along with particle characteristics, at 200-m horizontal and 30-m vertical resolution \citep{CPL}.
-This allows for the unambiguous detection of cloud layers --- even subvisible cirrus clouds that are not well-observed by satellite imagers \cite{Braunetal2016}, but can exert a strong influence on radiative heating tendencies \cite{Durranetal2009}.
-Since CPL flew aboard the same aircraft from which the HS3 dropsondes were deployed on 14-15 September 2012, it is possible to compare directly the temperature profiles observed by the dropsondes to the cloud optical depth profiles observed by CPL.
-If stable layers tend to occur near vertical gradients of optical depth, a relationship can be established definitively between the presence of cirrus clouds of stability maxima.
-If such a relationship is established, it might be difficult to determine with certainty whether the cloud layer is present because the stable layer is present, or whether the stable layer is created by the radiative tendencies associated with the cloud.
+This allows for the unambiguous detection of cloud layers --- even subvisible cirrus clouds that are not well-observed by satellite imagers \citep{Braunetal2016}, but can exert a strong influence on radiative heating tendencies \citep{Durranetal2009}.
+Since CPL flew aboard the same aircraft from which the HS3 dropsondes were deployed on 14-15 September 2012, it is possible to compare directly the temperature profiles observed by the dropsondes to the cloud optical depth profiles observed by CPL in Hurricane Nadine (2012).
+If stable layers tend to occur near vertical gradients of optical depth, a relationship can be established definitively between the presence of cirrus clouds and stability maxima.
+However, even if such a relationship is established, it is impossible to know whether the cloud layer is present because the stable layer is present, or whether the stable layer is created by the radiative tendencies associated with the cloud.
 Idealized experiments such as those described by \cite{Durranetal2009} and \cite{Dinhetal2010} could provide some insight into how the relationship between cloud layers and the vertical temperature profile evolves.
 
 \subsection{Tropopause-layer static stability and the TC diurnal cycle}
@@ -92,6 +92,16 @@ Idealized experiments such as those described by \cite{Durranetal2009} and \cite
 The existence of a diurnal cycle of TC convection has been well established in recent literature (e.g. \citeauthor{Kossin2002} \citeyear{Kossin2002}; \citeauthor{Dunionetal2014} \citeyear{Dunionetal2014}; \citeauthor{BowmanFowler2015} \citeyear{BowmanFowler2015}).
 Since this cycle exhibits a convective maximum overnight and in the early morning, and a convective minimum in the afternoon, radiative heating tendencies are a natural suspect in its evolution.
 The idealized simulations of \cite{NavarroHakim2016} implicate periodic oscillations in upper-level radiative heating in the evolution of the TC diurnal cycle.
-Their results exhibit characteristics of an inertia--gravity wave response with an outward-propagating horizontal phase speed of 9.8 m s\textsuperscript{-1}, which is consistent with the outward motion of the diurnal pulse observed by \cite{Dunionetal2014}. If the diurnal pulse is, indeed, an outward-propagating gravity wave, the upper-tropospheric static stability profile could have implications for the characteristic of its propagation.
-Analysis of high-density dropsonde observations collected through on ongoing diurnal pulse could provide great insight into whether upper-tropospheric static stability modifies its propagation characteristics. 
-%Mention asymmetric nature of the pulse at times...
+Their results exhibit characteristics of an inertia--gravity wave response with an outward-propagating horizontal phase speed of 9.8 m s\textsuperscript{-1}, which is consistent with the outward motion of the diurnal pulse observed by \cite{Dunionetal2014}. If the diurnal pulse is, indeed, an outward-propagating inertia--gravity wave, the upper-tropospheric static stability profile could have implications for the characteristics of its propagation.
+Analysis of high-density dropsonde observations collected through on ongoing diurnal pulse could provide great insight into whether upper-tropospheric static stability might modify its propagation characteristics.
+
+\subsection{Three-dimensional modeling of the TC outflow layer}
+Convection and turbulence are fundamentally three-dimensional processes that are not fully captured in the axisymmetric simulations used herein.
+In particular, convection manifests in this framework as axisymmetric rings, which is an unrealistic representation of the convective structure of real-world TCs.
+High-resolution, three-dimensional simulations are necessary to gain a more physical understanding of the effect of convection and turbulence on the tropopause-layer static stability.
+This framework also will permit an analysis of how vertical wind shear and its associated convective asymmetries affect the upper-tropospheric static stability structure.
+
+Finally, the considerable sensitivity of the cloud-top radiative heating tendencies to the vertical grid spacing and radiation parameterization (Chapter \ref{chapter:modeling}) motivates a closer look at the exact nature of this sensitivity.
+Comparison of the modeled radiative heating tendencies to observations like those in \cite{Garrettetal2005} could inform the selection of vertical grid spacing and radiation parameterization.
+Additionally, more observations of the microphysical properties of the TC cirrus canopy like those in \cite{Heymsfield2006} could help to improve the representation of the TC tropopause layer in numerical models.
+Given the importance of cirrus-canopy radiative tendencies shown herein and in previous work (e.g. \citeauthor{Fovelletal2010} \citeyear{Fovelletal2010}; \citeauthor{Buetal2014} \citeyear{Buetal2014}; \citeauthor{Fovelletal2016} \citeyear{Fovelletal2016}), an improved representation of these processes could lead to better forecasts of both TC track and structure.

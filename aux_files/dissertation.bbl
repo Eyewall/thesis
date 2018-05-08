@@ -1,4 +1,4 @@
-\begin{thebibliography}{105}
+\begin{thebibliography}{107}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -176,6 +176,12 @@ Fovell, R.~G., Y.~P. Bu, K.~L. Corbosiero, W.-W. Tung, Y.~Cao, H.-C. Kuo, L.-H.
   tropical cyclone structure and motion}. \textit{Meteor.\ Monogr.},
   \textbf{56}, 11.1--11.27.
 
+\bibitem[{Fovell et~al.(2010)Fovell, Corbosiero, Seifert,, and
+  Liou}]{Fovelletal2010}
+Fovell, R.~G., K.~L. Corbosiero, A.~Seifert, and K.-N. Liou, 2010: {Impact of
+  cloud-radiative processes on hurricane track}. \textit{Geophys.\ Res.\
+  Lett.}, \textbf{37~(L07808)}.
+
 \bibitem[{Gall et~al.(2013)Gall, Franklin, Marks, Rappaport,, and
   Toepfer}]{Galletal2013}
 Gall, R., J.~Franklin, F.~Marks, E.~N. Rappaport, and F.~Toepfer, 2013: The
@@ -225,6 +231,12 @@ Hawkins, H.~F., and S.~M. Imbembo, 1976: {The structure of a small, intense
 Hawkins, H.~F., and D.~T. Rubsam, 1968: {Hurricane Hilda, 1964. II. Structure
   and budgets of the hurricane on October 1, 1964}. \textit{Mon.\ Wea.\ Rev.},
   \textbf{96}, 617--636.
+
+\bibitem[{Heymsfield and Bansemer(2006)Heymsfield, and
+  Bansemer}]{Heymsfield2006}
+Heymsfield, A.~J., and A.~Bansemer, 2006: Ice microphysics observations in
+  {Hurricane Humberto}: {Comparison} with non-hurricane-generated ice cloud
+  layers. \textit{J.\ Atmos.\ Sci.}, \textbf{63}, 288--308.
 
 \bibitem[{Highwood and Hoskins(1998)Highwood, and
   Hoskins}]{HighwoodHoskins1998}

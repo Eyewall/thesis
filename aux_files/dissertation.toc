@@ -63,3 +63,5 @@
 \contentsline {subsection}{\numberline {6.2.1}The association between the presence of cloud layers and static stability maxima}{110}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Tropopause-layer static stability and the TC diurnal cycle}{111}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}Three-dimensional modeling of the TC outflow layer}{111}{subsection.6.2.3}
+\contentsline {chapter}{Appendices}{113}{section*.11}
+\contentsline {chapter}{APPENDIX \numberline {A.}Permission to use copyrighted material from the American Meteorological Society}{114}{APPENDIX.a.A}

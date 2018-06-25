@@ -14,6 +14,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[]{thesis}
+%\usepackage[page,toc,titletoc,title]{appendix}
+\usepackage[page,toc,titletoc,title]{appendix}
 %%%%%%%%
 \include{user_commands}
 
@@ -23,13 +25,7 @@
 %\include{glossary}
 
 \begin{document}
-%\layout     %% this is helpful to check formatting
-
-%\sigblockalb
-
 \titlepage
-%\copyrightpage
-
 \include{abstract}  %this is your abstract.tex file
 \include{preface}
 \include{ack}  %this is ack.tex file (acknowledgements)
@@ -42,11 +38,11 @@
 \include{hs3}
 \include{conclusion}
 \include{conclusions}
-% ...
-% Add new \include{chapterX} statements for each chapter you add
-%\include{appendix}
 \end{doublespace}
-%\printglossaries
+\begin{appendices}
+%\appendix
+\include{appendix}
+\end{appendices}
 
 \bibliographystyle{ametsoc}  %need ametsoc.bst in the directory you run this
 \bibliography{references}  %path to references.bib file

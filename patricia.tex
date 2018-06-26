@@ -18,7 +18,7 @@
 
 Hurricane Patricia became the strongest recorded hurricane in the Western Hemisphere after undergoing remarkably rapid intensification (RI) between 21 and 23 October 2015 (\citeauthor{Kimberlainetal2016} \citeyear{Kimberlainetal2016}; \citeauthor{Rogersetal2017} \citeyear{Rogersetal2017}).
 
-Throughout this RI period, a NASA WB-57 aircraft flying in the stratosphere deployed 244 dropsondes as part of the Office of Naval Research Tropical Cyclone Intensity (TCI) Experiment \cite{DoyleTCI}.
+Throughout this RI period, a NASA WB-57 aircraft flying in the stratosphere deployed 244 dropsondes as part of the Office of Naval Research Tropical Cyclone Intensity (TCI) experiment \citep{DoyleTCI}.
 These dropsondes revealed dramatic changes in upper-level static stability and cold-point tropopause structure throughout Patricia’s RI.
 
 %---------------------------------------------------------------------------------------%
@@ -26,26 +26,25 @@ These dropsondes revealed dramatic changes in upper-level static stability and c
 %---------------------------------------------------------------------------------------%
 The High-Definition Sounding System (HDSS) provides a new capability to deploy and track up to 40 expendable digital dropsondes (XDDs) simultaneously.
 This capability permits the rapid deployment of many dropsondes, providing cross sections of pressure, temperature, humidity, and wind velocity with unprecedented horizontal resolution.
-\cite{Blacketal2017} report that XDDs are able to resolve atmospheric features in a manner comparable to RD-94 dropsondes \cite{HockFranklin1999}, operational rawinsondes, and aircraft spiral profiles.
-The XDDs exhibited a warm bias of 18C and a dry bias of 5\% relative to RD-94 dropsondes.
+\cite{Blacketal2017} report that XDDs are able to resolve atmospheric features in a manner comparable to RD-94 dropsondes \citep{HockFranklin1999}, operational rawinsondes, and aircraft spiral profiles.
+The XDDs exhibited a warm bias of -8\textdegree{}C and a dry bias of 5\% relative to RD-94 dropsondes.
 XDD thermodynamic measurements, like those of other in situ sounding instruments, were noisy and unreliable when the sensors became wet.
-An intensive quality control procedure \cite{BellTCI} removed unrealistic temperature and humidity observations that likely reflected sensor wetting, as well as relative humidity recorded at temperatures below -40\textdegree{}C, where humidity measurements were inaccurate because of slow sensor response time.
+An intensive quality control procedure \citep{BellTCI} removed unrealistic temperature and humidity observations that likely reflected sensor wetting, as well as relative humidity recorded at temperatures below -40\textdegree{}C, where humidity measurements were inaccurate because of slow sensor response time.
 A more complete description of HDSS’s specifications and error characteristics can be found in \cite{Blacketal2017} and \cite{DoyleTCI}, and a comprehensive description of the quality control procedure in \cite{BellTCI}.
 
 Flying near 18.5-km altitude aboard the NASA WB-57 aircraft, HDSS deployed dropsondes with horizontal spacing as small as 4 km in the inner core of TC Patricia.
-This dataset builds upon that of the high-altitude dropsonde observations collected by the NASA Hurricane and Severe Storm Sentinel (HS3) investigation \cite{Braunetal2016}.
+This dataset builds upon that of the high-altitude dropsonde observations collected by the NASA Hurricane and Severe Storm Sentinel (HS3) investigation \citep{Braunetal2016}.
 Although many dropsondes were deployed during each HS3 flight, the typical spacing of 50–200 km was not sufficient to resolve the inner core of a hurricane. In contrast, the average dropsonde spacing for the four complete transects that TCI conducted through the center of TC Patricia ranged from 4.4 to 8.0 km. 
 These four flight legs, shown in Fig.~\ref{fig:patricia_ir}, will be used to analyze the upper-tropospheric and lower-stratospheric evolution of TC Patricia during its RI.
 
-The infrared (IR) brightness temperature images plotted in Fig.~\ref{fig:patricia_ir} were parallax-corrected using Man
-computer Interactive Data Access System (McIDAS-X; \citeauthor{Lazzaraetal1999} \citeyear{Lazzaraetal1999}), assuming a cloud-top height of 15 km.
+The infrared (IR) brightness temperature images plotted in Fig.~\ref{fig:patricia_ir} were parallax-corrected using the Man computer Interactive Data Access System (McIDAS-X; \citeauthor{Lazzaraetal1999} \citeyear{Lazzaraetal1999}), assuming a cloud-top height of 15 km.
 For each transect, the parallax adjustment was determined at every dropsonde position and the IR image was shifted by the average of these adjustment factors.
 This effectively shifted the IR image 9 km to the southeast on 21 October (when the satellite image came from GOES-13) and 13 km to the southwest on 22 and 23 October (when the satellite image came from GOES-15).
 This parallax adjustment was performed only to show more realistic dropsonde deployment locations relative to the IR brightness temperatures in Fig.~\ref{fig:patricia_ir}; it did not impact any calculated field.
 
 Each sounding in the quality-controlled TCI dropsonde dataset \citep{BellTCI} was interpolated to a 100-m vertical grid following \cite{MolinariVollaro2010}.
 The static stability was analyzed using the squared Brunt–V{\"a}is{\"a}l{\"a} frequency:
-   \begin{equation} \label{eq:n2dry}
+   \begin{equation} \label{eq:patricia-n2dry}
    N^2 = \frac{g}{\theta}\frac{\Delta \theta}{\Delta z},
    \end{equation}
 where $\Delta z$ is 200 m.
@@ -68,7 +67,7 @@ Storm-relative radial and tangential velocities were computed using the speed an
 \section{Results}
 %---------------------------------------------------------------------------------------%
 
-The center-crossing transects on 21, 22, and 23 October 2015 are shown in Figs. \ref{fig:patricia_ir}a-d, overlaid on infrared brightness temperature images from GOES.
+The center-crossing transects on 21, 22, and 23 October 2015 are shown in Figs. \ref{fig:patricia_ir}a--d, overlaid on infrared brightness temperature images from GOES.
 Stars indicate dropsonde deployment locations and range rings are plotted every 20 km.
 Brightness temperatures colder than -80\textdegree{}C extended over a broad region of Patricia’s circulation on 21 October (Fig. \ref{fig:patricia_ir}a, pink shading).
 Convection was asymmetric about the storm center, with the coldest brightness temperatures (colder than -86\textdegree{}C) confined to a region 60–80 km west of Patricia’s center of circulation.
@@ -98,7 +97,7 @@ This inversion was similar in magnitude to those observed by \cite{Gentry1967} a
 The inversion was strongest in the vicinity of the coldest cloud tops (Fig. \ref{fig:patricia_ir}a), reaching magnitudes greater than 4.5 K (100 m)\textsuperscript{-1} at four locations west of the storm center.
 Three of these maxima were accompanied by 100-m upward spikes in tropopause height and stronger lapse rates just below the tropopause than were observed outside of the coldest cloud tops.
 The dropsondes with the strongest inversions---dropsondes 13 and 15---were deployed within the region of coldest IR brightness temperature 40–80 km west of the center.
-This suggests some connection between the presence of localized deep convection and a strong TIL, which will be discussed in section \ref{sec:discussion}.
+This result suggests some connection between the presence of localized deep convection and a strong TIL, which will be discussed in section \ref{sec:patricia-discussion}.
 
 By 1823 UTC 22 October (Fig. \ref{fig:stab}b), the TIL had thinned and weakened considerably, particularly near the storm center.
 Between 10- and 20-km radius on each side, near the outer edge of the eye, the temperature profile became approximately isothermal above about 16.6 km.
@@ -109,7 +108,7 @@ Localized areas of large static stability also were present in the 17.5–18.5-k
 
 Forty minutes later, a southwest–northeast transect observed a similar structure in the southwestern quadrant of the storm, with a temperature inversion persisting outside of the 40-km radius (Fig. \ref{fig:stab}c).
 In the eye region, however, the TIL had eroded further and the tropopause height increased to 18 and 18.1 km southwest and northeast of the center, respectively.
-Although the dropsonde deployed nearest the storm center and the dropsonde deployed just to its southwest are missing data in the tropopause layer, two dropsondes near the edge of the eye---dropsondes number 14 and 17---observed a nearly isothermal layer extending from 16.7 km upward to 18 km.
+Although the dropsonde deployed nearest the storm center and the dropsonde deployed just to its southwest are missing data in the tropopause layer, two dropsondes near the edge of the eye---dropsondes 14 and 17---observed a nearly isothermal layer extending from 16.7 km upward to 18 km.
 The transition from an inversion layer on 21 October to an isothermal layer on 22 October was associated with decreasing static stability in the eye region during this period (cf. Figs. \ref{fig:stab}e,g) and an increase in tropopause height.
 Southwest of the eye, a persistent TIL limited the tropopause height to the layer between 17 and 17.5 km, and northeast of the eye, between 16.7 and 16.9 km (Fig. \ref{fig:stab}c).
 The asymmetry in tropopause height is coincident with a convective asymmetry characterized by coldest brightness temperatures southwest of the storm center and warmest brightness temperatures northeast of the storm center (Fig. \ref{fig:patricia_ir}c).
@@ -141,7 +140,7 @@ Later in the RI period (22--23 October), Patricia’s warm core developed more r
 By 23 October, upper-tropospheric $\theta$ within the eye exceeded 400 K---a value previously found only in the lower stratosphere.
 Oscillations in $\theta$, possibly inertia--gravity waves, are evident to the northwest of the eye just radially outside of the secondary eyewall (Fig. \ref{fig:anomalies}d), extending from 60 km to at least 130 km northwest of the storm center.
 These waves affected the static stability all the way up to 18 km (Fig. \ref{fig:stab}h), caused 100--200-m fluctuations in the tropopause height, and were associated with oscillations in radial and tangential velocity (not shown).
-A detailed analysis of these waves is outside of the scope of this paper, but to our knowledge this may be the first time that inertia--gravity waves have been resolved by dropsondes in a hurricane.
+A detailed analysis of these waves is outside of the scope of this paper, but, to our knowledge, this may be the first time that inertia--gravity waves have been resolved by dropsondes in a hurricane.
 
 Changes in $\theta$ over 24 h (Fig. \ref{fig:dtheta}) highlight two distinct periods of $\theta$ evolution during Patricia’s RI.
 Figure \ref{fig:dtheta}a shows the change in $\theta$ between 21 and 22 October (Fig. \ref{fig:anomalies}b minus Fig. \ref{fig:anomalies}a) and Fig. \ref{fig:dtheta}b the $\theta$ change between 22 and 23 October (Fig. \ref{fig:anomalies}d minus Fig. \ref{fig:anomalies}b).\footnote{We have chosen to use only the first transect on 22 October (Fig. \ref{fig:patricia_ir}b) because it sampled the same quadrants as the center-crossing transects on 21 and 23 October; difference fields using the second, southwest--northeast, transect on 22 October (Fig. \ref{fig:patricia_ir}c) are qualitatively similar (not shown).}
@@ -156,10 +155,10 @@ Maximum $\theta$ tendencies flanked the storm center on each side, consistent wi
 Within the eye region (radius <20 km), the magnitude of the positive $\theta$ tendencies generally decreased with height above 17.2 km, which indicates a destabilization of the layer above 17.2 km during this period, as was shown in Fig. \ref{fig:stab}.
 
 The two distinct modes of $\theta$ variability seen in Fig. \ref{fig:dtheta} suggest that the dominant processes governing $\theta$ evolution in the upper troposphere and lower stratosphere changed throughout Patricia’s RI.
-The change in the vertical profiles of $\theta$ at the storm center during this time is illustrated in Fig. \ref{fig:schematic}.
+The change in the vertical profiles of $\theta$ at the storm center during this time is illustrated in Fig. \ref{fig:patricia-schematic}.
 Between 21 (blue line) and 22 October (orange line), tropospheric $\theta$ increased almost uniformly in the layer between 16 and 17.1 km, consistent with the increasing inner-core $\theta$ that is expected in an intensifying TC.
 In contrast, the layer above 17.1 km was characterized by increasing $\theta$ below 17.3 km and decreasing $\theta$ above.
-Inset on the bottom right of Fig. \ref{fig:schematic} is a schematic diagram of turbulent mixing across a highly stable layer.
+Inset on the bottom right of Fig. \ref{fig:patricia-schematic} is a schematic diagram of turbulent mixing across a highly stable layer.
 Mixing will tend to increase $\theta$ below the stable layer and decrease $\theta$ above, with the maximum tendencies occurring immediately below and above the initial stability maximum.
 The 24-h $\theta$ change during the 21--22 October period (Fig. \ref{fig:dtheta}a) shows precisely this structure---with $\theta$ tendencies maximized in a shallow, horizontally extended layer immediately surrounding the tropopause---an indication that turbulent mixing might have played a role in weakening the TIL early in the period.
 This hypothesis is supported by previous work that observed layers conducive to turbulence in the upper levels of hurricanes (\citeauthor{Molinarietal2014} \citeyear{Molinarietal2014}; \citeauthor{DuranMolinari2016} \citeyear{DuranMolinari2016}) and radar observations of upper-tropospheric turbulence in TCs \citep{Dasetal2008}.
@@ -180,7 +179,7 @@ Soon after the 21 October transect, however, cloud tops colder than -80\textdegr
 This time period leading up to the transects on 22 October also saw a dramatic increase in the coverage of the coldest cloud tops (Fig. \ref{fig:CFTD}), with the distributions of IR brightness temperature maximizing near -84\textdegree{}C throughout much of the period.
 Between 0000 and 0600 UTC 22 October, IR pixels as cold as -90\textdegree{}C were observed, which is 6\textdegree{}C colder than the coldest temperature observed by dropsondes during the 21 October transect (Fig. \ref{fig:trop}a).
 These observations point to a considerable increase in the extent of overshooting convection between the flights on 21 and 22 October.
-It is well known that deep, overshooting convection can affect the $\theta$ stratification near the tropopause through not only mixing, but also upper-tropospheric latent heating \citep{SalbyCallaghan2004} and cooling by adiabatic lofting \citep{Sherwoodetal2003} and detrainment \citep{Salbyetal2003}.
+It is well known that deep, overshooting convection can affect the $\theta$ stratification near the tropopause through not only mixing, but also upper-tropospheric latent heating \citep{SalbyCallaghan2004}, and cooling by adiabatic lofting \citep{Sherwoodetal2003} and detrainment \citep{Salbyetal2003}.
 We hypothesize that the localized upward bulges observed in the regions of coldest IR brightness temperature---and their corresponding cold anomalies---are the result of adiabatic lofting by individual overshooting convective towers.
 These convective-scale processes strongly cool a layer at and below the tropopause, which leads to an increase in the vertical gradient of $\theta$ just above the tropopause, thus increasing $N^2$ locally and strengthening the TIL.
 In addition, we hypothesize that on the mesoscale, cold air detraining from these
@@ -188,20 +187,20 @@ overshooting convective towers acted to cool the lower stratosphere.
 This lower-stratospheric cooling, combined with turbulent mixing across the tropopause and upper-tropospheric latent heating, acted to decrease the vertical gradient of $\theta$ across the tropopause, thus decreasing $N^2$ and causing the observed weakening of the TIL during this period (Fig. \ref{fig:stab}).
 
 Later in the RI period (22--23 October), the lower stratosphere ceased cooling and $\theta$ tendencies no longer maximized in the immediate vicinity of the tropopause.
-Potential temperature changes over this time period were almost exclusively positive in the inner core (Fig. \ref{fig:dtheta}b), and the vertical gradient of $\theta$ at the storm center remained nearly constant in the 16--18.5-km layer (Fig. \ref{fig:schematic}).
+Potential temperature changes over this time period were almost exclusively positive in the inner core (Fig. \ref{fig:dtheta}b), and the vertical gradient of $\theta$ at the storm center remained nearly constant in the 16--18.5-km layer (Fig. \ref{fig:patricia-schematic}).
 Throughout much of this period, nearly 100\% of the 50--100-km radial band contained brightness temperatures colder than -80\textdegree{}C (Fig. \ref{fig:hovmoller}).
 The extremely cold cloud tops that dominated the previous day, however, were no longer observed; rather, the brightness temperature distributions peaked near -80\textdegree{}C for most of the period, and rapidly warmed leading up to the center crossing on 23 October (Fig. \ref{fig:CFTD}).
 These observations, in union with the observed cold-point temperature hovering around -80\textdegree{}C in the 50--100-km radial band on 22 and 23 October (Fig. \ref{fig:trop}a), suggest that convection did not overshoot as far into the stratosphere during this period than it did during the previous 24 h.
 An expected consequence of this decreased convective overshooting is a decrease in the degree and depth of lower-stratospheric cooling (e.g., \citeauthor{KuangBretherton2004} \citeyear{KuangBretherton2004}), which might explain why the lower stratosphere ceased cooling between 22 and 23 October.
 Another possible consequence of a decrease in overshooting convection is a decrease in the intensity of turbulent mixing across the tropopause.
-Even if the intensity of turbulence remained constant, however, the smaller vertical $\theta$ gradient observed on 22 and 23 October (Fig. \ref{fig:schematic}) would yield a smaller $\theta$ tendency forced by mixing.
+Even if the intensity of turbulence remained constant, however, the smaller vertical $\theta$ gradient observed on 22 and 23 October (Fig. \ref{fig:patricia-schematic}) would yield a smaller $\theta$ tendency forced by mixing.
 In summary, it appears that the effects of mixing and lower-stratospheric convective detrainment became less important later in Patricia’s RI, and subsidence warming was probably the leading cause of the positive $\theta$ tendencies observed in the eye.
 These positive tendencies, decreasing upward, contributed to a further destabilization of the tropopause layer and the highly localized increase in tropopause height over
 the eye.
 
 %---------------------------------------------------------------------------------------%
 \section{Discussion}
-\label{sec:discussion}
+\label{sec:patricia-discussion}
 %---------------------------------------------------------------------------------------%
 
 The four high-density dropsonde transects conducted through the center of Hurricane Patricia constitute the highest-resolution observations of tropopause evolution observed in a TC to date.
@@ -211,11 +210,11 @@ These observations revealed dramatic tropopause variability during Patricia’s 
 
 The early part of Patricia’s RI (21--22 October) was characterized by widespread overshooting convection within 300 km of the storm center (Figs. \ref{fig:hovmoller} and \ref{fig:CFTD}).
 We hypothesize that this convection generated turbulent mixing across the tropopause, which acted to warm the upper troposphere and cool the lower stratosphere.
-This is supported by \citeauthor{RobinsonSherwood2006}'s \citeyear{RobinsonSherwood2006} cloud-resolving simulations of deep tropical convection, which generated convective towers that penetrated to a height 1.5 km above the cold-point tropopause.
+This is supported by \citeauthor{RobinsonSherwood2006}'s (\citeyear{RobinsonSherwood2006}) cloud-resolving simulations of deep tropical convection, which generated convective towers that penetrated to a height 1.5 km above the cold-point tropopause.
 Turbulence generated by this overshooting convection mixed air across the tropopause, importing parcels of stratospheric origin down to as far as 2--3 km below the tropopause (their Fig. 5).
 This mixing acted to warm the upper troposphere and cool the lower stratosphere (their Fig. 7), with the lower-stratospheric cooling maximized just a few hundred meters above the tropopause.
 We also hypothesize that convective detrainment acted to warm the upper troposphere and cool the lower stratosphere, consistent with \cite{Salbyetal2003}, who observed that convective regions are characterized by negative $\theta$ anomalies extending up to the 46-hPa level (their Fig. 2).
-They at tributed this anomalously cold lower stratosphere to detrainment from overshooting convective towers and irreversible mixing with environmental air.
+They attributed this anomalously cold lower stratosphere to detrainment from overshooting convective towers and irreversible mixing with environmental air.
 
 Given these observations, we hypothesize that the $\theta$ evolution---and thus the static stability evolution---near the tropopause during this period was dominated by the effects of overshooting convection.
 
@@ -249,7 +248,7 @@ These papers demonstrated that the cooling by lofting and mixing tended to maxim
 This shallow layer of cooling acted to increase the static stability just above the tropopause, which might account for the maintenance of the TIL over the eyewall regions throughout RI.
 Notwithstanding regions of localized convective cooling, Patricia’s inner-core tropopause consistently warmed with time throughout its RI (Fig. \ref{fig:trop}a).
 This is consistent with \cite{KomaromiDoyle2017}, whose HS3 dropsonde analyses depicted a tropopause that was both higher and warmer over the inner core of intense TCs.
-The mechanisms that produce this higher, warmer tropopause are currently being investigated in idealized simulations.
+The mechanisms that produce this higher, warmer tropopause will be investigated in the next chapter.
 
 %---------------------------------------------------------------------------------------%
 %FIGURES AND TABLES
@@ -261,7 +260,7 @@ The mechanisms that produce this higher, warmer tropopause are currently being i
   \scriptsize
  \begin{center}
    \begin{tabular}{ c c c c }
-   Time and Date & Storm center from HRD track & Location of nearest WB-57 dropsonde deployment & Separation distance\\
+   Time and Date & Storm center from HRD track & Nearest WB-57 dropsonde deployment & Separation distance\\
    \hline
    \hline
    1957:00 UTC 21 Oct & 13.056\textdegree{}N, 99.244\textdegree{}W & 12.983\textdegree{}N, 99.235\textdegree{}W & 8.1 km\\
@@ -321,7 +320,7 @@ The mechanisms that produce this higher, warmer tropopause are currently being i
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=33pc]{figures/fig07_schematic.png}}
 \caption{Vertical profiles of potential temperature (K) between 16- and 18-km height for the soundings at Patricia’s storm center on 21 Oct (blue), 22 Oct (orange), and 23 Oct 2015 (red). The bolded segment of the blue line denotes the TIL on 21 Oct. (inset) A simplified schematic of mixing across a strongly stable layer, with the solid red line indicating the initial potential temperature profile and the dashed blue line representing the profile after a period of mixing; ‘‘W’’ and ‘‘C’’ represent regions of warming and cooling, respectively, after mixing.}
-\label{fig:schematic}
+\label{fig:patricia-schematic}
 \end{figure*}
 
 %FIGURE 8%
